@@ -1,0 +1,32 @@
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0.8em;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    text-align: center;
+}
+a.top{
+    color: red;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+}
+img{
+    max-width: 10%;
+}
+.liens{
+    float: left;
+    text-align: left;
+}
+.top{
+    float: right;
+}
+img{
+    text-align: center;
+}
