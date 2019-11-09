@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="" />
+    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="Commit JeMePresente + JeMePresenteV1 Incomplet">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresente/img/moi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/.idea/JeMePresente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/img/moi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/loisirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/reves.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresente/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresente/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -27,14 +49,17 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Sk6hnYe06793xSQ52LeNA8nwvZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercise 2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Integration1" />
       <recent name="C:\Users\David\Documents\TechniqueIntegrationWeb\Exercise 2" />
       <recent name="C:\Users\David\Documents\TechniqueIntegrationWeb\Exercise 1" />
     </key>
@@ -62,10 +87,26 @@
       <option name="presentableId" value="Default" />
       <updated>1572095368016</updated>
       <workItem from="1572095370055" duration="4169000" />
+      <workItem from="1573306939659" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit JeMePresente + JeMePresenteV1 Incomplet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit JeMePresente + JeMePresenteV1 Incomplet" />
   </component>
 </project>
