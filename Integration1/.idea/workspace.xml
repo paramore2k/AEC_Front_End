@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresente/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeMePresenteV1/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeMePresenteV1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/index.html" afterDir="false" />
@@ -76,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572095368016</updated>
       <workItem from="1572095370055" duration="4169000" />
-      <workItem from="1573306939659" duration="7647000" />
+      <workItem from="1573306939659" duration="10937000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -85,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573311226616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit JeMePresenteV1 Complet">
+      <created>1573315263935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573315263935</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit des mes images">
+      <created>1573315296413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573315296413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +121,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Commit JeMePresente + JeMePresenteV1 Incomplet" />
     <MESSAGE value="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet" />
+    <MESSAGE value="Commit JeMePresenteV1 Complet" />
+    <MESSAGE value="Commit des mes images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit des mes images" />
   </component>
 </project>
