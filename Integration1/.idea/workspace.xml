@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programmation1" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +70,11 @@
       <option name="presentableId" value="Default" />
       <updated>1572095368016</updated>
       <workItem from="1572095370055" duration="4169000" />
-      <workItem from="1573306939659" duration="11559000" />
+      <workItem from="1573306939659" duration="12222000" />
+      <workItem from="1573563456335" duration="453000" />
+      <workItem from="1573563927495" duration="599000" />
+      <workItem from="1573774894264" duration="13000" />
+      <workItem from="1573774932592" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -129,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573319121626</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correction de h1 dans JeMePresenteV1">
+      <created>1573319161998</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573319161998</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +150,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
