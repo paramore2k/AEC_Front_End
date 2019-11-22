@@ -4,11 +4,13 @@ body {
     background: url("https://i.imgur.com/830F2Ou.jpg") !important;
     background-repeat:no-repeat;
     display: block;
+    height: auto;
     float:inherit;
+    opacity: 90%;
 }
 .bg{
     background-color: #ffffff;
-    opacity: 90%;
+
 }
 h1{
     font-size: 2.25rem;
