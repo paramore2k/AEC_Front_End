@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JeMePresenteV1/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresente/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/loisirs.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/loisirs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/reves.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/reves.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +83,7 @@
       <workItem from="1573563927495" duration="599000" />
       <workItem from="1573774894264" duration="13000" />
       <workItem from="1573774932592" duration="22000" />
-      <workItem from="1574379325418" duration="3811000" />
+      <workItem from="1574379325418" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -171,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574384674728</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JeMePresente MOD">
+      <created>1574384773624</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574384773624</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +216,7 @@
     <MESSAGE value="Exercise JeMePresente V2" />
     <MESSAGE value="JeMePresenteV2 + JeMePresente-V2" />
     <MESSAGE value="Delete JeMePresente-V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete JeMePresente-V2" />
+    <MESSAGE value="JeMePresente MOD" />
+    <option name="LAST_COMMIT_MESSAGE" value="JeMePresente MOD" />
   </component>
 </project>
