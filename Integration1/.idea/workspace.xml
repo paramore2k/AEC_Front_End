@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeMePresenteV2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV2/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +77,7 @@
       <workItem from="1573563927495" duration="599000" />
       <workItem from="1573774894264" duration="13000" />
       <workItem from="1573774932592" duration="22000" />
-      <workItem from="1574379325418" duration="6581000" />
+      <workItem from="1574379325418" duration="7097000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574386951005</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final">
+      <created>1574387533769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574387533769</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +257,7 @@
     <MESSAGE value="JeMePresenteV2 Mod" />
     <MESSAGE value="JeMePresentteV1 Mod" />
     <MESSAGE value="JeMePresentteV1 Mod pour V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JeMePresentteV1 Mod pour V2" />
+    <MESSAGE value="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final" />
   </component>
 </project>

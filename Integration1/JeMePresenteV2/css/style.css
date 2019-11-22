@@ -1,16 +1,15 @@
 body {
     width: 980px !important;
     margin: 0 auto !important;
-    background: url("https://i.imgur.com/830F2Ou.jpg") !important;
-    background-repeat:no-repeat;
+    background: url("https://i.imgur.com/830F2Ou.jpg") no-repeat center center fixed !important;
     display: block;
     height: auto;
     float:inherit;
-    opacity: 90%;
+
 }
 .bg{
-    background-color: #ffffff;
-
+    background-color: #FAFAFA;
+    opacity: 85%;
 }
 h1{
     font-size: 2.25rem;
