@@ -1,7 +1,14 @@
-body{
-    width: 56.25rem;
-    margin: 0 auto;
-    background: #000000 url("https://i.imgur.com/830F2Ou.jpg") !important;
+body {
+    width: 980px !important;
+    margin: 0 auto !important;
+    background: url("https://i.imgur.com/830F2Ou.jpg") !important;
+    background-repeat:no-repeat;
+    display: block;
+    float:inherit;
+}
+.bg{
+    background-color: #ffffff;
+    opacity: 90%;
 }
 h1{
     font-size: 2.25rem;
@@ -66,7 +73,7 @@ img{
     border-radius: 0.125rem;
 }
 img:hover{
-box-shadow: 0.625rem 0.625rem 0.625rem #000000;
+    box-shadow: 0.625rem 0.625rem 0.625rem #000000;
 }
 img.monimage{
     max-width: 15%;
