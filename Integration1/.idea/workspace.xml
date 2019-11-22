@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeMePresenteV1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV1/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +77,7 @@
       <workItem from="1573563927495" duration="599000" />
       <workItem from="1573774894264" duration="13000" />
       <workItem from="1573774932592" duration="22000" />
-      <workItem from="1574379325418" duration="5912000" />
+      <workItem from="1574379325418" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574386757933</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="JeMePresentteV1 Mod pour V2">
+      <created>1574386857134</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574386857134</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +242,7 @@
     <MESSAGE value="Renommage CSS&#10;Modification index.html pour le bon CSS" />
     <MESSAGE value="JeMePresenteV2 Mod" />
     <MESSAGE value="JeMePresentteV1 Mod" />
-    <option name="LAST_COMMIT_MESSAGE" value="JeMePresentteV1 Mod" />
+    <MESSAGE value="JeMePresentteV1 Mod pour V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JeMePresentteV1 Mod pour V2" />
   </component>
 </project>
