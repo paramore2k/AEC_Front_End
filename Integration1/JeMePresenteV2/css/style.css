@@ -27,7 +27,7 @@ p{
     color: #f12345;
 }
 table th{
-    border: 0.625rem solid #000000;
+    /*border: 0.625rem solid #000000;*/
 }
 table td{
     color: #020454 !important;
@@ -40,7 +40,7 @@ ul li{
     color: #87CEFA !important;
 }
 li.list-group-item{
-    border: 0.225rem solid #000000;
+    /*border: 0.225rem solid #000000;*/
 }
 ul{
     text-align: center;

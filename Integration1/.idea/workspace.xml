@@ -77,7 +77,7 @@
       <workItem from="1573563927495" duration="599000" />
       <workItem from="1573774894264" duration="13000" />
       <workItem from="1573774932592" duration="22000" />
-      <workItem from="1574379325418" duration="7097000" />
+      <workItem from="1574379325418" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574387533769</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final">
+      <created>1574388121878</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1574388121878</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
