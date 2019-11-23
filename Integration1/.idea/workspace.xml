@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/.idea/JeMePresente.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/img/moi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresente/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programmation1" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -84,6 +75,7 @@
       <workItem from="1573774894264" duration="13000" />
       <workItem from="1573774932592" duration="22000" />
       <workItem from="1574379325418" duration="8106000" />
+      <workItem from="1574512627648" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>

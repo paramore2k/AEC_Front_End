@@ -22,34 +22,26 @@ while (sexe !== "m" || sexe !== "f"){
 }
 
 
-function calculAge() {
+function calculAge(sexe) {
+
     var age = Number(prompt("Quel âge avez-vous"));
 
-    if (sexe === 'm' && age > 16 && age < 25){
-
-        // On demande la valeur du véhicule seulement si la personne est âgée entre 16 et 25 ans
+    if (age >= 16 || age >= 25) {
         var valVehicule = Number(prompt("Quel est la valeur de votre véhicule ?"));
         var gars1625 = (valVehicule*5/100);
-        document.write("Le montant des assurances est de" + "<p id='gars'>" + gars1625 + "$</p>");
-    }
-
-    else if (sexe === "m" && age > 25){
-        // On demande la valeur du véhicule seulement si la personne est âgée de + de 26 ans
-        var valVehicule = Number(prompt("Quel est la valeur de votre véhicule ?"));
         var garsAutre = (valVehicule*3/100);
-        document.write("Le montant des assurances est de" + "<p id='gars'> " + garsAutre + "$</p>");
-    }
-
-    else if (sexe === "f" && age > 16 && age < 25){
-
-        var valVehicule = Number(prompt("Quel est la valeur de votre véhicule ?"));
         var fille1625 = (valVehicule*3/100);
-        document.write("Le montant des assurances est de" + "<p id='filles'> " + fille1625 + "</p>");
-    }
-    else if (sexe === "f" && age > 25){
-        var valVehicule = Number(prompt("Quel est la valeur de votre véhicule ?"));
         var filleAutre = (valVehicule*2/100);
-        document.write("Le montant des assurances est de" + "<p id='filles'> " + filleAutre + "</p>");
+    }
+
+    if (age >= 16 && age <= 25){
+        var prime = sexe === 'm' ? (gars1625):(fille1625);
+        document.write("Le montant de la prime de vos assurances est de" + " " + `<span id='${sexe}'>${prime}</span> $`);
+    }
+
+    else if (age > 25){
+        prime = sexe === 'm' ? (garsAutre):(filleAutre);
+        document.write("Le montant de la prme de vos assurances est de" + " " + `<span id='${sexe}'>${prime}'$</span>`);
     }
 
     else {
@@ -57,29 +49,6 @@ function calculAge() {
     }
 
 }
-// function calc() {
-//     var prime;
-//     if (sexe === 'm' || sexe === 'f') {
-//         var classe = sexe === 'm' ? 'gars' : 'fille';
-//         var age = prompt('');
-//         if (age >= 16 && age <= 25) {
-//             val = prompt('');
-//             prime = sexe === 'm' ? (calculgars) : (calcul            fille        )            ;
-//
-//         } else if (age > 25) {
-//             prime = sexe === 'm' ? (calculgars) : (calcul            fille        )            ;
-//         } else {
-//             document.write(`Le montant de ...<p class="${classe}">${val}</p>`);
-//             return;
-//         }
-//
-//
-//         document.write(`Le montant de ...<p class="${classe}">${prime}</p>`);
-//     }
-//     else
-//         document.write('sexe invalide');
-// }
-
 
 
 
