@@ -46,7 +46,7 @@ if (typeRobot === "pi"){
         message += "<ul><li>Avec une caméra USB</li>";
     }
     else if(camera === "non"){
-        message += "Sans caméra USB ";
+        message += "<li>Sans caméra USB</li>";
     }
 
     var matrice = prompt("Désirez-vous une matrice LEDS pour les yeux? * Oui ou non *").toLowerCase();
@@ -55,7 +55,7 @@ if (typeRobot === "pi"){
         message += "<li>Avec une matrice LEDS pour les yeux</li></ul>"
     }
     else if (matrice === "non"){
-        message += "Sans matrice LEDS pour les yeux";
+        message += "<li>Sans matrice LEDS pour les yeux</li>";
     }
 
     coutLivraison = (coutRobot)*15/100 + coutRobot;
