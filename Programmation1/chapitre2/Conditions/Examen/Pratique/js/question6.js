@@ -24,7 +24,7 @@ le prix
 le prix avec la livraison de 15%.
 
  */
-var typeRobot = prompt("Quel type de RaspBerry désirez-vous ? (Pi ou Pi Zero").toLowerCase();
+var typeRobot = prompt("Quel type de RaspBerry désirez-vous ? (Pi ou Pi Zero)").toLowerCase();
 var coutRobot = 35;
 
 var message = " ";
