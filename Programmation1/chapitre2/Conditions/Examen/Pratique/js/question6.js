@@ -31,7 +31,7 @@ var message = " ";
 
 
 if (typeRobot === "pi"){
-    message += "Robot Raspbery Pi ";
+    message += "<p>Robot Raspbery Pi</p>";
     coutRobot += 15;
     do {
         var moteurs = Number(prompt("Combien de moteurs désirez-vous ? * Entre 2 et 24 *"));
@@ -43,7 +43,7 @@ if (typeRobot === "pi"){
     var camera = prompt("Désirez-vous une caméra USB avec celui-ci ? * Oui ou non *").toLowerCase();
     if (camera === "oui"){
         coutRobot += 35;
-        message += "Avec une caméra USB ";
+        message += "<ul><li>Avec une caméra USB</li>";
     }
     else if(camera === "non"){
         message += "Sans caméra USB ";
@@ -52,43 +52,44 @@ if (typeRobot === "pi"){
     var matrice = prompt("Désirez-vous une matrice LEDS pour les yeux? * Oui ou non *").toLowerCase();
     if (matrice === "oui"){
         coutRobot += 10;
-        message += "Avec une matrice LEDS pour les yeux "
+        message += "<li>Avec une matrice LEDS pour les yeux</li></ul>"
     }
     else if (matrice === "non"){
-        message += "Sans matrice LEDS pour les yeux ";
+        message += "Sans matrice LEDS pour les yeux";
     }
 
     coutLivraison = (coutRobot)*15/100 + coutRobot;
-    document.write(`Résumé de l'achat: ${message} au cout de ${coutRobot} $ pour un total de ${coutLivraison} avec la livraison`);
+    document.write(`Résumé de l'achat: ${message} Coût: ${coutRobot} $ (avant livraison), pour un total de ${coutLivraison} $ avec la livraison`);
 }
-    if (typeRobot === "pi zero"){
-    message += "Robot Raspbery Pi Zero ";
+    else if (typeRobot === "pi zero"){
+    message += "<p>Robot Raspbery Pi Zero</p>";
     coutRobot += 55;
-    while (moteurs <= 2 && moteurs <= 24) {
+    do {
         var moteurs = Number(prompt("Combien de moteurs désirez-vous ? * Entre 2 et 24 *"));
+
     }
+    while (moteurs <= 2 && moteurs <= 24);
     var coutMoteurs = moteurs*5;
     coutRobot += coutMoteurs;
     var camera = prompt("Désirez-vous une caméra USB avec celui-ci ? * Oui ou non *").toLowerCase();
     if (camera === "oui"){
         coutRobot += 35;
-        message += "Avec une caméra USB ";
+        message += "<ul><li>Avec une caméra USB</li>";
     }
     else if(camera === "non"){
-        message += "Sans caméra USB ";
+        message += "<li>Sans caméra USB</li>";
     }
 
     var matrice = prompt("Désirez-vous une matrice LEDS pour les yeux? * Oui ou non *").toLowerCase();
     if (matrice === "oui"){
         coutRobot += 10;
-        message += "Avec une matrice LEDS pour les yeux "
+        message += "<li>Avec une matrice LEDS pour les yeux</li></ul>"
     }
     else if (matrice === "non"){
-        message += "Sans matrice LEDS pour les yeux ";
+        message += "<li>Sans matrice LEDS pour les yeux</li></ul>";
     }
     coutLivraison = (coutRobot)*15/100 + coutRobot;
-    document.write(`Résumé de l'achat: ${message} au cout de ${coutRobot} $ pour un total de ${coutLivraison} $ avec la livraison`);
-
+    document.write(`Résumé de l'achat: ${message} Coût:  ${coutRobot} $ (avant livraison), pour un total de ${coutLivraison} $ avec la livraison`);
 }
 
 
