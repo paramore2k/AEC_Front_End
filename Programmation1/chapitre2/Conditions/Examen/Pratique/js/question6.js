@@ -35,8 +35,10 @@ if (typeRobot === "pi"){
     coutRobot += 15;
     do {
         var moteurs = Number(prompt("Combien de moteurs désirez-vous ? * Entre 2 et 24 *"));
+
     }
     while (moteurs <= 2 && moteurs <= 24);
+    var coutMoteurs = moteurs*5;
     coutRobot += coutMoteurs;
     var camera = prompt("Désirez-vous une caméra USB avec celui-ci ? * Oui ou non *").toLowerCase();
     if (camera === "oui"){
