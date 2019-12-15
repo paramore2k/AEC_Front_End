@@ -7,26 +7,26 @@ body {
     float:inherit;
 }
 .bg{
+    background-color: #FAFAFA;
 
-
+    opacity: 70%;
 }
-h1{
+h1, h2{
     font-size: 2.25rem;
-}
-h2{
-    font-size: 1.5rem;
-}
-h1,h2{
-    color: #696969;
+    color: #000000;
     text-align: center;
 }
+.span {
+    text-align: center;
+}
+
 p{
     font-size: 0.875rem;
     text-align: justify;
-    color: #f12345;
+    color: #000000;
 }
 table th{
-    border: 0.625rem solid #000000;
+    /*border: 0.625rem solid #000000;*/
 }
 table td{
     color: #020454 !important;
@@ -35,11 +35,11 @@ ul li{
     list-style-type: none;
     display: inline;
     padding: 0.8em;
-    font-size: 1.5rem;
-    color: #87CEFA !important;
+    font-size: 1rem;
+    /*color: #87CEFA !important;*/
 }
 li.list-group-item{
-    border: 0.225rem solid #000000;
+
 }
 ul{
     text-align: center;
