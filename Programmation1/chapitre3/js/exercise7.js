@@ -19,7 +19,6 @@ do {
         res = str.replace("patate", ".");
     }
 
-
 }
 while (passwd !== "patate");
 document.write("Il y eu" + ' ' + i + ' ' + "mots entrés avant le mot patate:" + '<br/>' + passwd2);
