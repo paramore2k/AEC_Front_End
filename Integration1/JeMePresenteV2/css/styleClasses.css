@@ -1,4 +1,4 @@
-body {
+body{
     width: 980px !important;
     margin: 0 auto !important;
     background: url("https://i.imgur.com/830F2Ou.jpg") no-repeat center center fixed !important;
@@ -6,85 +6,34 @@ body {
     height: auto;
     float:inherit;
 }
-@font-face {
-    font-family: 'Roboto', sans-serif;
-}
-.bg{
-    background-color: #FAFAFA;
-    opacity: 85%;
-}
+/* Le nav pour la navigation */
 
-h1{
-    font-size: 2.25rem;
-}
-h2{
-    font-size: 1.5rem;
-}
-h1,h2{
-    color: #696969;
-    text-align: center;
-}
-p{
-    font-size: 0.875rem;
-    text-align: justify;
-    color: #f12345;
-}
-table th{
-    /*border: 0.625rem solid #000000;*/
-}
-table td{
-    color: #020454 !important;
-}
-ul li{
-    list-style-type: none;
-    display: inline;
-    padding: 0.8em;
-    font-size: 1.5rem;
-    color: #87CEFA !important;
-}
-li.list-group-item{
-    /*border: 0.225rem solid #000000;*/
-}
-ul{
-    text-align: center;
-}
-a.top{
-    color: #87CEFA;
-    text-decoration: none;
-}
-a{
-    color: #87CEFA;
-}
-a:visited{
-    color: 	#00008B;
-}
-a:hover{
-    text-decoration: underline;
-}
 nav{
     text-align: center;
 }
-.liens{
-    float: left;
-    text-align: left;
+/* Les sections */
+#section_etudes{
+    background-color: #F2F2F2;
 }
-.top{
-    float: right;
+#section_loisirs{
+    background-color: #ffe6f2;
 }
-img{
+#section_sport{
+    background-color: azure;
+}
+#section_reves{
+    background-color: aliceblue;
+}
+/* Arrière-plan */
+.bg{
+    background-color: #FAFAFA;
+    opacity: 70%;
+}
+/* Les grandeurs de H */
+h1, h2{
+    font-size: 2.25rem;
+    color: #000000;
     text-align: center;
-    width: 18.75rem;
-    border-radius: 0.125rem;
-}
-img:hover{
-    box-shadow: 0.625rem 0.625rem 0.625rem #000000;
-}
-img.monimage{
-    max-width: 15%;
-}
-.img_haut{
-    text-align: center;
-    padding-bottom: 3em;
 }
 h5{
     text-align: center;
@@ -98,6 +47,79 @@ h3{
     font-size: 0.8em;
     margin: 2em;
     padding: 2em;
+}
+/* Les span */
+.span {
+    text-align: center;
+}
+
+/* Les paragraphes */
+p{
+    font-size: 0.875rem;
+    text-align: justify;
+    color: #000000;
+}
+/* Les tables */
+table th{
+    /*border: 0.625rem solid #000000;*/
+}
+table td{
+    color: #020454 !important;
+}
+/* Les listes et tabulations ul li */
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0.8em;
+    font-size: 1rem;
+    /*color: #87CEFA !important;*/
+}
+li.list-group-item{
+
+}
+ul{
+    text-align: center;
+}
+/* Les liens a*/
+a.top{
+    color: #87CEFA;
+    text-decoration: none;
+}
+a{
+    color: #87CEFA;
+}
+a:visited{
+    color: 	#00008B;
+}
+a:hover{
+    text-decoration: underline;
+}
+.liens{
+    float: left;
+    text-align: left;
+}
+.top{
+    float: right;
+}
+/* Les images */
+.belleImage{
+
+}
+img{
+    text-align: center;
+    width: 18.75rem;
+    border: 1px solid #dddddd !important;
+    border-radius: 4px !important;
+}
+img:hover{
+    box-shadow: 0.625rem 0.625rem 0.625rem #000000;
+}
+img.monimage{
+    max-width: 15%;
+}
+.img_haut {
+    text-align: center;
+    padding-bottom: 3em;
 }
 .mes_images{
     text-align: center;
