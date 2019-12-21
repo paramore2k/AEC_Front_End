@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Han Solo/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/Laboratoire Han Solo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/font/Starjedi.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/img/Han Solo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/img/chewbacca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/img/etoileMort.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/JeMePresente.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +107,7 @@
       <workItem from="1575121106463" duration="12000" />
       <workItem from="1575121140091" duration="582000" />
       <workItem from="1575126015947" duration="3423000" />
-      <workItem from="1576935507053" duration="10891000" />
+      <workItem from="1576935507053" duration="11217000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -256,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576941001222</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Laboratoire Han Solo Complet">
+      <created>1576947424168</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576947424168</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +317,8 @@
     <MESSAGE value="JeMePresentteV1 Mod pour V2" />
     <MESSAGE value="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final" />
     <MESSAGE value="JeMePresenteV2 Modifié pour indexClasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="JeMePresenteV2 Modifié pour indexClasses" />
+    <MESSAGE value="Laboratoire Han Solo Complet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laboratoire Han Solo Complet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946082809">
@@ -307,10 +329,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575121116625" />
-    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1576941000554">
+    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1576947423566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576941000554" />
+    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576947423566" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576937667008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,9 +341,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576936615574" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1576941003339">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1576947425795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576941003339" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576947425795" />
   </component>
 </project>
