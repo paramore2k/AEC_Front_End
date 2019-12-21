@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/AEC_Front_End.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/Han Solo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JeMePresenteV2/css/styleClasses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JeMePresenteV2/indexClasses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmation1/chapitre3/js/exercise14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TechniqueIntegrationWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TechniqueIntegrationWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Han Solo/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV2/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JeMePresenteV2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JeMePresenteV2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -99,7 +93,7 @@
       <workItem from="1575121106463" duration="12000" />
       <workItem from="1575121140091" duration="582000" />
       <workItem from="1575126015947" duration="3423000" />
-      <workItem from="1576935507053" duration="5466000" />
+      <workItem from="1576935507053" duration="10891000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -255,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574388374252</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="JeMePresenteV2 Modifié pour indexClasses">
+      <created>1576941001222</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576941001222</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,13 +295,22 @@
     <MESSAGE value="JeMePresentteV1 Mod" />
     <MESSAGE value="JeMePresentteV1 Mod pour V2" />
     <MESSAGE value="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="JeMePresenteV1 + JeMePresenteV2 MOD Semi-Final" />
+    <MESSAGE value="JeMePresenteV2 Modifié pour indexClasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="JeMePresenteV2 Modifié pour indexClasses" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946082809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576946082809" />
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575121116625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575121116625" />
+    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1576941000554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576941000554" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576937667008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -309,5 +319,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576936615574" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1576941003339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576941003339" />
   </component>
 </project>
