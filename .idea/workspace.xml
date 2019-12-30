@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise18.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Programmation1/chapitre3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre3/index.html" afterDir="false" />
     </list>
@@ -15,6 +16,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577623819233</updated>
       <workItem from="1577623822758" duration="5300000" />
-      <workItem from="1577707138530" duration="7917000" />
+      <workItem from="1577707138530" duration="13184000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -90,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577722008670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Exercise 16 complet">
+      <created>1577723483196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577723483197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,26 +124,27 @@
     <MESSAGE value="Exercise 14 complet" />
     <MESSAGE value="- Correctection des numéros d'exercises&#10;- Ajout de l'exercise 14" />
     <MESSAGE value="- Exercise 15 complet" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Exercise 15 complet" />
+    <MESSAGE value="- Exercise 16 complet" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Exercise 16 complet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577707115359">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1577722008063">
+    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1577723482570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577722008063" />
+    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577723482570" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1577716988601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716988601" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1577722010451">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1577723484686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577722010451" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577723484686" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
   </component>
 </project>
