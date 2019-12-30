@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise15.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise13.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise13.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre3/js/exercise14.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577623819233</updated>
-      <workItem from="1577623822758" duration="4135000" />
+      <workItem from="1577623822758" duration="5300000" />
+      <workItem from="1577707138530" duration="3768000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -60,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577624041359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercise 14 complet">
+      <created>1577647421537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577647421537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,16 +86,23 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Clone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clone" />
+    <MESSAGE value="Exercise 14 complet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 14 complet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1577624040693">
+    <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577707115359">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
+    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1577647420963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577647420963" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1577624045616">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1577647423123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577647423123" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
   </component>
 </project>
