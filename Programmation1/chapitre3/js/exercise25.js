@@ -5,10 +5,10 @@ document.write(`<html>
 <body>
     <br>
     <h1>Vérification d'un nombre parfait</h1>
-    Entrez un nombre: <input type="text" name="n" id = "N"/>
+    Entrez un nombre: <input type="text" name="n" id = "N" required="required"/>
     <hr>
     <br>
-    <button onClick="nombre()">VÉRIFIER</button>
+    <button type="submit" value="submit" onClick="nombre()">VÉRIFIER</button>
     <br>
     <p id="reponse"/>
 </body>

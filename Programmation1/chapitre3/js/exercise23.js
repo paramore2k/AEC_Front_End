@@ -12,11 +12,12 @@ ex: 123
  */
 var nb = prompt("Entrez un nombre").toString();
 
-    const sorting2 =  nb.length;
+    const sorting2 =  nb.length-1;
 
-    for (let i = 0; i < sorting2; i++) {
+    for (let i = 0; i <= sorting2; i++) {
         document.write(nb[i] + '<br/>');
     }
+    document.write('<br/>');
     for (let j = sorting2; j > -1; j--) {
         document.write(nb[j] + '<br/>');
     }
