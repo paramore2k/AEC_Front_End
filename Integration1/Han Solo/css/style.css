@@ -3,7 +3,7 @@ Section Body
  */
 
 body{
-    max-width: 1000px;
+    width: 1000px;
     background-image: url('../img/etoileMort.jpg');
     background-repeat: no-repeat;
     background-color: #000000;
