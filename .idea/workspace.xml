@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/Exercise7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration1/Han Solo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Han Solo/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration1/Han Solo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Han Solo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/bootstrap/Exercise7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/bootstrap/exercise7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +79,7 @@
       <workItem from="1577623822758" duration="5300000" />
       <workItem from="1577707138530" duration="15021000" />
       <workItem from="1578624231227" duration="159000" />
-      <workItem from="1579044957223" duration="9763000" />
+      <workItem from="1579044957223" duration="10580000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -132,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577730263508</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout de bootstrap&#10;Exercises 1 a 7 complets">
+      <created>1579055136240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579055136240</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fichier js et css bootstrap">
+      <created>1579055164472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579055164472</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,26 +151,28 @@
     <MESSAGE value="- Exercise 15 complet" />
     <MESSAGE value="- Exercise 16 complet" />
     <MESSAGE value="- Exercises 17-18 complets" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Exercises 17-18 complets" />
+    <MESSAGE value="Ajout de bootstrap&#10;Exercises 1 a 7 complets" />
+    <MESSAGE value="fichier js et css bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fichier js et css bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577707115359">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1579055135561">
+    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1579055163952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579055135561" />
+    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579055163952" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1577716988601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577716988601" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579055138622">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579055165920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579055138622" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579055165920" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
   </component>
 </project>
