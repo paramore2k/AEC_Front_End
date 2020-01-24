@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/Laboratoire Han Solo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/font/Starjedi.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/img/Han Solo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/img/chewbacca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/img/etoileMort.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Han Solo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/David.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen1/.idea/Examen1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Site bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/chapitre4/js/exercise10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/chapitre4/js/exercise11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/chapitre4/js/exercise12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/JeMePresente.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/chapitre4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation1/chapitre4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/chapitre4/js/exercise9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation1/chapitre4/js/exercise9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JeMePresenteV2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -108,6 +102,7 @@
       <workItem from="1575121140091" duration="582000" />
       <workItem from="1575126015947" duration="3423000" />
       <workItem from="1576935507053" duration="11217000" />
+      <workItem from="1579827681727" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
