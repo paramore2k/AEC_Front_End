@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher_header_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise14.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise_melange_tableau.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher_header_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/img/witcher_header_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise11.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre4/js/exercise11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +102,7 @@
       <workItem from="1579310959868" duration="7377000" />
       <workItem from="1579433098425" duration="3736000" />
       <workItem from="1579656391797" duration="61000" />
-      <workItem from="1579958144322" duration="21157000" />
+      <workItem from="1579958144322" duration="24093000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -198,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579958197263</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update">
+      <created>1580043478080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580043478080</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +214,8 @@
     <MESSAGE value="Exercise7 -&gt; exercise7" />
     <MESSAGE value="Exercises 7 à 10,&#10;7 pour plus tard.&#10;8 à 10 complets" />
     <MESSAGE value="Site web: première partie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Site web: première partie" />
+    <MESSAGE value="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579310937088">
@@ -225,9 +223,10 @@
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1579958196585">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="429" y="51" key="CommitChangelistDialog2" timestamp="1580043477282">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="429" y="51" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1580043477282" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579958196585" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1579435636248">
@@ -239,9 +238,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579433584760" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579958200851">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1580043480290">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1580043480290" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579958200851" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580001208722">

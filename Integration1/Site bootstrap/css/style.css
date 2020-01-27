@@ -1,8 +1,12 @@
+
 /* Section header */
-header.header{
+header{
     background-image: url("../img/witcher_header_bg.jpg") !important;
-    min-height: 40rem;
+    height: 100vh;
+    display: block;
+    min-height:500px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .content-inner{
@@ -24,7 +28,7 @@ header.header{
     padding: 0;
 }
 /* Section download */
-#download{
+#download, footer{
     padding: 8rem 0;
 }
 /* HR */
@@ -41,6 +45,8 @@ hr{
     color: #fff;
     background-color: #f4623a;
 }
+/* Footer */
+footer{}
 /* Liens */
 a{
     text-decoration: none;
