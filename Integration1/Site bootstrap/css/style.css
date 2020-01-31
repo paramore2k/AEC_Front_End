@@ -13,23 +13,10 @@ header{
     position: absolute;
     top: 30%;
 }
-/* Section services */
 
-#services{
-    padding: 100px 0;
-}
-/* Section présentation */
-/*.img-responsive{*/
-/*    display: block;*/
-/*    max-width: 100%;*/
-/*    height: auto;*/
-/*}*/
-.no-padding{
-    padding: 0;
-}
 /* Section download */
 #download, footer{
-    padding: 8rem 0;
+    padding: 5rem 0;
 }
 /* HR */
 hr{
