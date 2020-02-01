@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre5/js/exercise1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration1/bootstrap exercise facebook/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AEC_Front_End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AEC_Front_End.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/David.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/David.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/Site bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/Site bootstrap/js/creative.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/chapitre5/js/exercise1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/chapitre5/js/exercise1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,9 +74,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../music_projet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Integration1/bootstrap exercise facebook" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Integration1\bootstrap exercise facebook" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="/" />
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -102,7 +120,8 @@
       <workItem from="1579656391797" duration="61000" />
       <workItem from="1579958144322" duration="24093000" />
       <workItem from="1580254941162" duration="2196000" />
-      <workItem from="1580431225816" duration="4795000" />
+      <workItem from="1580431225816" duration="6188000" />
+      <workItem from="1580517854115" duration="21637000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -195,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580043478080</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Chapitre 5 POO">
+      <created>1580437278359</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580437278359</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +241,8 @@
     <MESSAGE value="Exercises 7 à 10,&#10;7 pour plus tard.&#10;8 à 10 complets" />
     <MESSAGE value="Site web: première partie" />
     <MESSAGE value="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update" />
+    <MESSAGE value="Chapitre 5 POO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapitre 5 POO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579310937088">
@@ -223,10 +250,10 @@
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
-    <state x="429" y="31" key="CommitChangelistDialog2" timestamp="1580119002732">
+    <state x="429" y="31" key="CommitChangelistDialog2" timestamp="1580437277616">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1580119002732" />
+    <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1580437277616" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579958196585" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1579435636248">
@@ -238,12 +265,20 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579433584760" />
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1580119043315">
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1580437280248">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1580119043315" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1580437280248" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579958200851" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580571986439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580571986439" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1580572333532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580572333532" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580001208722">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
