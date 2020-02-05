@@ -1,0 +1,44 @@
+body{
+    background-color: #0b0b0b;
+}
+
+/* Section header */
+.nav a{
+    color: #6c6c6c;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Thewitcher-jnOj';
+    src: url('../font/Thewitcher-jnOj.ttf');
+}
+
+/* Section bannière du haut */
+
+.titres h1, .titres h2, .footer h1{
+    font-family: 'Thewitcher-jnOj', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.banniere{
+    background-image: url("../img/witcherBanniere.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+hr{
+    background-color: #353434;
+    color: #353434;
+    height: 0.0625rem;
+    border-style: none;
+    margin: 2% 0;
+}
+h1, h2{
+    color: #6c6c6c;
+}
+.footer{
+    font-family: 'Thewitcher-jnOj', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+i{
+    color: white;
+}
