@@ -1,5 +1,7 @@
 body{
     background-color: #0b0b0b;
+    height: 100%;
+    margin: 0 auto;
 }
 
 /* Section header */
@@ -19,11 +21,13 @@ body{
     color: white;
     font-weight: bold;
 }
-.banniere{
+.heroimage{
     background-image: url("../img/witcherBanniere.jpg");
     background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    display: inline-block;
+    background-position: center;
+    margin: 0 auto;
 }
 hr{
     background-color: #353434;
