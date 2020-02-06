@@ -21,8 +21,9 @@ body{
 }
 .banniere{
     background-image: url("../img/witcherBanniere.jpg");
-    height: 80vh;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
 }
 hr{
     background-color: #353434;
