@@ -22,12 +22,9 @@ body{
     font-weight: bold;
 }
 .heroimage{
-    background-image: url("../img/witcherBanniere.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
-    background-position: center;
-    margin: 0 auto;
+    background: url("../img/witcherBanniere.jpg") no-repeat center;
 }
 hr{
     background-color: #353434;

@@ -7,8 +7,8 @@
 var nb0 = 0;
 var nb1 = 0;
 for (var i=0;i<100;i++){
-    var nb = Math.floor(Math.random()*2);
-    document.write(nb + ' ');
+
+    document.write(nb + ' ');var nb = Math.floor(Math.random()*2);
 
     if(nb === 0){
         nb0+= 1;
