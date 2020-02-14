@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integration1/bootstap-navbar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/bootstap-navbar/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration1/bootstap-navbar/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/bootstap-navbar/page2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integration1/bootstap-navbar/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Integration1/bootstap-navbar/page3.html" afterDir="false" />
     </list>
@@ -115,7 +116,7 @@
       <workItem from="1580517854115" duration="21695000" />
       <workItem from="1581167372924" duration="661000" />
       <workItem from="1581168738249" duration="9814000" />
-      <workItem from="1581637041980" duration="5350000" />
+      <workItem from="1581637041980" duration="6724000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -257,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581644578736</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="bootstrap navbar-carousel">
+      <created>1581644664615</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581644664615</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,11 +295,11 @@
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1581644578274">
+    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1581644664126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1581255094098" />
-    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581644578274" />
+    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581644664126" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="429" y="51" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1580951197240" />
     <state x="429" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1580949591289" />
@@ -306,11 +314,11 @@
     <state x="527" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581642638211" />
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579433584760" />
     <state x="461" y="178" key="SettingsEditor/0.23.1920.986/3840.173.1440.877/1920.65.1920.1057@0.23.1920.986" timestamp="1580936269286" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581644580485">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581644665856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1581255096985" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581644580485" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581644665856" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
     <state x="414" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1580949596956" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580571986439">
