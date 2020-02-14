@@ -338,11 +338,11 @@
     </state>
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1581646469801">
+    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1581646544126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1581255094098" />
-    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581646469801" />
+    <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581646544126" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="429" y="51" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1580951197240" />
     <state x="429" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1580949591289" />
@@ -357,11 +357,11 @@
     <state x="527" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581642638211" />
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579433584760" />
     <state x="461" y="178" key="SettingsEditor/0.23.1920.986/3840.173.1440.877/1920.65.1920.1057@0.23.1920.986" timestamp="1580936269286" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581646471516">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581646545907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1581255096985" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581646471516" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581646545907" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
     <state x="414" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1580949596956" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580571986439">
