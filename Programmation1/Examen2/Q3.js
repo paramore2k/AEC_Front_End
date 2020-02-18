@@ -90,17 +90,12 @@ for (var i=0;i<100;i++){
             for (let l = 0; l < tabNombres.length; l++) {
                 if (tabLettres[j] + tabLettres[k] + tabLettres[l] === "DAD") {
                     trouver = true;
-
-
                 }
             }
         }
         var dad = tabNombres[j];
     }
 
-
 }
-
-
 
 document.write(`Il y a ${nombreDeE} lettre(s) E, il y a ${nombreDeVoyelles} voyelles Et la séquence "DAD" à été trouver à l'indice ${dad}`);
