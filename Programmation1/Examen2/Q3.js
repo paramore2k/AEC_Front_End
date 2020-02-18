@@ -72,22 +72,35 @@ let tabNombres = [];
 let tabLettres = [];
 let nombreDeE = 0;
 let nombreDeVoyelles = 0;
-let trouver = 0;
+let trouver = false;
 
-for (var i=0;i<10000;i++){
-    tabNombres = Math.floor((Math.random() * (grandNombre-petitNombre)) + petitNombre);
-    tabLettres[i] = String.fromCharCode(tabNombres);
+for (var i=0;i<100;i++){
+    tabNombres[i] = Math.floor(Math.random() * (grandNombre - petitNombre) +petitNombre);
+    tabLettres[i] = String.fromCharCode(tabNombres[i]);
+
+
     if (tabLettres[i] === "E"){
         nombreDeE++;
     }
     if (tabLettres[i] === "A" || tabLettres[i] === "E" || tabLettres[i] === "I" || tabLettres[i] === "O" || tabLettres[i] === "U" || tabLettres[i] === "Y"){
         nombreDeVoyelles++;
     }
-    if (tabLettres[i]+tabLettres[i] === "DA"){
-        trouver++;
-        console.log(tabLettres[i]);
-        console.log("Dad trouver !");
+    for (var j=0;j<tabNombres.length;j++) {
+        for (let k = 0; k < tabNombres.length; k++) {
+            for (let l = 0; l < tabNombres.length; l++) {
+                if (tabLettres[j] + tabLettres[k] + tabLettres[l] === "DAD") {
+                    trouver = true;
+
+
+                }
+            }
+        }
+        var dad = tabNombres[j];
     }
 
+
 }
-document.write(`Il y a ${nombreDeE} lettre(s) E, il y a ${nombreDeVoyelles} voyelles + ${trouver}.`);
+
+
+
+document.write(`Il y a ${nombreDeE} lettre(s) E, il y a ${nombreDeVoyelles} voyelles Et la séquence "DAD" à été trouver à l'indice ${dad}`);

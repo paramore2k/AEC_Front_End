@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmation1/Examen2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/Examen2/Q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,7 @@
       <workItem from="1581167372924" duration="661000" />
       <workItem from="1581168738249" duration="9814000" />
       <workItem from="1581637041980" duration="8647000" />
-      <workItem from="1581771341356" duration="26168000" />
+      <workItem from="1581771341356" duration="34820000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
       <created>1577624041359</created>
@@ -338,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581647238907</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Examen2- Q1 a Q3">
+      <created>1581932423610</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581932423611</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +364,8 @@
     <MESSAGE value="Prog exercises 11 a 16 et melange tableau.&#10;Site bootstrap update" />
     <MESSAGE value="Chapitre 5 POO" />
     <MESSAGE value="bootstrap navbar-carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap navbar-carousel" />
+    <MESSAGE value="Examen2- Q1 a Q3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Examen2- Q1 a Q3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="88" key="#Notifications" timestamp="1581860082428">
@@ -373,10 +378,10 @@
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="533" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581771286836" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
-    <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1581647238440">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="429" y="31" key="CommitChangelistDialog2" timestamp="1581932422845">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1581255094098" />
+    <state x="429" y="31" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1581932422845" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581647238440" />
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="429" y="51" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1580951197240" />
@@ -392,10 +397,10 @@
     <state x="527" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581778766261" />
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579433584760" />
     <state x="461" y="178" key="SettingsEditor/0.23.1920.986/3840.173.1440.877/1920.65.1920.1057@0.23.1920.986" timestamp="1580936269286" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581647239858">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1581932463433">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1581255096985" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1581932463433" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581647239858" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
     <state x="414" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1580949596956" />
