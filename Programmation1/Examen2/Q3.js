@@ -74,17 +74,29 @@ let nombreDeE = 0;
 let nombreDeVoyelles = 0;
 let trouver = false;
 
-for (var i=0;i<100;i++){
+for (let i=0;i<10000;i++){
     tabNombres[i] = Math.floor(Math.random() * (grandNombre - petitNombre) +petitNombre);
     tabLettres[i] = String.fromCharCode(tabNombres[i]);
 
+    /*
+    Si l'indice de tabLettres correspond à E, on incrémente nombreDeE
+
+     */
 
     if (tabLettres[i] === "E"){
         nombreDeE++;
     }
+    /*
+    Si les lettres correspondent aux voyelles suivantes, on incrémente le nombre de voyelles.
+     */
     if (tabLettres[i] === "A" || tabLettres[i] === "E" || tabLettres[i] === "I" || tabLettres[i] === "O" || tabLettres[i] === "U" || tabLettres[i] === "Y"){
         nombreDeVoyelles++;
     }
+
+    /*
+    Si le mot DAD est présent, on retourne l'indice de celui-ci
+     */
+    
     for (var j=0;j<tabNombres.length;j++) {
         for (let k = 0; k < tabNombres.length; k++) {
             for (let l = 0; l < tabNombres.length; l++) {
@@ -97,5 +109,8 @@ for (var i=0;i<100;i++){
     }
 
 }
+/*
+On affiche le tout dans le navigateur.
+ */
 
 document.write(`Il y a ${nombreDeE} lettre(s) E, il y a ${nombreDeVoyelles} voyelles Et la séquence "DAD" à été trouver à l'indice ${dad}`);

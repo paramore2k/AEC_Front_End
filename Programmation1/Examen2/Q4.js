@@ -1,5 +1,5 @@
 /*
-Créé par David Champagne
+Fait par David Champagne
 le 2020-02-18
  */
 
@@ -69,7 +69,7 @@ Instanciation du voyage à Las vegas
  */
 
 let activitesLasvegas = [hockey.nom,football.nom, poker.nom];
-let prixLasVegas = [hockey.cout+football.cout+poker.cout];
+let prixLasVegas = hockey.cout+football.cout+poker.cout;
 let lasvegas = new Voyage("Las Vegas",400,activitesLasvegas);
 
 /*
@@ -77,6 +77,13 @@ Instanciation de Shany Carle
  */
 
 let shanyCarle = new Personne("Shany Carle",lasvegas);
-document.write(`<ul><li>Nom: ${shanyCarle.nom}</li><li>Destination: ${lasvegas.destination}</li><li>Activités: ${lasvegas.activites}</li><li>Coût: ${prixLasVegas}+${lasvegas.prix}$</li></ul>`);
+/*
+Variable qui calcul le coût du prix du billet et des activités.
+ */
+let coutvoyage = lasvegas.prix+prixLasVegas;
+/*
+On affiche le tout dans le navigateur
+ */
+document.write(`<ul><li>Nom: ${shanyCarle.nom}</li><li>Destination: ${lasvegas.destination}</li><li>Activités: ${lasvegas.activites}</li><li>Coût: ${coutvoyage}$ (Billet d'avion et activités incluses)</li></ul>`);
 
 
