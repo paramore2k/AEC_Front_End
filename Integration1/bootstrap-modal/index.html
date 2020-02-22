@@ -7,38 +7,52 @@
     <title>Bootstap modal jumbotron</title>
 </head>
 <header>
+    <div class="overlay">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="video/video.mp4"
+                    type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="row h-100 w-100 text-center align-items-center">
+                <div class="col-12 text-white">
+                <h1 class="display-3">Publicité pour le tournoi de hockey</h1>
+                    <p class="lead mb-0">Armada VS Remparts</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 <body>
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 mx-0 text-center p-5">
-<!--            Section Modal  -->
+            <!--            Section Modal  -->
+            <h4>Tournoi de hockey: </h4>
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
-               Ouvrir la publicité
+                Ouvrir la publicité
             </button>
 
             <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="text-center mx-0">Tournoi de Hockey: Armada VS Remparts</h5>
+                        <div class="modal-header text-center justify-content-center">
+                            <h5>Tournoi de Hockey</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                            <div class="jumbotron">
-                                <p class="display-3">Dimanche 23 Février</p>
+                        <!--           Section Jumbotron  -->
+                        <div class="jumbotron">
+                            <p class="lead">Dimanche 23 Février 2020</p>
+                            <div class="col-md-12 col-lg-12">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Quebec_Remparts.svg/220px-Quebec_Remparts.svg.png" class="w-25 h-25" alt="Remparts de Québec">
+                                <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f5/Blainville-Boisbriand_Armada_logo.svg/langfr-180px-Blainville-Boisbriand_Armada_logo.svg.png" class="w-25 h-25" alt='Armada de Blainville'>
                             </div>
-                        <div class="col-md-12 col-lg-12">
-                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Quebec_Remparts.svg/220px-Quebec_Remparts.svg.png" class="w-25 h-25" alt="Remparts de Québec">
-                            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/f/f5/Blainville-Boisbriand_Armada_logo.svg/langfr-180px-Blainville-Boisbriand_Armada_logo.svg.png" class="w-25 h-25" alt='Armada de Blainville'>
+                            <hr>
+                            <div class="col-md-12 col-lg-12">
+                                <img src="https://cdn.theqmjhl.ca/uploads/quebec_remparts/2020/01/07231428/BBC98889-093A-49E1-9419-DA594B4CE919-1024x504.jpeg" class="img-fluid" alt="Nouveau joueurs Remparts">
+                            </div>
                         </div>
-                        <hr>
-                        <div class="col-md-12 col-lg-12">
-                            <img src="https://cdn.theqmjhl.ca/uploads/quebec_remparts/2020/01/07231428/BBC98889-093A-49E1-9419-DA594B4CE919-1024x504.jpeg" class="img-fluid" alt="Nouveau joueurs Remparts">
-                        </div>
-
-
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
