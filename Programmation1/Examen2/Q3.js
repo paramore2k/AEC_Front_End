@@ -96,7 +96,7 @@ for (let i=0;i<10000;i++){
     /*
     Si le mot DAD est présent, on retourne l'indice de celui-ci
      */
-    
+
     for (var j=0;j<tabNombres.length;j++) {
         for (let k = 0; k < tabNombres.length; k++) {
             for (let l = 0; l < tabNombres.length; l++) {
