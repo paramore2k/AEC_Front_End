@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e2ba3-673d-45d9-998d-3f9dff2dbae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre 8/Exercice jQuery1 StormTrooper/js/customJquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmation1/chapitre 8/Exercice jQuery1 StormTrooper/js/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AEC_Front_End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AEC_Front_End.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/copyright/david.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Programmation1/chapitre8/Exercice jQuery1 StormTrooper.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Programmation1/chapitre8/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Programmation1/chapitre8/js/hellojquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/Examen2/Q1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmation1/Examen2/Q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Programmation1/Examen2/Q3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Programmation1/chapitre 8/Exercice jQuery1 StormTrooper/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Programmation1\chapitre8" />
       <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Integration1\bootstap-navbar\img" />
@@ -120,6 +129,12 @@
       <workItem from="1581167372924" duration="661000" />
       <workItem from="1581168738249" duration="9814000" />
       <workItem from="1581637041980" duration="8647000" />
+      <workItem from="1581771341356" duration="34820000" />
+      <workItem from="1582107951450" duration="2940000" />
+      <workItem from="1582190880678" duration="1250000" />
+      <workItem from="1582249288071" duration="1254000" />
+      <workItem from="1582280350130" duration="272000" />
+      <workItem from="1582280776844" duration="2674000" />
       <workItem from="1581771341356" duration="40299000" />
     </task>
     <task id="LOCAL-00001" summary="Clone">
@@ -346,6 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581932423611</updated>
     </task>
+    <task id="LOCAL-00033" summary="Examen2- Q1 a Q4">
+      <created>1582057746451</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1582057746451</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Ajustements Q3 et Q4 - Examen 2">
+      <created>1582124877765</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1582124877765</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <task id="LOCAL-00033" summary="Examen2-Q3 UPDATE">
       <created>1582017927043</created>
       <option name="number" value="00033" />
@@ -376,8 +406,9 @@
     <MESSAGE value="Chapitre 5 POO" />
     <MESSAGE value="bootstrap navbar-carousel" />
     <MESSAGE value="Examen2- Q1 a Q3" />
-    <MESSAGE value="Examen2-Q3 UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Examen2-Q3 UPDATE" />
+    <MESSAGE value="Examen2- Q1 a Q4" />
+    <MESSAGE value="Ajustements Q3 et Q4 - Examen 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustements Q3 et Q4 - Examen 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="88" key="#Notifications" timestamp="1581860082428">
@@ -390,6 +421,8 @@
     <state x="400" y="159" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1577707115359" />
     <state x="533" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581771286836" />
     <state x="2453" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579310937088" />
+    <state x="572" y="59" key="CommitChangelistDialog2" timestamp="1582124877543">
+      <screen x="0" y="23" width="1920" height="990" />
     <state x="572" y="115" key="CommitChangelistDialog2" timestamp="1582376817408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -398,6 +431,7 @@
     <state x="572" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624040693" />
     <state x="429" y="51" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1580951197240" />
     <state x="429" y="54" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1580949591289" />
+    <state x="572" y="59" key="CommitChangelistDialog2/0.23.1920.990/3840.173.1440.877/1920.65.1920.1057@0.23.1920.990" timestamp="1582124877543" />
     <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1579435636248">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -411,11 +445,14 @@
     <state x="461" y="178" key="SettingsEditor/0.23.1920.986/3840.173.1440.877/1920.65.1920.1057@0.23.1920.986" timestamp="1580936269286" />
     <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1582017928918">
       <screen x="0" y="0" width="1440" height="860" />
+    <state x="552" y="265" key="Vcs.Push.Dialog.v2" timestamp="1582124879265">
+      <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1582017928918" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581647239858" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577624045616" />
     <state x="414" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1580949596956" />
+    <state x="552" y="265" key="Vcs.Push.Dialog.v2/0.23.1920.990/3840.173.1440.877/1920.65.1920.1057@0.23.1920.990" timestamp="1582124879265" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580571986439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
