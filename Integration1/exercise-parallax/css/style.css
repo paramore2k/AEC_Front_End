@@ -1,0 +1,12 @@
+html,body { margin:0; height:100%;}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/beautiful-calm-clouds-dark-206359.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
