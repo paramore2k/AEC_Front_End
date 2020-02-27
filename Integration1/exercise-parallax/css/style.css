@@ -1,7 +1,7 @@
 html,body { margin:0; height:100%;}
 .parallax {
     /* L’image du Parallax */
-    background-image: url("../img/beautiful-calm-clouds-dark-206359.jpg");
+    background-image: url("../img/outlander1.jpg");
     /* L’hauteur du Parallax */
     height: 100%;
     /* Création de l’effet */
@@ -9,4 +9,23 @@ html,body { margin:0; height:100%;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* Zone 1 */
+.row1{
+    height: 50%;
+}
+.row2{
+    height: 25%;
+}
+.row3{
+    height: 10%;
+}
+.row4{
+    height: 15%;
+    background-color: white;
+    opacity: .6;
+}
+.gris{
+    background-color: gray;
+    opacity: .6;
 }
