@@ -25,3 +25,24 @@ $('#boutonEnleverImage').click(function(){
     $('.centralCity').css('background-image', 'none');
 
 });
+
+let timerVitesseSupreme;
+let vitesseSupreme = false;
+
+$("#boutonVitesseSupreme").click(function () {
+    if (!vitesseSupreme) {
+        timerVitesseSupreme = setInterval(function () {
+            $("#flashID").toggle()}, 500);
+        vitesseSupreme = true;
+    }
+});
+$("#boutonFinVitesseSupreme").click(function () {
+    clearInterval(timerVitesseSupreme);
+    vitesseSupreme = false;
+    $("#flashID").show();
+});
+
+$("#boutonPerso1").click(function () {
+    $(".centralCity").css("background-image", "url(img/centralCity.jpg)");
+
+});
