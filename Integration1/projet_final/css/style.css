@@ -3,10 +3,76 @@
  * 2020/03/14
  *
  */
-ul,li{
+html,body { margin:0; height:100%;}
+
+/* Page d'accueil*/
+
+/* Section parallax 1 */
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches2.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header li{
     display: inline;
 }
-ul li a{
+nav a{
     color: black;
-    text-decoration: none;
+
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+
+
+/* Page discographie */
+
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Section parallax 2 */
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches3.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.albums
+{
+}
+
+/* Page contact */
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches7.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+.contact_form{
+background-color: #ffffff;
+
+    opacity: .8;
 }
