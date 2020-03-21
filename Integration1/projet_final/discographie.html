@@ -12,6 +12,7 @@ le 2020-03-13
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 
+
     <title>Projet Final: </title>
 </head>
 <body>
@@ -78,7 +79,8 @@ le 2020-03-13
              <ul class="albums mt-2">
                  <li>Never Ending Circles	3:07</li>
                  <li>Leave A Trace	3:57</li>
-                 <a href="#keep-modal" data-toggle="modal"><li>Keep You On My Side	4:26</li></a>
+                 <li>Keep You On My Side	4:26  <a href="#myModal" class="" data-toggle="modal"><i class="fab fa-youtube"></i></a>
+                 </li>
                  <li>Make Them Gold	3:52</li>
                  <li>Clearest Blue	3:54</li>
                  <li>High Enough To Carry You Over	3:39</li>
@@ -90,21 +92,7 @@ le 2020-03-13
              </ul>
          </div>
 
-<!--     Section Modal - Keep    -->
-    <!-- Todo : ouverture du modal en mode responsive -->
 
-         <div id="keep-modal" class="modal fade">
-             <div class="modal-dialog">
-                 <div class="modal-content">
-
-                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-
-                     <div class="modal-body">
-                         <iframe width="200" height="200" src="https://www.youtube.com/embed/K1XO8f4CUP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                     </div>
-                 </div>
-             </div>
-         </div>
 
 
          <div class="col-lg-4">
@@ -130,11 +118,32 @@ le 2020-03-13
  </div>
 
 
+<!--     Section Modal - Keep    -->
+<!-- Todo : ouverture du modal en mode responsive -->
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            Chvrches - Keep you on my side
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+            <div class="modal-body">
+                <iframe width="100%" height="315" id="keep-modal" src="//www.youtube.com/embed/K1XO8f4CUP4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!--      Fin du Modal   -->
+
+
 
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+
 
 </html>
