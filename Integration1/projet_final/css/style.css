@@ -9,20 +9,17 @@ html,body { margin:0; height:100%;}
 
 /* Section parallax 1 */
 
-.parallax {
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches2.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 header li{
     display: inline;
 }
+.jumbotron,.card, #tournee, #biographie, #discographie {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+#hero, #banniere_discographie{
+    height: 100%;
+}
+
 nav a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -55,6 +52,26 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#marshmello{
+    height: 100%;
+}
+.marshmello_video{
+
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 50%; height: 50%; }
+.parallax4 {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches_ft_marshmellow.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .albums
 {
 }
@@ -77,5 +94,71 @@ nav a:hover{
 background-color: #ffffff;
 
     opacity: .8;
+}
+
+/* Media Queries */
+/* Page d'accueil */
+
+/* Changement d'image sur cellulaire */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 36rem) {
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-mq-1.png");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+/* Changement d'image sur tablette */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 36rem) {
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-md-2.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+@media (min-width: 36rem) {
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches3.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+}
+
+@media (min-width: 75rem) {
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches2.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
 }
 
