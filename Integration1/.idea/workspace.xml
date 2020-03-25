@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chrches-tour-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chrches-twitter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-ep-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-ep-gun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-ep-hansa_session.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-ep-recover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-ep-the_mother_we_share.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-md-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-mq-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-mtelus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tour-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tour-02.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tour-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches_ft_marshmellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_final/img/marshmellow_lyrics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmation1/Phaser/.idea/Phaser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/ExamenJS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet_final/img/chvrches-logo-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_final/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_final/discographie.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/discographie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/img/album-love_is_dead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/img/album-love_is_dead.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/img/album-the_bones.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/img/album-the_bones.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +102,7 @@
       <workItem from="1584051095526" duration="2389000" />
       <workItem from="1584056051945" duration="6394000" />
       <workItem from="1584189250563" duration="66000" />
-      <workItem from="1584796141144" duration="29678000" />
+      <workItem from="1584796141144" duration="41935000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -329,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584058447018</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="proje_final - discographie v2 - accueil v2">
+      <created>1584961813883</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584961813884</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,17 +351,18 @@
     <MESSAGE value="Programmation 9-12" />
     <MESSAGE value="Examen1 Prog" />
     <MESSAGE value="Bootstrap form 1 et suite 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap form 1 et suite 1" />
+    <MESSAGE value="proje_final - discographie v2 - accueil v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="proje_final - discographie v2 - accueil v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946082809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576946082809" />
-    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1584058446290">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="438" y="49" key="CommitChangelistDialog2" timestamp="1584961811966">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="438" y="51" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1579858793282" />
+    <state x="438" y="49" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584961811966" />
     <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584058446290" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576937667008">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -397,10 +376,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584882484102" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584058448710">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1584961815905">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1579858758652" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584961815905" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584058448710" />
     <state x="-5" y="75" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579957191847">
       <screen x="0" y="0" width="1920" height="1040" />

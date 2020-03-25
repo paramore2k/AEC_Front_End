@@ -12,11 +12,11 @@ html,body { margin:0; height:100%;}
 header li{
     display: inline;
 }
-.jumbotron,.card, #tournee, #biographie, #discographie {
+.jumbotron,.card, #tournee, #biographie, #discographie, .album {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-#hero, #banniere_discographie{
+#hero, #banniere_discographie, #photo, #photo_discographie_1, #photo_discographie_2{
     height: 100%;
 }
 
@@ -52,6 +52,31 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Section parallax 3 */
+.parallax3{
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches3.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Section parallax 4 */
+.parallax4{
+    /* L’image du Parallax */
+    background-image: url("../img/chrches-twitter.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #marshmello{
     height: 100%;
 }
@@ -60,36 +85,33 @@ nav a:hover{
 }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 50%; height: 50%; }
-.parallax4 {
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches_ft_marshmellow.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*.parallax4 {*/
+/*    !* L’image du Parallax *!*/
+/*    background-image: url("../img/chvrches_ft_marshmellow.jpg");*/
+/*    !* L’hauteur du Parallax *!*/
+/*    height: 100%;*/
+/*    !* Création de l’effet *!*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
-.albums
-{
-}
 
 /* Page contact */
 
-.parallax3 {
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches7.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .9;
-}
+/*.parallax3 {*/
+/*    !* L’image du Parallax *!*/
+/*    background-image: url("../img/chvrches7.jpg");*/
+/*    !* L’hauteur du Parallax *!*/
+/*    height: 100%;*/
+/*    !* Création de l’effet *!*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    opacity: .9;*/
+/*}*/
 .contact_form{
 background-color: #ffffff;
 
