@@ -9,6 +9,7 @@ html,body { margin:0; height:100%;}
 
 /* Section parallax 1 */
 
+
 header li{
     display: inline;
 }
@@ -75,6 +76,9 @@ nav a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.footer{
+
 }
 
 #marshmello{

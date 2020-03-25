@@ -12,35 +12,49 @@ le 2020-03-13
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 
-
     <title>Projet Final: CHVRCHES</title>
 </head>
 <body>
 <header>
     <!--    TODO: navbar responsive avec remplacement du hamburder -->
-    <nav class="navbar-light bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-lg-2 mt-3">
-                    <img src="img/logo1.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-7 mt-4">
-                    <ul class="d-flex justify-content-around">
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="discographie.html">Discographie</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mt-2">
-                    <ul class="d-flex justify-content-between mt-2">
-                        <li class=""><i class="fab fa-facebook-f"></i></li>
-                        <li class=""><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="col-md-2 col-lg-2 col-sm-2 mt-3">
+            <img src="img/logo1.png" alt="" class="img-fluid">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-md-7 col-lg-7 col-sm-7 mt-4 collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="d-flex justify-content-around navbar-nav">
+                <li><a href="index.html" class="nav-item nav-link">Accueil</a></li>
+                <li><a href="discographie.html" class="nav-item nav-link">Discographie</a></li>
+                <li><a href="contact.html" class="nav-item nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 mt-2">
+            <ul class="d-flex justify-content-around mt-2">
+                <li class=""><i class="fab fa-facebook-f"></i></li>
+                <li class=""><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
         </div>
     </nav>
+
+<!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+<!--        <img src="img/logo1.png" alt="" class="img-fluid">-->
+<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+<!--            <div class="navbar-nav">-->
+<!--                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+<!--                <a class="nav-item nav-link" href="#">Features</a>-->
+<!--                <a class="nav-item nav-link" href="#">Pricing</a>-->
+<!--                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
 </header>
 
 <!-- Section des albums studio -->
@@ -211,11 +225,11 @@ le 2020-03-13
                 <img src="img/chvrches-ep-recover.jpg" class="img-fluid pb-2" alt="Recover EP">
                 <div class="text-center font-italic my-2 text-center">Recover EP (2013)</div>
                 <ul class="album py-2 d-sm-block d-md-none">
-                    <li>Recover 3:42</li>
-                    <li>ZVVL 3:10</li>
-                    <li>Now Is Not The Time 3:42</li>
-                    <li>Recover [Cid Rim Remix] 5:46</li>
-                    <li>Recover [Curxes' 1996 Remix] 4:55</li>
+                    <li>1. Recover 3:42</li>
+                    <li>2. ZVVL 3:10</li>
+                    <li>3. Now Is Not The Time 3:42</li>
+                    <li>4. Recover [Cid Rim Remix] 5:46</li>
+                    <li>5, Recover [Curxes' 1996 Remix] 4:55</li>
                 </ul>
             </div>
             <!--         Tracklist GUN EP visible sur sm et moins seulement       -->
@@ -249,19 +263,50 @@ le 2020-03-13
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-lg-3 d-none d-md-block">
+<!--             Section tracklist EP pour PC et +   -->
+                <ul class="album py-2">
+                    <li>1. Gun 3:53</li>
+                    <li>2. Recover 3:45</li>
+                    <li>3. ZVVL 3:10</li>
+                    <li>4. Now Is Not The Time 3:44</li>
+                    <li>5. Recover (Cid Rim Remix) 5:47</li>
+                    <li>6. Gun (Jamie Isaac Remix) 4:03</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-3 d-none d-md-block">
+<!--             Section tracklist EP Recover pour PC et +   -->
+                <ul class="album py-2">
+                    <li>1. Recover 3:42</li>
+                    <li>2. ZVVL 3:10</li>
+                    <li>3. Now Is Not The Time 3:42</li>
+                    <li>4. Recover [Cid Rim Remix] 5:46</li>
+                    <li>5, Recover [Curxes' 1996 Remix] 4:55</li>
+                </ul>
 
             </div>
 
             <div class="col-md-3 col-lg-3 d-none d-md-block">
 
+                <!--             Section tracklist Gun EP pour PC et +   -->
+                <ul class="album py-2">
+                    <li>1. Gun  3:53</li>
+                    <li>2. Gun (Jamie Isaac Remix) 4:04</li>
+                    <li>3. Gun (Auntie Flo Remix) 5:53</li>
+                    <li>4. Gun (Groundislava Remix) 5:43</li>
+                    <li>5. Gun (DJ Helix Remix) 4:08</li>
+                </ul>
             </div>
 
             <div class="col-md-3 col-lg-3 d-none d-md-block">
-
-            </div>
-
-            <div class="col-md-3 col-lg-3 d-none d-md-block">
-
+                <!--             Section tracklist Hansa Session pour PC et +   -->
+                <ul class="album py-2">
+                    <li>1. Graffiti</li>
+                    <li>2. Miracle</li>
+                    <li>3. Get Out</li>
+                    <li>4. Heaven/Hell</li>
+                    <li>5. Really Gone</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -298,7 +343,25 @@ le 2020-03-13
 </section>
 
 <!-- TODO: Footer avec liens vers les autres pages et icones média sociaux -->
-<footer></footer>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 d-flex justify-content-center">
+                <img src="img/chvrches-logo-noir-sur-blanc.png" class="img-fluid" alt="Logo Chvrches Footer">
+            </div>
+            <div class="col-md-12 col-lg-12 col-sm-12 mt-3">
+                <ul class="fa-ul d-flex justify-content-around">
+                <li class=""><i class="fab fa-facebook-f"></i></li>
+                <li class=""><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</footer>
 
 
 

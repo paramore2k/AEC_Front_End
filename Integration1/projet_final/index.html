@@ -16,30 +16,39 @@ le 2020-03-13
 </head>
 <body>
 <header>
-<!--    TODO: navbar responsive avec remplacement du hamburder -->
-<nav class="navbar-light bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-lg-2 mt-3">
-                <img src="img/logo1.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-lg-7 mt-4">
-                <ul class="d-flex justify-content-around">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="discographie.html">Discographie</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 mt-2">
-                <ul class="d-flex justify-content-between mt-2">
-                    <li class=""><i class="fab fa-facebook-f"></i></li>
-                    <li class=""><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                </ul>
+    <!--    TODO: navbar responsive avec remplacement du hamburder -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="col-md-4 col-lg-4 col-sm-12 mt-3">
+            <img src="img/logo1.png" alt="" class="img-fluid">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fas fa-hamburger"></i></span>
+        </button>
+        <div class="col-sm-4 mt-4 collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav d-flex justify-content-around">
+                <div class="d-flex justify-content-around d-none d-sm-block d-md-none">
+                    <a href="index.html" class="nav-item">Accueil</a>
+                    <a href="discographie.html" class="nav-item">Discographie</a>
+                    <a href="contact.html" class="nav-item">Contact</a>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+        <div class="col-md-4 col-lg-4 d-none d-md-block">
+            <a href="index.html" class="nav-item">Accueil</a>
+            <a href="discographie.html" class="nav-item">Discographie</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </div>
+        <div class="col-md-4 col-lg-4 d-none d-md-block mt-2">
+            <ul class="mt-2">
+                <li class=""><i class="fab fa-facebook-f"></i></li>
+                <li class=""><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+    </nav>
 </header>
 
 <section id="hero">
