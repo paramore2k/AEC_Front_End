@@ -6,22 +6,26 @@ le 2020-03-13
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    TODO: importer le favicon -->
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <title>Projet Final: </title>
+    <title>Contact</title>
 </head>
 <body>
 <header>
-    <!--    TODO: navbar responsive avec remplacement du hamburder -->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+<!-- Section nav du header -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" id="back_to_top">
 
         <div class="container">
-            <a class="navbar-brand" href="/"><img src="https://i.imgur.com/ujZblgi.png" alt="" class="Logo CHVRCHES"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo_nav.png" alt="Logo CHVRCHES"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""><i class="fas fa-hamburger"></i></span>
@@ -43,11 +47,10 @@ le 2020-03-13
     </nav>
 </header>
 
-<!-- Section Photo parallax 5 -->
+<!-- Section Photo parallax 4-->
 
 <section id="photo_contact_1">
-
-    <div class="container-fluid parallax5 d-flex align-items-center">
+    <div class="container-fluid parallax4 d-flex align-items-center">
         <div class="row">
             <div class="col-12"></div>
         </div>
@@ -61,7 +64,7 @@ le 2020-03-13
     <h4 class="mt-3 text-center">Nos Emplacemens</h4>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 align-items-center">
                 <p class="mt-5"><i>Entrepôt</i></p>
                 <p class=""> 3175 Laviolette<br/>
                     Trois-Rivières<br/>
@@ -70,7 +73,7 @@ le 2020-03-13
                 </p>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 align-items-center">
                 <p class="mt-5"><i>Bureau chef</i></p>
                 <p class="">104 Wall Street<br/>
                     New York<br/>
@@ -80,28 +83,30 @@ le 2020-03-13
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container py-3">
         <div class="row">
-        <div class="col-lg-6">
-            <p class="mt-5"><i>Relationniste de presse</i></p>
-            <p class="">4489 des Érables<br/>
-                Trois-Rivières<br/>
-                G8Z 1E9 <br>
-                media@fakemail.com</p>
-        </div>
-        <div class="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.291654593356!2d-72.57010009587573!3d46.35890254914358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7c8c0519481ed%3A0x927eff5cdafb554!2sC%C3%A9gep%20de%20Trois-Rivi%C3%A8res!5e0!3m2!1sfr!2sca!4v1585231314939!5m2!1sfr!2sca"
-                    width="400" height="300" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
-        </div>
+            <div class="col-lg-6 col-sm-12 col-md-6">
+                <p class="mt-5"><i>Relationniste de presse</i></p>
+                <p class="">4489 des Érables<br/>
+                    Trois-Rivières<br/>
+                    G8Z 1E9 <br>
+                    media@fakemail.com</p>
+            </div>
+            <div class="col-md-6 d-none d-md-block d-lg-none">
+                <img src="img/chvrches-contact-img.png" alt="CHVRCHES - Contact" class="img-fluid">
+            </div>
+            <div class="d-none d-lg-block col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.291654593356!2d-72.57010009587573!3d46.35890254914358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7c8c0519481ed%3A0x927eff5cdafb554!2sC%C3%A9gep%20de%20Trois-Rivi%C3%A8res!5e0!3m2!1sfr!2sca!4v1585231314939!5m2!1sfr!2sca"
+                        width="400" height="300" allowfullscreen="" aria-hidden="false" tabindex="0" class="map "></iframe>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Section photo contact parallax 6 -->
 
-<section id="photo_contact_2">
-
-    <div class="container-fluid parallax6 d-flex align-items-center">
+<section id="photo_contact_2" class="parallax5">
+    <div class="container-fluid d-flex align-items-center py-3">
         <div class="row">
             <div class="col-12"></div>
         </div>
@@ -157,13 +162,13 @@ le 2020-03-13
             </div>
             <div class="col-sm-7 col-md-7 col-lg-7 col-sm-7 mt-3">
                 <ul class="fa-ul d-flex justify-content-around">
-                    <li class=""><i class="fab fa-facebook-f"></i></li>
-                    <li class=""><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
+                    <li class="nav-item pl-4"><a href="https://www.facebook.com/CHVRCHES/" target="_blank"><i class="fab fa-facebook-f nav-link"></i></a></li>
+                    <li class="nav-item pl-4"><a href="https://www.instagram.com/chvrches/" target="_blank"><i class="fab fa-instagram nav-link"></i></a></li>
+                    <li class="nav-item pl-4"><a href="https://bit.ly/2QJfSs0" target="_blank"><i class="fab fa-youtube nav-link"></i></a></li>
+                    <li><a href="#back_to_top"><i class="fas fa-chevron-up fa-3x"></i></a></li>
                 </ul>
             </div>
         </div>
-
     </div>
 </footer>
 

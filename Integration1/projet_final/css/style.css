@@ -7,8 +7,6 @@ html,body { margin:0; height:100%;}
 
 /* Page d'accueil*/
 
-/* Section parallax 1 */
-
 
 header li{
     display: inline;
@@ -17,11 +15,13 @@ header li{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-#hero, #banniere_discographie, #photo, #photo_discographie_1, #photo_discographie_2, #contact, #google_map, #photo_contact_1, #photo_contact_2 , #map {
+#hero, #banniere_discographie, #photo, #photo_discographie_1, #photo_discographie_2, #google_map, #photo_contact_1, #photo_contact_2 , #map {
     height: 100%;
 }
-
-nav a{
+#contact{
+    height: 80%;
+}
+nav a, footer a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: black;
@@ -53,44 +53,11 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Section parallax 3 */
-.parallax3{
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches3.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* Section parallax 4 */
-.parallax4{
-    /* L’image du Parallax */
-    background-image: url("../img/chrches-twitter.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 50%; height: 50%; }
-/*.parallax4 {*/
-/*    !* L’image du Parallax *!*/
-/*    background-image: url("../img/chvrches_ft_marshmellow.jpg");*/
-/*    !* L’hauteur du Parallax *!*/
-/*    height: 100%;*/
-/*    !* Création de l’effet *!*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
 
 
 /* Page contact */
@@ -102,52 +69,71 @@ nav a:hover{
 }
 
 .map{
-    border: 0
+    border: 0;
+    margin-bottom: 3rem;
 }
 
-.parallax5 {
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches6.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .9;
-}
-
-.parallax6 {
-    /* L’image du Parallax */
-    background-image: url("../img/chvrches7.jpg");
-    /* L’hauteur du Parallax */
-    height: 100%;
-    /* Création de l’effet */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .9;
-}
 .contact_form{
 background-color: #ffffff;
 
 }
 
 /* Media Queries */
-/* Page d'accueil */
+
 
 /* Changement d'image sur cellulaire */
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 36rem) {
+@media (min-width: 10rem) {
     .parallax {
         /* L’image du Parallax */
-        background-image: url("../img/chvrches-mq-1.png");
+        background-image: url("../img/chvrches-mobile-1.png");
         /* L’hauteur du Parallax */
         height: 100%;
         /* Création de l’effet */
         background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2 {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-mobile-2.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax3{
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-mobile-3.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax4{
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-mobile-4.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax5 {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches-mobile-5.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -159,10 +145,11 @@ background-color: #ffffff;
 }
 /* Changement d'image sur tablette */
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 36rem) {
+@media (min-width: 48rem) {
     .parallax {
         /* L’image du Parallax */
         background-image: url("../img/chvrches-md-2.jpg");
+        overflow: hidden;
         /* L’hauteur du Parallax */
         height: 100%;
         /* Création de l’effet */
@@ -171,9 +158,7 @@ background-color: #ffffff;
         background-repeat: no-repeat;
         background-size: 100% auto;
     }
-}
-@media (min-width: 36rem) {
-    .parallax {
+    .parallax2 {
         /* L’image du Parallax */
         background-image: url("../img/chvrches3.jpg");
         /* L’hauteur du Parallax */
@@ -182,7 +167,40 @@ background-color: #ffffff;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: cover;
+    }
+    .parallax3{
+        /* L’image du Parallax */
+        background-image: url("../img/chrches-twitter.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax4 {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches6.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax5 {
+        /* L’image du Parallax */
+        background-image: url("../img/chvrches7.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -198,6 +216,17 @@ background-color: #ffffff;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
+    }
+    .parallax3{
+        /* L’image du Parallax */
+        background-image: url("../img/chrches-twitter.jpg");
+        /* L’hauteur du Parallax */
+        height: 100%;
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
