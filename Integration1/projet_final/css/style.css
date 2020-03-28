@@ -17,7 +17,7 @@ header li{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-#hero, #banniere_discographie, #photo, #photo_discographie_1, #photo_discographie_2{
+#hero, #banniere_discographie, #photo, #photo_discographie_1, #photo_discographie_2, #contact, #google_map, #photo_contact_1, #photo_contact_2 , #map {
     height: 100%;
 }
 
@@ -77,16 +77,7 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footer{
 
-}
-
-#marshmello{
-    height: 100%;
-}
-.marshmello_video{
-
-}
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 50%; height: 50%; }
 /*.parallax4 {*/
@@ -104,22 +95,44 @@ nav a:hover{
 
 /* Page contact */
 
-/*.parallax3 {*/
-/*    !* L’image du Parallax *!*/
-/*    background-image: url("../img/chvrches7.jpg");*/
-/*    !* L’hauteur du Parallax *!*/
-/*    height: 100%;*/
-/*    !* Création de l’effet *!*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    opacity: .9;*/
-/*}*/
+/* google map */
+
+#footer{
+
+}
+
+.map{
+    border: 0
+}
+
+.parallax5 {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches6.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+
+.parallax6 {
+    /* L’image du Parallax */
+    background-image: url("../img/chvrches7.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
 .contact_form{
 background-color: #ffffff;
 
-    opacity: .8;
 }
 
 /* Media Queries */

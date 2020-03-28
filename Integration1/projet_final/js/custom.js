@@ -15,4 +15,3 @@ $("#myModal").on('hide.bs.modal', function(){
 $("#myModal").on('show.bs.modal', function(){
     $("#keep-modal").attr('src', url);
 });
-
