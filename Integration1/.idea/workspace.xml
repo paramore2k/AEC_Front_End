@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/ExamenJS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/.idea/Examen2_JavaScript_Photociti_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2/js/bootstrap.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/discographie.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/discographie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Examen2/Examen2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -102,7 +109,7 @@
       <workItem from="1584051095526" duration="2389000" />
       <workItem from="1584056051945" duration="6394000" />
       <workItem from="1584189250563" duration="66000" />
-      <workItem from="1584796141144" duration="49625000" />
+      <workItem from="1584796141144" duration="51116000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -314,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585097412354</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="proje_final - discographie v4 - accueil v3">
+      <created>1585134356569</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585134356570</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +349,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Commit JeMePresente + JeMePresenteV1 Incomplet" />
     <MESSAGE value="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet" />
     <MESSAGE value="Commit JeMePresenteV1 Complet" />
     <MESSAGE value="Commit des mes images" />
@@ -360,34 +373,35 @@
     <MESSAGE value="Bootstrap form 1 et suite 1" />
     <MESSAGE value="proje_final - discographie v2 - accueil v2" />
     <MESSAGE value="proje_final - discographie v3 - accueil v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="proje_final - discographie v3 - accueil v2" />
+    <MESSAGE value="proje_final - discographie v4 - accueil v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="proje_final - discographie v4 - accueil v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946082809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576946082809" />
-    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1585097411297">
+    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1585396068028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="438" y="49" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584961811966" />
-    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585097411297" />
+    <state x="438" y="49" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1585134355712" />
+    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585396068028" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576937667008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576937667008" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584054505243">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585266417952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584054505243" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585266417952" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1584882484102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584882484102" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585097414103">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2" timestamp="1585134358481">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584961815905" />
+    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1585134358481" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585097414103" />
     <state x="-5" y="75" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579957191847">
       <screen x="0" y="0" width="1920" height="1040" />
