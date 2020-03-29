@@ -1,0 +1,19 @@
+header a{
+    color: #000000;
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+header a:hover{
+    color: darkblue;
+}
+#jstype-submit{
+    display: inline;
+
+}
+#examenciti_form{
+    width: 80%;
+    display: inline;
+}
