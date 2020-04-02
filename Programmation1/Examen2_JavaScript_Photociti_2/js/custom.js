@@ -13,20 +13,30 @@ $("#jstype-submit").click(function () {
 
     // On applique la varaible mot à la valeur du texte entrée
 
-    for (let mot = $("input#examenciti_form").val(), t = 0; t < mot.length; t++) {
+    for (var mot = $("input#examenciti_form").val(), t = 0; t < mot.length; t++) {
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
-
-
+            for (var f=0;f<=5;f++) {
+            }
+            (MonMot(mot, t, f))
         }
-        (MonMot(mot, t))
+
+        else{
+            $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères et de ne doit pas contenir d'accent");
+        }
     }
         // mot.length >= 3 && mot.length <= 12 ? /^[a-zA-Z\*]+$/.test(mot) ? (MonMot(mot), $("input#examenciti_form").blur()) : $("#examenciti_form_error").html("Votre mot ne doit pas contenir d'accent. Utiliser * pour voir les caractères spéciaux.") : $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères.")
 
 });
-function MonMot(mot, t){
+function MonMot(mot, t, f){
 
-    var motEntrer = mot.toUpperCase();
+
+    var motEntrer = mot;
     var monMot = mot.charAt(t).toUpperCase();
+
+    if (mot.charAt(t) === "*") {
+        var monMot = "CS";
+    }
+
 
 
 
@@ -38,22 +48,33 @@ function MonMot(mot, t){
         9 === mot.length && (c = "col"), 10 === mot.length && (c = "col"), 10 === mot.length && (c = "col"),
         10 === mot.length && (c = "col"), 11 === mot.length && (c = "col"), 12 === mot.length && (c = "col-1"), i =1;i<= mot.length;i++){
 
-            // let b = $(".colLettres").append(`'<img src="./Letters/${motEntrer.charAt(mot)}/${motEntrer.charAt(mot)}1.jpg/">`);
 
     }
-    $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid" alt="${monMot}1" id="${monMot}" data-target="modal" data-target="#ModalCenter"></div>`);
-    $(".Lettres").click(function () {
+    $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid photoimg" alt="${monMot}${i}" id="${monMot}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
-            var mot3 = $(this).attr('id');
-            console.log(mot3);
-            $("#ModalCenter").appendTo("body").modal('show');
+    $(".photoimg").click(function () {
+        // on applique la variable M à "maLettre"
+        var maLettre = $(this).attr("id");
 
-            $("#ModalCenter").on('shown.bs.modal', function (mot) {
-                $("#ModalCenter").find('.carousel-inner').append(`<img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid" alt="${monMot}${i}" id="${monMot}${i}"/>`);
 
-                })
+
+        $("#ModalCenter").on('show.bs.modal', function () {
+            for (var f=1;f<=4;f++)
+            {
+                console.log(f);
+                $("#ModalCenter").find('.carousel-inner').append(`<div class="col"><img src="./Letters/${maLettre}/${maLettre}${f}.jpg/" class="img-fluid" alt="${maLettre}${f}" id="${monMot}${f}"/></div>`);
+            }
+        });
     });
 
+
+    $("#close").click(function() {
+        $("#ModalCenter").find('.carousel-inner').html("<div class=\"col\">");
+    });
+
+    $("#ModalCenter").on('hide.bs.modal', function () {
+        $("#ModalCenter").find('.carousel-inner').append("");
+    })
 
 
 
