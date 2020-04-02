@@ -62,7 +62,7 @@ function MonMot(mot, t, f){
             for (var f=1;f<=4;f++)
             {
                 console.log(f);
-                $("#ModalCenter").find('.carousel-inner').append(`<div class="col"><img src="./Letters/${maLettre}/${maLettre}${f}.jpg/" class="img-fluid" alt="${maLettre}${f}" id="${monMot}${f}"/></div>`);
+                $("#ModalCenter").find('.carousel-inner').append(`<div class="col"><img src="./Letters/${maLettre}/${maLettre}${f}.jpg" class="img-fluid" alt="${maLettre}${f}" id="${monMot}${f}"/></div>`);
             }
         });
     });
