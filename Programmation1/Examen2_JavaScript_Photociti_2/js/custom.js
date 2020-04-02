@@ -50,7 +50,7 @@ function MonMot(mot, t, f){
 
 
     }
-    $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid photoimg" alt="${monMot}${i}" id="${monMot}" data-toggle="modal" data-target="#ModalCenter"></div>`);
+    $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid photoimg" alt="${monMot}${i}" id="${monMot}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
     $(".photoimg").click(function () {
         // on applique la variable M à "maLettre"
