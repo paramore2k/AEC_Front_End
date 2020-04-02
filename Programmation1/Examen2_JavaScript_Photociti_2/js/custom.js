@@ -1,37 +1,74 @@
-let nbMots = 12;
+let maxLettres = 12;
+let minLettres = 3;
+let nombreDePhotos = 12;
+let ancienneLettre = "";
+let lettreAchanger = 0;
 
 
 
 $("#jstype-submit").click(function () {
-    // Validation et transformation des caractères spéciaux
+    // On enlève les messages d'erreurs s'il y en avait et les lettres précédemment écrites.
 
-    for (var e = $("#examenciti_form").val(), t = 0; t < e.length; t++) "é" !== e[t] && "è" !== e[t] && "ê" !== e[t] ||
-    (e = e.substr(0, t) + "e" + e.substr(t + 1, e.length)) && "à" === e[t] && (e = e.substr(0, t) + "a" + e.substr(t + 1, e.length));
+    $(".Lettres").html(""),$("#examenciti_form_error").html("");
 
-    // Validation des caractères spéciaux et du nombre de mots requis
+    // On applique la varaible mot à la valeur du texte entrée
 
-    e.length >= 3 && e.length <= 12 ? /^[a-zA-Z]+$/.test(e) ? (MonMot(e), $("input#examenciti_form").blur()) : alert("Votre nom doit contenir uniquement des lettres de l'alphabet. Inscrivez * pour les caractères spéciaux.") : alert("Votre mot doit être entre 3 et 12 caractères.");
-});
-function MonMot(e){
+    for (let mot = $("input#examenciti_form").val(), t = 0; t < mot.length; t++) {
+        if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
 
-    let colonnesOffset = "";
-        for (3 === e.length && (c = "col-4"), (4 === e.length) && (c = "col-3"), 5 === e.length && (c = "col-2"),
-         6 === e.length && (c = "col-2"), 7 === e.length && (c = "col-1"), 8 === e.length && (c = "col-1"),
-        9 === e.length && (c = "col-1"), 10 === e.length && (c = "col-1"), 10 === e.length && (c = "col-1"),
-        10 === e.length && (c = "col-1"), 11 === e.length && (c = "col-1"), 12 === e.length && (c = "col-1"), i =1;i<= e.length;i++){
+
+        }
+        (MonMot(mot, t))
     }
+        // mot.length >= 3 && mot.length <= 12 ? /^[a-zA-Z\*]+$/.test(mot) ? (MonMot(mot), $("input#examenciti_form").blur()) : $("#examenciti_form_error").html("Votre mot ne doit pas contenir d'accent. Utiliser * pour voir les caractères spéciaux.") : $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères.")
 
-    var a = $("<div>", {
-        class: c + " " + i
+});
+function MonMot(mot, t){
+
+    var motEntrer = mot.toUpperCase();
+    var monMot = mot.charAt(t).toUpperCase();
+
+
+
+    // On défini la variable C comme étant la grandeur de colonne selon le nombre de lettre entrée.
+    var c;
+
+        for (3 === mot.length && (c = "col-4"), (4 === mot.length) && (c = "col-3"), 5 === mot.length && (c = "col"),
+         6 === mot.length && (c = "col-2"), 7 === mot.length && (c = "col-1"), 8 === mot.length && (c = "col-1"),
+        9 === mot.length && (c = "col"), 10 === mot.length && (c = "col"), 10 === mot.length && (c = "col"),
+        10 === mot.length && (c = "col"), 11 === mot.length && (c = "col"), 12 === mot.length && (c = "col-1"), i =1;i<= mot.length;i++){
+
+            // let b = $(".colLettres").append(`'<img src="./Letters/${motEntrer.charAt(mot)}/${motEntrer.charAt(mot)}1.jpg/">`);
+
+    }
+    $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid" alt="${monMot}1" id="${monMot}" data-target="modal" data-target="#ModalCenter"></div>`);
+    $(".Lettres").click(function () {
+
+            var mot3 = $(this).attr('id');
+            console.log(mot3);
+            $("#ModalCenter").appendTo("body").modal('show');
+
+            $("#ModalCenter").on('shown.bs.modal', function (mot) {
+                $("#ModalCenter").find('.carousel-inner').append(`<img src="./Letters/${monMot}/${monMot}1.jpg/" class="img-fluid" alt="${monMot}${i}" id="${monMot}${i}"/>`);
+
+                })
     });
-    $(".Lettres").append(a), maLettre, "*" === e[i - 1] && (maLettre = "CS");
-    var b = $("<img />", {
-
-        src: "../Letters/"  + maLettre + "/" + e[i] + "1.jpg",
-        alt: "Lettre" + i,
-        class: "img-fluid",
-        id: "Lettre" + i
-    });
 
 
+
+
+    // let a = $("<div>", {
+    //     class: c +  " "  + i,
+    //
+    // });
+
+
+    //
+    // var b = $("<img />", {
+    //     src: "Letters/"  + motEntrer.charAt(mot) + "/" + motEntrer.charAt(mot) + "1.jpg",
+    //     alt: "Lettre" + i,
+    //     class: "img-fluid",
+    //     id: "Lettre" + i
+    // });
+    // $(".colLettres").append(b);
 }
