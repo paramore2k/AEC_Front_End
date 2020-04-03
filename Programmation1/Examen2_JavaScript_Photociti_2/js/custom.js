@@ -3,6 +3,9 @@ let minLettres = 3;
 let nombreDePhotos = 12;
 let ancienneLettre = "";
 let lettreAchanger = 0;
+var monmot;
+
+
 
 
 
@@ -14,7 +17,6 @@ $("#jstype-submit").click(function () {
     // On applique la varaible mot à la valeur du texte entrée
 
     var mot = $("input#examenciti_form").val();
-
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
 
             (MonMot(mot))
@@ -30,31 +32,42 @@ function MonMot(mot){
 
 
     var motEntrer = mot;
-    //
 
     for (i=0;i<=mot.length;i++) {
-        if (mot.charAt(i) === "*") {
-            var monMot = "CS";
+        if (mot.charAt(i).toUpperCase() === "É" || "È" || "Ê" || "Ë") {
+            var monMot = "E";
         }
-    }
+        if (mot.charAt(i) === "*") { 
+            var monMot = "CS"; 
+        } }
 
+    //
 
 
 
     // On défini la variable C comme étant la grandeur de colonne selon le nombre de lettre entrée.
-    var c;
 
-        for (3 === mot.length && (c = "col-4"), (4 === mot.length) && (c = "col-3"), 5 === mot.length && (c = "col"),
-         6 === mot.length && (c = "col-2"), 7 === mot.length && (c = "col-1"), 8 === mot.length && (c = "col-1"),
-        9 === mot.length && (c = "col"), 10 === mot.length && (c = "col"), 10 === mot.length && (c = "col"),
-        10 === mot.length && (c = "col"), 11 === mot.length && (c = "col"), 12 === mot.length && (c = "col-1"), i =1;i<= mot.length;i++){
-
-
+    if (mot.length === 3) {
+        var c = "col-4";
+    } else if (mot.length === 4) {
+        var c = "col-3";
+    } else if (mot.length === 5 || 6) {
+        var c = "col-2";
+    } else if (mot.length === 6) {
+        var c = "col-2";
+    } else if (mot.length >= 7 && mot.length <= 12) {
+        var c = "col-1";
     }
-        for (i=0;i<=mot.length -1;i++) {
+
+    for (i=0;i<=mot.length -1;i++) {
+            if (mot.charAt(i) === "*"){
+                monMot = "CS";
+
             var monMot = mot.charAt(i).toUpperCase();
-            $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid photoimg" alt="${monMot}${i}" id="${monMot}" data-toggle="modal" data-target="#ModalCenter"></div>`);
+            }
+            $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid photoimg" alt="${monMot}${i}" id="${monMot}${i}" data-toggle="modal" data-target="#ModalCenter"></div>`);
         }
+
     $(".photoimg").click(function () {
         // on applique la variable M à "maLettre"
         var maLettre = $(this).attr("id");
@@ -72,25 +85,4 @@ function MonMot(mot){
     $("#close").click(function() {
         $("#ModalCenter").find('.carousel-item').html("");
     });
-
-    // $("#ModalCenter").on('hide.bs.modal', function () {
-    //     $("#ModalCenter").find('.carousel-inner').append("");
-    // })
-
-
-
-    // let a = $("<div>", {
-    //     class: c +  " "  + i,
-    //
-    // });
-
-
-    //
-    // var b = $("<img />", {
-    //     src: "Letters/"  + motEntrer.charAt(mot) + "/" + motEntrer.charAt(mot) + "1.jpg",
-    //     alt: "Lettre" + i,
-    //     class: "img-fluid",
-    //     id: "Lettre" + i
-    // });
-    // $(".colLettres").append(b);
 }
