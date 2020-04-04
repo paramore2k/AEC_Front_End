@@ -65,7 +65,7 @@ function MonMot(mot){
             // TODO: Pourquoi devoir écrire i + 1 au mot ?
             var monMot = mot[i + 1];
 
-            monMot = mot.charAt(i);
+            monMot = mot.charAt(i).toUpperCase();
 
             if (mot.charAt(i+1) === "*") {
                 monMot = "CS";
