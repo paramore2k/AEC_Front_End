@@ -80,14 +80,11 @@ function MonMot(mot){
 
                     //
                     // // TODO: Faire fonctionner le !@!@* de carousel
-                    $("#ModalCenter").on('shown.bs.modal', function () {
-                    for (var i=1;i<=5;i++) {
-                        $('.owl-carousel').html(`<div class="item active">
-                            <img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid w-25"/></div>
-                            <div class="item"><img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid w-25"/></div>
-                        </div>
-                        `);
-                    }
+                    $("#ModalCenter").on('shown.bs.modal', function () {{
+                        for (var i=1;i<=5;i++){
+                        $('.item').html(`<img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid"/> `);
+                        console.log(i);
+                     }}
                     });
 
             });
