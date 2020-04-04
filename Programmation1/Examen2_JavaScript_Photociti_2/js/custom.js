@@ -81,9 +81,9 @@ function MonMot(mot){
                     //
                     // // TODO: Faire fonctionner le !@!@* de carousel
                     $("#ModalCenter").on('shown.bs.modal', function () {{
-                        for (var i=1;i<=5;i++){
-                        $('.item').html(`<img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid"/> `);
-                        console.log(i);
+                        for (var j=0;j<=5;j++){
+                        $('.carousel-item-active .img-fluid, .carousel-item .img-fluid').attr('src', `./Letters/${maLettre}/${maLettre}${j}.jpg`);
+                        console.log(j);
                      }}
                     });
 
@@ -97,38 +97,7 @@ function MonMot(mot){
     $("#ModalCenter").on('hidden.bs.modal', function () {
         $(".item .item-active").remove();
     });
-    jQuery("#carousel").owlCarousel({
-        autoplay: true,
-        lazyLoad: true,
-        loop: true,
-        margin: 20,
-        /*
-       animateOut: 'fadeOut',
-       animateIn: 'fadeIn',
-       */
-        responsiveClass: true,
-        autoHeight: true,
-        autoplayTimeout: 7000,
-        smartSpeed: 800,
-        nav: false,
-        responsive: {
-            0: {
-                items: 1
-            },
 
-            600: {
-                items: 3
-            },
-
-            1024: {
-                items: 4
-            },
-
-            1366: {
-                items: 4
-            }
-        }
-    });
 
 
 }
