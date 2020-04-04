@@ -83,8 +83,8 @@ function MonMot(mot){
                     $("#ModalCenter").on('shown.bs.modal', function () {
                     for (var i=1;i<=5;i++) {
                         $('.owl-carousel').html(`<div class="item active">
-                            <img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid"/>
-                            <div class="item"><img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid"/></div>
+                            <img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid w-25"/></div>
+                            <div class="item"><img src="Letters/${maLettre}/${maLettre}${i}.jpg" class="img-fluid w-25"/></div>
                         </div>
                         `);
                     }
@@ -113,7 +113,7 @@ function MonMot(mot){
         autoHeight: true,
         autoplayTimeout: 7000,
         smartSpeed: 800,
-        nav: true,
+        nav: false,
         responsive: {
             0: {
                 items: 1
