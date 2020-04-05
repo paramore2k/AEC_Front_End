@@ -2,7 +2,7 @@ let maxLettres = 12;
 let minLettres = 3;
 let nombreDePhotos = 12;
 let ancienneLettre = "";
-let lettreAchanger = 0;
+let lettreRemplacer  = "";
 let nouvelleCouleur = "noir";
 
 // Enlever les accents aigus à partir du formulaire
@@ -55,7 +55,7 @@ function soumettre() {
         }
 }
 
-function MonMot(mot){
+function MonMot(mot) {
 
     // On défini la variable C comme étant la grandeur de colonne selon le nombre de lettre entrée.
     var c = "";
@@ -73,39 +73,36 @@ function MonMot(mot){
         // Remplacement de col-2 pour col à la permission de Shany
         var c = "col";
     }
-        // Application de -1 à mot.length car les lettres commencent à 1
-        for (i=0;i<=mot.length-1;i++) {
-            // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
-            var monMot = mot[i + 1];
+    // Application de -1 à mot.length car les lettres commencent à 1
+    for (i = 0; i <= mot.length - 1; i++) {
+        // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
+        var monMot = mot[i + 1];
 
-            monMot = mot.charAt(i).toUpperCase();
+        monMot = mot.charAt(i).toUpperCase();
 
-            if (mot.charAt(i) === "*") {
-                monMot = "CS";
-            }
-
-                $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid photoimg" alt="${mot}${i}" id="${mot.charAt(i).toUpperCase()}" data-toggle="modal" data-target="#ModalCenter"></div>`);
-
+        if (mot.charAt(i) === "*") {
+            monMot = "CS";
         }
-            $(".photoimg").click(function () {
-                // TODO: Obtenir le ID de l'image pour ensuite pouvoir la remplacer dans le modal
-                var maLettre = $(this).attr("id").toUpperCase();
 
-                    //
-                    // // TODO: Faire fonctionner le !@!@* de carousel
-                    $("#ModalCenter").on('shown.bs.modal', function () {{
-                        for (var j=0;j<=5;j++){
-                        $('.carousel-item-active .img-fluid, .carousel-item .img-fluid').attr('src', `./Letters/${maLettre}/${maLettre}${j}.jpg`);
-                        console.log(j);
-                     }}
-                    });
+        $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid d-flex photo" alt="${mot.charAt(i).toUpperCase()}${i+1}" id="${mot.charAt(i).toUpperCase()}${i+1}" data-toggle="modal" data-target="#ModalCenter" onclick="maphoto()"></div>`);
+    }
+}
+function maphoto() {
+    // TODO: Obtenir le ID de l'image pour ensuite pouvoir la remplacer dans le modal
+    lettreRemplacer = $(this).attr("id");
+    ancienneLettre = $(this).attr("id");
+    console.log(lettreRemplacer);
+    for (i = 1; i < 6; i++) {
+        let cetteeLettre = $("#imgLettre"+i).attr("'src", "../Letters/" + lettreRemplacer + "/" + lettreRemplacer + (i + 1) + ".jpg");
+        console.log(cetteeLettre);
+    }
+};
 
-            });
 
     // TODO: Trouver un autre moyen que ça pour faire effacer le carousel lors de la fermerture si besoin est.
-    $("#close").click(function() {
-        $("#ModalCenter").find('.carousel-item').html("");
-    });
+    // $("#close").click(function() {
+    //     $("#ModalCenter").find('.carousel-item').html("");
+    // });
 
     $("#ModalCenter").on('hidden.bs.modal', function () {
         $(".item .item-active").remove();
@@ -113,4 +110,3 @@ function MonMot(mot){
 
 
 
-}
