@@ -8,10 +8,8 @@ let nouvelleCouleur = "noir";
 // Enlever les accents aigus à partir du formulaire
 $(document).on("keypress", "input", function(e){
     if(e.which === 13){
-        var inputVal = $(this).val();
         $(this).removeAccentedChar();
         soumettre();
-
     }
 });
 
@@ -53,7 +51,7 @@ function soumettre() {
             (MonMot(mot))
         }
         else{
-            $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères et de ne doit pas contenir d'accent");
+            $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères. Utilisez * pour les accents.");
         }
 }
 
@@ -66,20 +64,23 @@ function MonMot(mot){
         var c = "col-4";
     } else if (mot.length === 4) {
         var c = "col-3";
-    } else if (mot.length === 5 || 6) {
-        var c = "col-2";
+    } else if (mot.length === 5) {
+        // Remplacement de col-2 pour col à la permission de Shany
+        var c = "col";
     } else if (mot.length === 6) {
         var c = "col-2";
     } else if (mot.length >= 7 && mot.length <= 12) {
-        var c = "col-1";
+        // Remplacement de col-2 pour col à la permission de Shany
+        var c = "col";
     }
+        // Application de -1 à mot.length car les lettres commencent à 1
         for (i=0;i<=mot.length-1;i++) {
-            // TODO: Pourquoi devoir écrire i + 1 au mot ?
+            // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
             var monMot = mot[i + 1];
 
             monMot = mot.charAt(i).toUpperCase();
 
-            if (mot.charAt(i+1) === "*") {
+            if (mot.charAt(i) === "*") {
                 monMot = "CS";
             }
 
