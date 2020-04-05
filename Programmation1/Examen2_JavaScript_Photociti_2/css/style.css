@@ -18,13 +18,32 @@ header a:hover{
     display: inline;
 }
 .Lettres{
-    background-image: url("../background/noir.jpg");
-    background-color: #000000;
+    background-color: black;
+    border: 1rem solid #ffffff;
 }
+.monMot{
+    background-image: url("../background/noir.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 3rem;
+}
+
 .photoimg{
-    border: 0.5em solid white;
+    border: 0.2rem solid white;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     color: black;
     background-color: black;
+}
+ul li{
+    margin: 0 auto;
+    padding: 0;
+    display: inline-flex;
+}
+
+.couleurDeFond{
+display: none;
+}
+ul{
+    padding: 0;
 }

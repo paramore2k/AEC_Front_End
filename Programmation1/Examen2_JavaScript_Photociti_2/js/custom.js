@@ -3,6 +3,7 @@ let minLettres = 3;
 let nombreDePhotos = 12;
 let ancienneLettre = "";
 let lettreAchanger = 0;
+let nouvelleCouleur = "noir";
 
 // Enlever les accents aigus à partir du formulaire
 $(document).on("keypress", "input", function(e){
@@ -10,6 +11,7 @@ $(document).on("keypress", "input", function(e){
         var inputVal = $(this).val();
         $(this).removeAccentedChar();
         soumettre();
+
     }
 });
 
@@ -29,7 +31,17 @@ $("#examenciti_form").change(function () {
     };
 }());
 
+// Changer la couleur d'arrière-plan
+
+$(".nouvelleCouleur").click(function() {
+    let couleurChoisie = $(this).attr("id");
+    $(this).addClass("active");
+    $(".monMot").css("background-image", "url('background/" + couleurChoisie + ".jpg");
+});
+
 function soumettre() {
+
+    $(".couleurDeFond").removeClass("couleurDeFond");
     // On enlève les messages d'erreurs s'il y en avait et les lettres précédemment écrites.
 
     $(".Lettres").html(""),$("#examenciti_form_error").html("");
