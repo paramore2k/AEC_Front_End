@@ -4,6 +4,7 @@ let nombreDePhotos = 12;
 let ancienneLettre = "";
 let lettreRemplacer  = "";
 let nouvelleCouleur = "noir";
+let validationMot = "";
 
 // Enlever les accents aigus à partir du formulaire
 $(document).on("keypress", "input", function(e){
@@ -20,7 +21,7 @@ $("#examenciti_form").change(function () {
     $.fn.removeAccentedChar = function() {
         return this.each(function() {
             var strString = $(this).val();
-            strString = strString.replace(/À|Á|Â|Ã|Ä|Å|Ǻ|Ā|Ă|Ą|Ǎ|Α|Ά|Ả|Ạ|Ầ|Ẫ|Ẩ|Ậ|Ằ|Ắ|Ẵ|Ẳ|Ặ|А/g,'a');
+            strString = strString.replace(/À|Á|Â|Ã|Ä|Å|Ǻ|Ā|Ă|Ą|Ǎ|Α|Ά|Ả|Ạ|Ầ|Ẫ|Ẩ|Ậ|Ằ|Ắ|Ẵ|Ẳ|Ặ|A/g,'a');
             strString = strString.replace(/à|á|â|ã|å|ǻ|ā|ă|ą|ǎ|ª|α|ά|ả|ạ|ầ|ấ|ẫ|ẩ|ậ|ằ|ắ|ẵ|ẳ|ặ|а/g,'a');
             strString = strString.replace(/È|É|Ê|Ë|Ē|Ĕ|Ė|Ę|Ě|Ε|Έ|Ẽ|Ẻ|Ẹ|Ề|Ế|Ễ|Ể|Ệ|Е|Э/g,'E');
             strString = strString.replace(/è|é|ê|ë|ē|ĕ|ė|ę|ě|έ|ε|ẽ|ẻ|ẹ|ề|ế|ễ|ể|ệ|е|э/g,'e');
@@ -39,7 +40,6 @@ $(".nouvelleCouleur").click(function() {
 
 function soumettre() {
 
-    $(".couleurDeFond").removeClass("couleurDeFond");
     // On enlève les messages d'erreurs s'il y en avait et les lettres précédemment écrites.
 
     $(".Lettres").html(""),$("#examenciti_form_error").html("");
@@ -48,12 +48,26 @@ function soumettre() {
     var mot = $("input#examenciti_form").val();
 
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
+            $(".couleurDeFond").removeClass("couleurDeFond");
+            $(".")
             (MonMot(mot))
+        }
+        else if(/^[0-9]+$/.test(mot)){
+            $("#examenciti_form_error").html("Votre mot ne doit contenir que des lettres de l'alphabet");
+            erreurValidation();
         }
         else{
             $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères. Utilisez * pour les accents.");
+            erreurValidation();
+
         }
 }
+function erreurValidation(){
+    $(".couleurDeFond").css('display', 'none');
+    $(".monMot").css('display','none');
+
+}
+
 
 function MonMot(mot) {
 
