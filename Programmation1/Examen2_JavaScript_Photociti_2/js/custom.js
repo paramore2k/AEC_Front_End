@@ -2,7 +2,7 @@ let maxLettres = 12;
 let minLettres = 3;
 let nombreDePhotos = 12;
 let ancienneLettre = "";
-let lettreAchanger = 0;
+let lettreRemplacer  = "";
 let nouvelleCouleur = "noir";
 
 // Enlever les accents aigus à partir du formulaire
@@ -103,6 +103,9 @@ function MonMot(mot) {
 
 
     // TODO: Trouver un autre moyen que ça pour faire effacer le carousel lors de la fermerture si besoin est.
+    // $("#close").click(function() {
+    //     $("#ModalCenter").find('.carousel-item').html("");
+    // });
 
 
     $("#ModalCenter").on('hidden.bs.modal', function () {

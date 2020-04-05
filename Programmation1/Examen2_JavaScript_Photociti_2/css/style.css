@@ -19,8 +19,7 @@ header a:hover{
 }
 .Lettres{
     border: 1rem solid #ffffff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 4em;
 }
 .Lettres img{
     text-align: center;
@@ -31,8 +30,7 @@ header a:hover{
     background-image: url("../background/noir.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 3em;
-
+    margin: 0 2em;
 }
 
 .photoimg{
