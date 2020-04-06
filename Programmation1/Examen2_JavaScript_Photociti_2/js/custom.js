@@ -47,6 +47,7 @@ function soumettre() {
 
     var mot = $("input#examenciti_form").val();
 
+
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
             $(".couleurDeFond").removeClass("couleurDeFond");
 
@@ -69,8 +70,6 @@ function ajusterColonnes() {
     var mot = $("input#examenciti_form").val();
 
     for (i=0;i<mot.length;i++){
-    // On défini la variable C comme étant la grandeur de colonne selon le nombre de lettre entrée.
-    let c = "";
 
     if (mot.length === 3) {
         $("#idLettre" +(i+1)).addClass("col-4");
@@ -90,19 +89,20 @@ function ajusterColonnes() {
 
 }
 function placerLettres(mot){
-    // Application de -1 à mot.length car les lettres commencent à 1
+
     for (i = 0; i < mot.length; i++) {
         // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
-        altLettre = $("#lettreDuMot" + (i+1)).attr('alt', mot[i]);
-
-        srcLettre[i] = "Letters" + "/" + mot[i] + "/" +  mot[i] + "1.jpg";
-        $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
-        $("#idLettre" + (i + 1)).css("display", "flex");
-        monMot = mot.charAt(i).toUpperCase();
-        var monMot = mot[i + 1];
-        if (mot.charAt(i) === "*") {
-            monMot = "CS";
+        if (mot[i] === "*"){
+            mot[i] ="CS";
         }
+        altLettre = $("#lettreDuMot" + (i+1)).attr('alt', mot[i]);
+        srcLettre[i] = "Letters" + "/" + mot[i] + "/" +  mot[i] + "1.jpg";
+
+        $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
+
+        $("#idLettre" + (i + 1)).css("display", "flex");
+
+
 
 
         // $(".Lettres").append(`<div class="${c}"><img src="./Letters/${mot[i]}/${mot[i]}1.jpg" class="img-fluid photoimg" alt="${alt[i]}${i+1}" id="${alt[i]}${i+1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
