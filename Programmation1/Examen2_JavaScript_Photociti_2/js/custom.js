@@ -1,10 +1,11 @@
-let maxLettres = 12;
-let minLettres = 3;
-let nombreDePhotos = 12;
 let ancienneLettre = "";
 let lettreRemplacer  = "";
 let nouvelleCouleur = "noir";
 let validationMot = "";
+let maLettre = "";
+let altLettre = "";
+let srcLettre = [];
+let imageID = [];
 
 // Enlever les accents aigus à partir du formulaire
 $(document).on("keypress", "input", function(e){
@@ -13,10 +14,11 @@ $(document).on("keypress", "input", function(e){
         soumettre();
     }
 });
-
+// Appel de la fonction de conversion des accents
 $("#examenciti_form").change(function () {
     $(this).removeAccentedChar();
 });
+// Système de conversion d'accent automatique
 (function () {
     $.fn.removeAccentedChar = function() {
         return this.each(function() {
@@ -34,7 +36,6 @@ $("#examenciti_form").change(function () {
 
 $(".nouvelleCouleur").click(function() {
     let couleurChoisie = $(this).attr("id");
-    $(this).addClass("active");
     $(".monMot").css("background-image", "url('background/" + couleurChoisie + ".jpg");
 });
 
@@ -42,78 +43,120 @@ function soumettre() {
 
     // On enlève les messages d'erreurs s'il y en avait et les lettres précédemment écrites.
 
-    $(".Lettres").html(""),$("#examenciti_form_error").html("");
+        $("#examenciti_form_error").html("");
     // On applique la varaible mot à la valeur du texte entrée
 
     var mot = $("input#examenciti_form").val();
 
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
             $(".couleurDeFond").removeClass("couleurDeFond");
-            $(".")
-            (MonMot(mot))
+
+            ajusterColonnes(mot);
+            placerLettres(mot);
         }
-        else if(/^[0-9]+$/.test(mot)){
+        else if(/^[0-9!.,/]+$/.test(mot)){
+            $(".Lettres, .text-dark, .nouvelleCouleur").addClass("couleurDeFond");
             $("#examenciti_form_error").html("Votre mot ne doit contenir que des lettres de l'alphabet");
-            erreurValidation();
+
         }
         else{
+            $(".Lettres, .text-dark, .nouvelleCouleur").addClass("couleurDeFond");
             $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères. Utilisez * pour les accents.");
-            erreurValidation();
-
         }
 }
-function erreurValidation(){
-    $(".couleurDeFond").css('display', 'none');
-    $(".monMot").css('display','none');
 
-}
+function ajusterColonnes() {
 
+    var mot = $("input#examenciti_form").val();
 
-function MonMot(mot) {
-
+    for (i=0;i<mot.length;i++){
     // On défini la variable C comme étant la grandeur de colonne selon le nombre de lettre entrée.
-    var c = "";
+    let c = "";
 
     if (mot.length === 3) {
-        var c = "col-4";
+        $("#idLettre" +(i+1)).addClass("col-4");
     } else if (mot.length === 4) {
-        var c = "col-3";
+        $("#idLettre" +(i+1)).addClass("col-3");
     } else if (mot.length === 5) {
         // Remplacement de col-2 pour col à la permission de Shany
-        var c = "col";
+        $("#idLettre" +(i+1)).addClass("col");
     } else if (mot.length === 6) {
-        var c = "col-2";
+        $("#idLettre" +(i+1)).addClass("col-2");
     } else if (mot.length >= 7 && mot.length <= 12) {
         // Remplacement de col-2 pour col à la permission de Shany
-        var c = "col";
+        $("#idLettre" +(i+1)).addClass("col");
+        }
+
     }
+
+}
+function placerLettres(mot){
     // Application de -1 à mot.length car les lettres commencent à 1
-    for (i = 0; i <= mot.length - 1; i++) {
+    for (i = 0; i < mot.length; i++) {
         // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
-        var monMot = mot[i + 1];
+        altLettre[i] = mot[i];
+        srcLettre[i] = "Letters" + "/" + mot.charAt(i) + "/" +  mot[i] + "1.jpg";
+        imageID[i] = altLettre[i];
 
+        $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
+        $("#idLettre" + (i + 1)).css("display", "flex");
         monMot = mot.charAt(i).toUpperCase();
-
+        var monMot = mot[i + 1];
         if (mot.charAt(i) === "*") {
             monMot = "CS";
         }
 
-        $(".Lettres").append(`<div class="${c}"><img src="./Letters/${monMot}/${monMot}1.jpg" class="img-fluid photoimg" alt="${mot}${i}" id="${mot.charAt(i).toUpperCase()}" data-toggle="modal" data-target="#ModalCenter"></div>`);
+
+        // $(".Lettres").append(`<div class="${c}"><img src="./Letters/${mot[i]}/${mot[i]}1.jpg" class="img-fluid photoimg" alt="${alt[i]}${i+1}" id="${alt[i]}${i+1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
     }
-    $(".photoimg").click(function () {
-        // TODO: Obtenir le ID de l'image pour ensuite pouvoir la remplacer dans le modal
-        let maLettre = $(this).attr("id");
+    //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
 
-        $("#ModalCenter").on('show.bs.modal', function () {{
-            for (var i=0;i<5;i++){
-                $('#imgLettre' + (i+1)).attr("src", "./Letters/" + maLettre + "/" + maLettre + (i+1) + ".jpg");
-            }}
-        });
+    $(".malettre").click(function () {
+        for (var i=0;i<5;i++){
+            if ($("#imgLettre" + (i+1)).hasClass("current")) {
+                $("#imgLettre" + (i+1)).removeClass("current");
+            }
+        }
+
+        // Pour faire apparaître les images dans le carousel
+        imageID = $(this).attr("id");
+        altLettre = $(this).attr("alt");
 
 
+        for (var i=0;i<5;i++){
+            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + cetteLettre + "/" + maLettre+(i+1) + ".jpg");
+        }
     });
+
+
 }
+$(".text-info").click(function () {
+    console.log("test");
+});
+$(".carousel-item img").click(function () {
+//   Boucle pour savoir si l'image a déjà la classe current et l'enlever
+    $("erreurLettre").hide();
+    for (var i=0;i<5;i++) {
+        if ($("#imgLettre" + (i + 1)).hasClass("current")) {
+            $("#imgLettre" + (i + 1)).removeClass("current");
+        }
+    }
+
+    lettreRemplacer = $(this).attr("src");
+    $(this).addClass("current");
+
+});
+$("#btnSave").click(function () {
+    if (lettreRemplacer !== ""){
+        $("#" + maLettre).attr("src", lettreRemplacer);
+        $('#ModalCenter').modal('hide');
+    }
+    else{
+        $("#erreurLettre").show();
+    }
+
+});
 
 
     // TODO: Trouver un autre moyen que ça pour faire effacer le carousel lors de la fermerture si besoin est.
@@ -123,7 +166,9 @@ function MonMot(mot) {
 
 
     $("#ModalCenter").on('hidden.bs.modal', function () {
-        $(this).attr("src", "");
+        for (i=0;i<5;i++) {
+            $('#imgLettre' + (i + 1)).attr("src", "");
+        }
     });
 
 

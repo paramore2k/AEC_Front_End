@@ -43,12 +43,12 @@
 <div class="container">
     <div class="row">
         <div class="col mt-5">
-            <h4 class="text-dark"><strong>Étape no 1</strong></h4>
-            <i class="fa fa-keyboard-o fa-3x"></i>&nbsp;&nbsp; <strong>Entrez votre mot</strong>
+            <h4 class="text-info"><strong>Étape no 1</strong></h4>
+            <i class="fa fa-keyboard-o fa-3x m-2"></i>&nbsp;&nbsp; <strong>Entrez votre mot</strong>
         </div>
         <div class="col mt-5 couleurDeFond">
             <h4 class="text-dark"><strong>Étape no 2</strong></h4>
-            &nbsp<strong class="mb-2">Choisissez votre couleur de fond</strong>
+            &nbsp<strong class="mb-2 text-dark">Choisissez votre couleur de fond</strong>
             <ul class="d-flex mt-3">
                 <li id="blanc" class="nouvelleCouleur"><img src="background/blanc.jpg" alt="Blanc" class="w-50 nouvelleCouleur"></li>
                 <li id="noir" class="nouvelleCouleur"><img src="background/noir.jpg" alt="Noir" class="w-50 active"></li>
@@ -74,7 +74,42 @@
     </div>
 
     <div class="row Lettres monMot couleurDeFond justify-content-center d-print-flex">
-
+        <div id="idLettre1" class="lettreMot">
+            <img id="lettreDuMot1" class="img-fluid m-auto malettre" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre2" class="lettreMot">
+            <img id="lettreDuMot2" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre3" class="lettreMot">
+            <img id="lettreDuMot3" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre4" class="lettreMot">
+            <img id="lettreDuMot4" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre5" class="lettreMot">
+            <img id="lettreDuMot5" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre6" class="lettreMot">
+            <img id="lettreDuMot6" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre7" class="lettreMot">
+            <img id="lettreDuMot7" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre8" class="lettreMot">
+            <img id="lettreDuMot8" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre9" class="lettreMot">
+            <img id="lettreDuMot9" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre10" class="lettreMot">
+            <img id="lettreDuMot10" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre11" class="lettreMot">
+            <img id="lettreDuMot11" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
+        <div id="idLettre12" class="lettreMot">
+            <img id="lettreDuMot12" class="img-fluid m-auto" data-target="#ModalCenter" data-toggle="modal">
+        </div>
     </div>
 
 
@@ -112,7 +147,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <span id="erreurLetre" class="erreurLettre">Vous devez sélectionner une photo en en cliquant sur celle-ci, ce qui remplacera votre photo.</span>
+                    <span id="erreurLettre" class="erreurLettre"><b>Pour remplacer votre lettre, cliquez sur celle-ci et appuyez sur Remplacer</b></span>
                     <button type="button" class="btn btn-info" id="btnSave" data-dismiss="modal">Remplacer</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
                 </div>

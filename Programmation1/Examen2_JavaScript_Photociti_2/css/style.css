@@ -13,6 +13,11 @@ header a:hover{
     display: inline;
 
 }
+.current{
+    border-style: dashed;
+    border-color: #0056b3;
+    display: flex;
+}
 #examenciti_form{
     width: 80%;
     display: inline;
