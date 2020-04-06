@@ -1,11 +1,10 @@
-let ancienneLettre = "";
 let lettreRemplacer  = "";
 let nouvelleCouleur = "noir";
 let validationMot = "";
 let maLettre = "";
 let altLettre = "";
 let srcLettre = [];
-let imageID = [];
+let imageID = "";
 
 // Enlever les accents aigus à partir du formulaire
 $(document).on("keypress", "input", function(e){
@@ -94,10 +93,9 @@ function placerLettres(mot){
     // Application de -1 à mot.length car les lettres commencent à 1
     for (i = 0; i < mot.length; i++) {
         // Application de +1 au mot pour obtenir 1-2-3 au lieu de 0-1-2
-        altLettre[i] = mot[i];
-        srcLettre[i] = "Letters" + "/" + mot.charAt(i) + "/" +  mot[i] + "1.jpg";
-        imageID[i] = altLettre[i];
+        altLettre = $("#lettreDuMot" + (i+1)).attr('alt', mot[i]);
 
+        srcLettre[i] = "Letters" + "/" + mot[i] + "/" +  mot[i] + "1.jpg";
         $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
         $("#idLettre" + (i + 1)).css("display", "flex");
         monMot = mot.charAt(i).toUpperCase();
@@ -118,22 +116,17 @@ function placerLettres(mot){
                 $("#imgLettre" + (i+1)).removeClass("current");
             }
         }
-
-        // Pour faire apparaître les images dans le carousel
         imageID = $(this).attr("id");
+        // Pour faire apparaître les images dans le carousel
         altLettre = $(this).attr("alt");
 
 
         for (var i=0;i<5;i++){
-            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + cetteLettre + "/" + maLettre+(i+1) + ".jpg");
+            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre + ( i+1)  + ".jpg");
         }
     });
 
-
 }
-$(".text-info").click(function () {
-    console.log("test");
-});
 $(".carousel-item img").click(function () {
 //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
     $("erreurLettre").hide();
@@ -148,8 +141,9 @@ $(".carousel-item img").click(function () {
 
 });
 $("#btnSave").click(function () {
+    $("#erreurLettre").hide();
     if (lettreRemplacer !== ""){
-        $("#" + maLettre).attr("src", lettreRemplacer);
+        $("#" + imageID).attr("src", lettreRemplacer);
         $('#ModalCenter').modal('hide');
     }
     else{
