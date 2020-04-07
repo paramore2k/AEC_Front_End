@@ -21,7 +21,7 @@
 <!--    </div>-->
 <!--</nav>-->
 <header>
-    <div class="container border-dark border-bottom">
+    <div class="container border-dark border-bottom d-print-none">
         <div class="row">
             <div class="col-4 m-auto">
                 <img src="img/logo_transparent_imgur.png" class="img-fluid" alt="Logo ExamenCiti">
@@ -34,35 +34,35 @@
 </header>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 mt-5">
+        <div class="col-12 mt-5 d-print-none">
             <h2>Créer votre mot ExamenCiti en 2 étapes vraiment rapides !</h2>
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container ">
     <div class="row">
-        <div class="col mt-5">
+        <div class="col mt-5 d-print-none">
             <h4 class="text-info"><strong>Étape no 1</strong></h4>
             <i class="fa fa-keyboard-o fa-3x m-2"></i>&nbsp;&nbsp; <strong>Entrez votre mot</strong>
         </div>
-        <div class="col mt-5 couleurDeFond">
+        <div class="col mt-5 couleurDeFond d-print-none">
             <h4 class="text-dark"><strong>Étape no 2</strong></h4>
             &nbsp<strong class="mb-2 text-dark">Choisissez votre couleur de fond</strong>
-            <ul class="d-flex mt-3">
-                <li id="blanc" class="nouvelleCouleur"><img src="background/blanc.jpg" alt="Blanc" class="w-50 nouvelleCouleur"></li>
-                <li id="noir" class="nouvelleCouleur"><img src="background/noir.jpg" alt="Noir" class="w-50 active"></li>
-                <li id="bleu" class="nouvelleCouleur"><img src="background/bleu.jpg" alt="Bleu" class="w-50"></li>
-                <li id="gris" class="nouvelleCouleur"><img src="background/gris.jpg" alt="Gris" class="w-50"></li>
-                <li id="rose" class="nouvelleCouleur"><img src="background/rose.jpg" alt="Rose" class="w-50"></li>
-                <li id="bleufonce" class="nouvelleCouleur"><img src="background/bleuFonce.jpg" alt="Bleu Foncé" class="w-50"></li>
-                <li id="rouge" class="nouvelleCouleur"><img src="background/rouge.jpg" alt="Rouge" class="w-50"></li>
+            <ul class="d-flex mt-3 justify-content-between  mx-auto">
+                <li id="blanc" class="nouvelleCouleur m-1"><img src="background/blanc.jpg" alt="Blanc" class="col p-0"></li>
+                <li id="noir" class="nouvelleCouleur m-1"><img src="background/noir.jpg" alt="Noir" class="col active p-0" m-auto></li>
+                <li id="bleu" class="nouvelleCouleur m-1"><img src="background/bleu.jpg" alt="Bleu" class="col p-0"></li>
+                <li id="gris" class="nouvelleCouleur m-1"><img src="background/gris.jpg" alt="Gris" class="col p-0"></li>
+                <li id="rose" class="nouvelleCouleur m-1"><img src="background/rose.jpg" alt="Rose" class="col p-0"></li>
+                <li id="bleufonce" class="nouvelleCouleur m-1"><img src="background/bleuFonce.jpg" alt="Bleu Foncé" class="col p-0"></li>
+                <li id="rouge" class="nouvelleCouleur m-1"><img src="background/rouge.jpg" alt="Rouge" class="col p-0"></li>
             </ul>
         </div>
     </div>
 
     <div class="row">
-        <div class="col">
+        <div class="col d-print-none">
             <label for="jstype-submit"><span id="examenciti_form_error" class="text-center text-danger"></span></label>
             <label for="examenciti_form"></label>
             <input class="form-control text-center" id="examenciti_form" type="text" minlength="3" maxlength="12"
@@ -118,7 +118,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div id="monCarousel" class="carousel slide" data-ride="carousel">
+                    <div id="monCarousel" class="carousel" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img id="imgLettre1" src="" class="img-fluid m-auto d-block" alt="Première Image">
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <span id="erreurLettre" class="erreurLettre"><b>Pour remplacer votre lettre, cliquez sur celle-ci et appuyez sur Remplacer</b></span>
+                    <div class="erreurLettre">Pour remplacer votre lettre, cliquez sur celle-ci et appuyez sur Remplacer</div>
                     <button type="button" class="btn btn-info" id="btnSave" data-dismiss="modal">Remplacer</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
                 </div>

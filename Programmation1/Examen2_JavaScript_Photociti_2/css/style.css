@@ -37,9 +37,20 @@ header a:hover{
     background-repeat: no-repeat;
     margin: 0 2em;
 }
+.nouvelleCouleur{
+}
+.current{
+    border-style: ridge;
+    border-color: #1b1e21;
+    padding: .2rem;
+    transition-delay: inherit;
+}
 
 .photoimg{
     border: 0.2rem solid white;
+}
+.img-fluid{
+    border: 2px solid white;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     color: black;
