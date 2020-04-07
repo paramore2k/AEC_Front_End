@@ -55,6 +55,7 @@ function soumettre() {
     var mot = $("input#examenciti_form").val();
 
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
+
             // Enlever la classe hide des sections 2 et 3
             $(".couleurDeFond").removeClass("couleurDeFond");
             // Placement des colonnes selon la longueur de caractères
@@ -76,12 +77,14 @@ function soumettre() {
             $("#examenciti_form_error").html("Votre mot doit contenir entre 3 et 12 caractères. Utilisez * pour les accents.");
         }
 }
-
+// Méthode no 1; Appliquer display none sur tous les ID, appliquer display FLEX lors du placement des mots
 function effacerLettres(){
+
     for (i=0;i<=12;i++) {
-        $('#lettreDuMot' + (i + 1)).attr("src", "");
-        $("#idLettre" + (i + 1)).removeClass();
+        console.log(i);
+        $('#idLettre' + (i + 1)).css("display","none");
     }
+
 }
 
 function ajusterColonnes(mot) {
@@ -117,15 +120,15 @@ function ajusterColonnes(mot) {
 function placerLettres(mot){
 
     for (i = 0; i < mot.length; i++) {
-        if (mot[i] === "*"){
-            mot[i] = "CS";
-            altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
-            srcLettre[i] = "Letters" + "/" + "CS" + "/" +  "CS" + "1.jpg";
-        }
-        else {
-            altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
-            srcLettre[i] = "Letters" + "/" + mot[i] + "/" + mot[i] + "1.jpg";
-        }
+
+            if (mot[i] === "*") {
+                mot[i] = "CS";
+                altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
+                srcLettre[i] = "Letters" + "/" + "CS" + "/" + "CS" + "1.jpg";
+            } else {
+                altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
+                srcLettre[i] = "Letters" + "/" + mot[i] + "/" + mot[i] + "1.jpg";
+            }
 
 
         $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
@@ -133,47 +136,61 @@ function placerLettres(mot){
         $("#idLettre" + (i + 1)).css("display", "flex");
 
 
-        // Ancienne approche à retravailler éventuellement
+        // Ancienne approche que je laisse en place pour retravailler éventuellement.
 
         // $(".Lettres").append(`<div class="${c}"><img src="./Letters/${mot[i]}/${mot[i]}1.jpg" class="img-fluid photoimg" alt="${alt[i]}${i+1}" id="${alt[i]}${i+1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
     }
     //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
 
-    $(".malettre").click(function () {
 
-        for (var i=0;i<5;i++){
-            if ($("#imgLettre" + (i+1)).hasClass("current")) {
-                $("#imgLettre" + (i+1)).removeClass("current");
-            }
-        }
-        $(".erreurLettre").hide();
-        imageID = $(this).attr("id");
-        // Pour faire apparaître les images dans le carousel
-        altLettre = $(this).attr("alt");
-
-
-        for (var i=0;i<5;i++){
-            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre + ( i+1)  + ".jpg");
-        }
-    });
 
 }
-$(".carousel-item img").click(function () {
-//   Boucle pour savoir si l'image a déjà la classe current et l'enlever
+$(".malettre").click(function (mot) {
 
+    if (mot[i])
+    for (var i=0;i<5;i++){
+        if ($("#imgLettre" + (i+1)).hasClass("current")) {
+            $("#imgLettre" + (i+1)).removeClass("current");
+        }
+    }
+    imageID = $(this).attr("id");
+    altLettre = $(this).attr("alt");
+
+    // Pour faire apparaître les images dans le carousel
+
+    for (var i=0;i<5;i++){
+        if (mot[i] === "*") {
+            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + "CS" + "/" + "CS" + ( i+1)  + ".jpg");
+        } else {
+
+            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre+ ( i+1)  + ".jpg");
+        }
+
+
+    }
+});
+$(".carousel-item img").click(function () {
+    for (i=0;i<5;i++) {
+//   Boucle pour savoir si l'image a déjà la classe current et l'enlever
+        if ($("#imgLettre" + (i + 1)).hasClass("current")) {
+            $("#imgLettre" + (i + 1)).removeClass("current");
+        }
+    }
     lettreRemplacer = $(this).attr("src");
-    $(this).addClass("current");
+
+    $(this).addClass('current');
 
 });
-$("#btnSave").click(function () {
-    $("#erreurLettre").hide();
+$("#btnSave").click(function (e) {
+    $(".erreurLettre").hide();
     if (lettreRemplacer !== ""){
         $("#" + imageID).attr("src", lettreRemplacer);
         $('#ModalCenter').modal('hide');
     }
     else{
-        $("#erreurLettre").show();
+        $(".erreurLettre").show();
+        e.preventDefault();
     }
 
 });

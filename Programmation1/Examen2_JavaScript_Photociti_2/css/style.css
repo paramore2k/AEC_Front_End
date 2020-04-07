@@ -14,8 +14,8 @@ header a:hover{
 
 }
 .current{
-    border-style: dashed;
-    border-color: #0056b3;
+    border-style: dashed !important;
+    border-color: #0056b3 !important;
     display: flex;
 }
 #examenciti_form{

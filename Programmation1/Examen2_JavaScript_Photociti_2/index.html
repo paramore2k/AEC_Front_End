@@ -51,7 +51,7 @@
             &nbsp<strong class="mb-2 text-dark">Choisissez votre couleur de fond</strong>
             <ul class="d-flex mt-3 justify-content-between  mx-auto">
                 <li id="blanc" class="nouvelleCouleur m-1"><img src="background/blanc.jpg" alt="Blanc" class="col p-0"></li>
-                <li id="noir" class="nouvelleCouleur m-1"><img src="background/noir.jpg" alt="Noir" class="col active p-0" m-auto></li>
+                <li id="noir" class="nouvelleCouleur m-1"><img src="background/noir.jpg" alt="Noir" class="col p-0" m-auto></li>
                 <li id="bleu" class="nouvelleCouleur m-1"><img src="background/bleu.jpg" alt="Bleu" class="col p-0"></li>
                 <li id="gris" class="nouvelleCouleur m-1"><img src="background/gris.jpg" alt="Gris" class="col p-0"></li>
                 <li id="rose" class="nouvelleCouleur m-1"><img src="background/rose.jpg" alt="Rose" class="col p-0"></li>
@@ -66,7 +66,7 @@
             <label for="jstype-submit"><span id="examenciti_form_error" class="text-center text-danger"></span></label>
             <label for="examenciti_form"></label>
             <input class="form-control text-center" id="examenciti_form" type="text" minlength="3" maxlength="12"
-                   placeholder="Un mot entre 3 et 9 lettres">
+                   placeholder="Un mot entre 3 et 12 lettres">
             <input type="submit" name="Soumettre" value="Soumettre" id="jstype-submit" onclick="soumettre()"
                    class="btn btn-info">
             <div class="text-dark">Utiliser * pour les caractères spéciaux</div>
@@ -118,7 +118,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div id="monCarousel" class="carousel" data-ride="carousel">
+                    <div id="monCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img id="imgLettre1" src="" class="img-fluid m-auto d-block" alt="Première Image">
