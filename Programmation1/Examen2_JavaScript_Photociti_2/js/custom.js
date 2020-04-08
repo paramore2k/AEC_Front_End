@@ -1,11 +1,16 @@
+/*
+Créé par David Champagne
+le 2020-04-01
+ */
+
+
 let lettreRemplacer  = "";
 let altLettre = "";
-let srcLettre = [];
 let imageID = "";
 let couleurChoisie = "noir";
 let couleurPrecedente = "noir";
-let monMot = [];
 let mot = [];
+let maLettre = [];
 let c = "";
 
 // Enlever les accents aigus à partir du formulaire
@@ -52,7 +57,7 @@ function soumettre() {
         $("#examenciti_form_error").html("");
     // On applique la variable mot à la valeur du texte entrée
 
-    var mot = $("input#examenciti_form").val();
+    mot = $("input#examenciti_form").val();
 
         if (mot.length >= 3 && mot.length <= 12 && /^[a-zA-Z\*]+$/.test(mot)) {
 
@@ -78,17 +83,30 @@ function soumettre() {
         }
 }
 // Méthode no 1; Appliquer display none sur tous les ID, appliquer display FLEX lors du placement des mots
-function effacerLettres(){
+function effacerLettres(mot){
+
+    // Je réutilise ma variable, celle-ci me permet d'éviter de spécifier sa source
+    maLettre = mot.toUpperCase().split("");
+
+    // On convertie les * en CS pour les accents
+    for (i=0;i<maLettre.length;i++) {
+        if (maLettre[i] === "*") {
+            maLettre[i] = "CS";
+
+        }
+    }
 
     for (i=0;i<=12;i++) {
-        console.log(i);
         $('#idLettre' + (i + 1)).css("display","none");
+        $('#idLettre' + (i + 1)).attr("class","lettreMot");
+
     }
 
 }
 
 function ajusterColonnes(mot) {
 
+// Je réutilise ma variable, celle-ci me permet d'éviter de spécifier sa source
     for (i=0;i<mot.length;i++){
 
     // On défini la lettre C pour les colonnes afin de les enlever avant d'écrire un autre mot
@@ -117,22 +135,19 @@ function ajusterColonnes(mot) {
     }
 }
 
-function placerLettres(mot){
+function placerLettres(){
 
-    for (i = 0; i < mot.length; i++) {
+    // Bien que cet étape aurait pu être inclue avec la fonction EffacerLettres, pour séparer le tout je préfère qu'il ait sa propre fonction
+    for (i = 0; i < maLettre.length; i++) {
+            // On spécifie ici que altLettre = maLettre étant donné que l'on va reprendre altLettre pour l'attribut ALT.
+            altLettre = maLettre[i];
+            lettreRemplacer = `Letters/${maLettre[i]}/${maLettre[i]}1.jpg`;
 
-            if (mot[i] === "*") {
-                mot[i] = "CS";
-                altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
-                srcLettre[i] = "Letters" + "/" + "CS" + "/" + "CS" + "1.jpg";
-            } else {
-                altLettre = $("#lettreDuMot" + (i + 1)).attr('alt', mot[i]);
-                srcLettre[i] = "Letters" + "/" + mot[i] + "/" + mot[i] + "1.jpg";
-            }
-
-
-        $("#lettreDuMot" + (i+1)).attr("src", srcLettre[i]);
-
+        // On place les lettres selon la source LettreRemplacer (nom de variable utiliser car c'est cette lettre que la personne peut remplacer)
+        let  lettredumot = $("#lettreDuMot" + (i+1));
+        lettredumot.attr("src",`${lettreRemplacer}`);
+        // J'assigne la lettre seulement à l'attribut ALT afin de m'en servir à nouveau pour les carousel
+        lettredumot.attr("alt",`${maLettre[i]}`);
         $("#idLettre" + (i + 1)).css("display", "flex");
 
 
@@ -141,17 +156,15 @@ function placerLettres(mot){
         // $(".Lettres").append(`<div class="${c}"><img src="./Letters/${mot[i]}/${mot[i]}1.jpg" class="img-fluid photoimg" alt="${alt[i]}${i+1}" id="${alt[i]}${i+1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
     }
-    //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
-
 
 
 }
 $(".malettre").click(function (mot) {
-
-    if (mot[i])
-    for (var i=0;i<5;i++){
-        if ($("#imgLettre" + (i+1)).hasClass("current")) {
-            $("#imgLettre" + (i+1)).removeClass("current");
+    // On enlève la classe current à l'image du carrousel
+    for (i=0;i<5;i++) {
+//   Boucle pour savoir si l'image a déjà la classe current et l'enlever
+        if ($("#imgLettre" + (i + 1)).hasClass("current")) {
+            $("#imgLettre" + (i + 1)).removeClass("current");
         }
     }
     imageID = $(this).attr("id");
@@ -160,16 +173,10 @@ $(".malettre").click(function (mot) {
     // Pour faire apparaître les images dans le carousel
 
     for (var i=0;i<5;i++){
-        if (mot[i] === "*") {
-            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + "CS" + "/" + "CS" + ( i+1)  + ".jpg");
-        } else {
-
             $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre+ ( i+1)  + ".jpg");
         }
-
-
-    }
 });
+
 $(".carousel-item img").click(function () {
     for (i=0;i<5;i++) {
 //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
@@ -182,7 +189,7 @@ $(".carousel-item img").click(function () {
     $(this).addClass('current');
 
 });
-$("#btnSave").click(function (e) {
+$("#btnSave").click(function () {
     $(".erreurLettre").hide();
     if (lettreRemplacer !== ""){
         $("#" + imageID).attr("src", lettreRemplacer);
@@ -190,17 +197,10 @@ $("#btnSave").click(function (e) {
     }
     else{
         $(".erreurLettre").show();
-        e.preventDefault();
+
     }
 
 });
-
-
-    // TODO: Trouver un autre moyen que ça pour faire effacer le carousel lors de la fermerture si besoin est.
-    $("#close").click(function() {
-        $("#ModalCenter").find('.carousel-item').html("");
-    });
-
 
     $("#ModalCenter").on('hidden.bs.modal', function () {
         for (i=0;i<5;i++) {
