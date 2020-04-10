@@ -84,6 +84,7 @@ function soumettre() {
 }
 // Méthode no 1; Appliquer display none sur tous les ID, appliquer display FLEX lors du placement des mots
 function effacerLettres(mot){
+    $('.Lettres').html("");
 
     // Je réutilise ma variable, celle-ci me permet d'éviter de spécifier sa source
     maLettre = mot.toUpperCase().split("");
@@ -135,47 +136,51 @@ function ajusterColonnes(mot) {
     }
 }
 
-function placerLettres(){
+function placerLettres() {
 
     // Bien que cet étape aurait pu être inclue avec la fonction EffacerLettres, pour séparer le tout je préfère qu'il ait sa propre fonction
     for (i = 0; i < maLettre.length; i++) {
-            // On spécifie ici que altLettre = maLettre étant donné que l'on va reprendre altLettre pour l'attribut ALT.
-            altLettre = maLettre[i];
-            lettreRemplacer = `Letters/${maLettre[i]}/${maLettre[i]}1.jpg`;
+        // On spécifie ici que altLettre = maLettre étant donné que l'on va reprendre altLettre pour l'attribut ALT.
+        altLettre = maLettre[i];
+        // Ancienne méthode
+        // lettreRemplacer = `Letters/${maLettre[i]}/${maLettre[i]}1.jpg`;
 
         // On place les lettres selon la source LettreRemplacer (nom de variable utiliser car c'est cette lettre que la personne peut remplacer)
-        let  lettredumot = $("#lettreDuMot" + (i+1));
-        lettredumot.attr("src",`${lettreRemplacer}`);
+        let lettredumot = $("#lettreDuMot" + (i + 1));
+        lettredumot.attr("src", `${lettreRemplacer}`);
         // J'assigne la lettre seulement à l'attribut ALT afin de m'en servir à nouveau pour les carousel
-        lettredumot.attr("alt",`${maLettre[i]}`);
+        lettredumot.attr("alt", `${maLettre[i]}`);
         $("#idLettre" + (i + 1)).css("display", "flex");
 
 
-        // Ancienne approche que je laisse en place pour retravailler éventuellement.
+        // Méthode améliorer et réajuster afin de s'adapter au nombre de lettres automatiquement.
 
-        // $(".Lettres").append(`<div class="${c}"><img src="./Letters/${mot[i]}/${mot[i]}1.jpg" class="img-fluid photoimg" alt="${alt[i]}${i+1}" id="${alt[i]}${i+1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
+        $(".Lettres").append(`<div class="${c}">
+        <img src="./Letters/${maLettre[i]}/${maLettre[i]}1.jpg" class="img-fluid photoimg d-flex" alt="${maLettre[i]}" id="lettreDuMot${i + 1}" data-toggle="modal" data-target="#ModalCenter"></div>`);
 
     }
-
-
-}
-$(".malettre").click(function (mot) {
-    // On enlève la classe current à l'image du carrousel
-    for (i=0;i<5;i++) {
+    $(".photoimg").click(function() {
+        // On enlève la classe current à l'image du carrousel
+        for (i=0;i<5;i++) {
 //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
-        if ($("#imgLettre" + (i + 1)).hasClass("current")) {
-            $("#imgLettre" + (i + 1)).removeClass("current");
+            if ($("#imgLettre" + (i + 1)).hasClass("current")) {
+                $("#imgLettre" + (i + 1)).removeClass("current");
+            }
         }
-    }
-    imageID = $(this).attr("id");
-    altLettre = $(this).attr("alt");
+        imageID = $(this).attr("id");
+        altLettre = $(this).attr("alt");
+        console.log(altLettre);
 
-    // Pour faire apparaître les images dans le carousel
+        // Pour faire apparaître les images dans le carousel
 
-    for (var i=0;i<5;i++){
+        for (var i=0;i<5;i++){
             $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre+ ( i+1)  + ".jpg");
         }
-});
+    });
+}
+
+
+
 
 $(".carousel-item img").click(function () {
     for (i=0;i<5;i++) {
@@ -207,6 +212,4 @@ $("#btnSave").click(function () {
             $('#imgLettre' + (i + 1)).attr("src", "");
         }
     });
-
-
 
