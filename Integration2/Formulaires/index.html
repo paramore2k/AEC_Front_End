@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Formulaire adoption de chat</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-6 mt-1"><img src="https://i.imgur.com/GLWftGH.jpg" alt="Adoption chat" class="img-fluid"></div>
+        </div>
+        <div class="col text-center mt-3"><h5>Formulaire pour l'adoption d'un chat.</h5></div>
+    </div>
+</header>
+
+<form class="col-12 mt-4 d-flex justify-content-center">
+<div class="form-row">
+
+    <div class="form-group col-md-4">
+        <label for="nom" class="text-center">Votre nom</label>
+        <input type="text" class="form-control" id="nom" required>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="courriel" class="text-center">Courriel</label>
+        <input type="email" class="form-control" id="courriel" required>
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="telephone" class="text-center">Téléphone (XXX-XXX-XXXX)</label>
+        <input type="tel" class="form-control" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               required>
+    </div>
+
+    <div class="form-group col-md-6">
+
+    <label for="age" class="">Votre âge</label>
+    <input type="number" class="form-control" id="age" minlength="2" min="15" max="99" maxlength="2">
+    </div>
+    <div class="form-group col-md-6">
+
+    <label for="naissance" class="">Date de naissance (YYYY-M-J)</label>
+    <input type="text" class="form-control" id="naissance" pattern="[1-9]{4}-[0-12]{2}-[1-30]{2}">
+    </div>
+
+    <div class="form-group col-md-6">
+
+    <label for="taille" class="">Taille</label>
+    <input type="text" class="form-control" id="taille" minlength="2" min="2">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="poids" class="">Poids</label>
+        <input type="text" class="form-control" id="poids" minlength="2" min="2">
+    </div>
+
+    <div class="col-md-12 mb-3 text-center"><u>Détails supplémentaires</u></div>
+
+    <div class="form-group col-md-3 form-check">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">Vacciné</label>
+        </div>
+    </div>
+    <div class="form-group col-md-3 form-check">
+        Type:
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="domestique" name="choix_chat">
+            <label class="form-check-label" for="domestique">Domestique</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="race" name="choix_chat">
+            <label class="form-check-label" for="race">Racé</label>
+        </div>
+
+    </div>
+    <div class="form-group col-md-3">
+        <label for="couleur">Couleur:</label>
+        <select id="couleur" class="form-control" required>
+            <option value="Noir">Noir</option>
+            <option value="Blanc">Blanc</option>
+            <option value="Brun">Brun</option>
+            <option value="Mixte">Mixte</option>
+        </select>
+    </div>
+
+    <div class="form-group col-md-3">
+        <label for="lieu_naissance">Lieu de naissance:</label>
+        <select id="lieu_naissance" class="form-control" required="required">
+            <option value="Quebec">Québec</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Etats-Unis">États-Unis</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Belgique">Belgique</option>
+        </select>
+    </div>
+
+    <div class="custom-file">
+        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+        <label class="custom-file-label" for="validatedCustomFile">Transmettre des photos</label>
+        <div class="invalid-feedback">Erreur</div>
+    </div>
+    <div class="col text-center mt-3">
+    <button type="submit" class="btn btn-info">Soumettre</button>
+    </div>
+</div>
+
+
+
+</form>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

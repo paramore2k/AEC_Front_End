@@ -160,6 +160,7 @@ function placerLettres() {
 
     }
     $(".photoimg").click(function() {
+
         // On enlève la classe current à l'image du carrousel
         for (i=0;i<5;i++) {
 //   Boucle pour savoir si l'image a déjà la classe current et l'enlever
@@ -172,13 +173,12 @@ function placerLettres() {
         console.log(altLettre);
 
         // Pour faire apparaître les images dans le carousel
-
         for (var i=0;i<5;i++){
-            $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre+ ( i+1)  + ".jpg");
+
+             $('#imgLettre' + (i+1)).attr("src", "./Letters/" + altLettre + "/" + altLettre+ ( i+1)  + ".jpg");
         }
     });
 }
-
 
 
 
@@ -192,7 +192,6 @@ $(".carousel-item img").click(function () {
     lettreRemplacer = $(this).attr("src");
 
     $(this).addClass('current');
-
 });
 $("#btnSave").click(function () {
     $(".erreurLettre").hide();
