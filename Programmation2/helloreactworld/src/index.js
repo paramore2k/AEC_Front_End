@@ -1,18 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import * as serviceWorker from './serviceWorker';
 
-
-let presentation = <div><h1>David</h1>
-<img src="https://via.placeholder.com/150" alt="placeholder1"/>
-</div>;
-
-
-ReactDOM.render(
-presentation,
-  document.getElementById('root')
-);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
