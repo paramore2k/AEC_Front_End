@@ -1,28 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import Col from 'react-bootstrap/Col';
+import logo from "../../img/becflix.png"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { Catalogue } from "../Catalogue/Catalogue";
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid>
+      <Row>
+      <Col>
+          <img src={logo} alt="BecFlix" width="100px"/>
+      </Col>
+      </Row>
+        <Catalogue/>
+    </Container>
   );
 }
 
