@@ -78,18 +78,46 @@ const tabHumour = [
 
 const tabSeriesAmericaines = [
     {
-        src: require("../../img/Humour/lesboys.jpg"),
-        alt: "Les boys",
-        title: "Les boys"
-    }
+        src: require("../../img/Series americaines/betterCallSaul.jpg"),
+        alt: "Better Call Saul",
+        title: "Better Call Saul"
+    },
+
+    {
+        src: require("../../img/Series americaines/breakingbad.jpg"),
+        alt: "Breaking Bad",
+        title: "Breaking Bad"
+    },
+
+    {
+        src: require("../../img/Series americaines/dexter.jpg"),
+        alt: "Dexter",
+        title: "Dexter"
+    },
+
+    {
+        src: require("../../img/Series americaines/got.jpg"),
+        alt: "Game Of Thrones",
+        title: "Game Of Thrones"
+    },
+    {
+        src: require("../../img/Series americaines/mandalorian.jpg"),
+        alt: "The Mandalorian",
+        title: "The Mandalorian"
+    },
+
+    {
+        src: require("../../img/Series americaines/vikings.jpg"),
+        alt: "Vikings",
+        title: "Vikings"
+    },
+
 ]
  
 
 export class Categorie extends React.Component {
     render() {
-        
         return (
-            
             <>
                 <Row>
                     <h1>{this.props.nom}</h1>
@@ -103,17 +131,17 @@ export class Categorie extends React.Component {
     AfficherCategorie(){
         // Si le nom de la catégorie est suspense, on affiche les éléments les un après les autres grâce au map
         if (this.props.nom === "Suspense"){
-        return(
-            tabSuspense.map((element,i) =>
-                <TvShow
-            keys={"suspense" + i}
-            src={element.src}
-            alt={element.alt}
-            title={element.title}
-                />)
-        )
+            return(
+                tabSuspense.map((element,i) =>
+                    <TvShow
+                        keys={"suspense" + i}
+                        src={element.src}
+                        alt={element.alt}
+                        title={element.title}
+                    />)
+            )
         }
-        
+
         if(this.props.nom === "Humour"){
             return(
                 tabHumour.map((element,i) =>
@@ -123,18 +151,20 @@ export class Categorie extends React.Component {
                         alt={element.alt}
                         title={element.title}
                     />)
-            )
+            );
 
-        } 
-        
+        }
+
         if(this.props.nom === "Séries Américaines"){
             return(
-                <>
-                <TvShow src={require("../../img/Series americaines/dexter.jpg")}
-                alt="Dexter"
-                title="Dexter"/>
-                </>
-                );
+                tabSeriesAmericaines.map((element, i) =>
+                    <TvShow
+                        keys={"series americaines" + i}
+                        src={element.src}
+                        alt={element.alt}
+                        title={element.title}
+                    />)
+            );
 
         }
     
