@@ -9,8 +9,18 @@ import Col from 'react-bootstrap/Col';
 // Contient l'inage de Outlander, l'attribut alt et source et title.
 
 
-
 export class TvShow extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            hovered: false
+        }
+
+    }
+    toggleHover() {
+        this.setState({hover: !this.state.hovered})
+    }
+
     render() {
         return (
             <Col lg="2">
@@ -19,6 +29,8 @@ export class TvShow extends React.Component {
                     alt={this.props.alt}
                     title={this.props.title}
                     className="img-fluid"
+                    onMouseOver={this.toggleHover}
+                    onMouseOut={this.toggleHover}
                     onClick={this.props.onClick}
                 />
             </Col>

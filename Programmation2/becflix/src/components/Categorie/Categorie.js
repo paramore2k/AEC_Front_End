@@ -127,7 +127,9 @@ export class Categorie extends React.Component {
                 </Row>
             </>
         );
+
     }
+
     AfficherCategorie(){
         // Si le nom de la catégorie est suspense, on affiche les éléments les un après les autres grâce au map
         if (this.props.nom === "Suspense"){
@@ -170,4 +172,5 @@ export class Categorie extends React.Component {
     
     }
 }
+
 
