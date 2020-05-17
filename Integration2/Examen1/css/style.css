@@ -1,0 +1,17 @@
+form, .formulaire{
+    border: 2px solid #000000;
+    background-color: #4e555b;
+    font-size: small;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+.hr{
+
+    background-color: #ffffff;
+    color: #ffffff !important;
+}
+.red{
+    color: red;
+}

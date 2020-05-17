@@ -6,7 +6,6 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 
-// Contient l'inage de Outlander, l'attribut alt et source et title.
 
 
 export class TvShow extends React.Component {
