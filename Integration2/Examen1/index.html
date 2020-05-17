@@ -12,41 +12,72 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-8 mt-5 formulaire">
+        <div class="col-7 mt-5 formulaire">
             <h3 class="py-3">Participez à l'avenir de la race humaine</h3>
             Inscrivez-vous à la prochaine mission de colonisation sur Mars !
-            <hr class="hr text-white">
+            <hr class="hr">
 
             <form class="form">
 
                 <div class="form-row">
-                    <div class="col-auto">
-                        <b>Identification</b> <span class="red">*</span>
-                    </div>
+                    <label for="nom" class="col-3"><b>Identification</b> <span class="red">*</span></label>
 
-                    <div class="col-2">
+                    <div class="col-auto">
                         <input type="text" id="nom"><br/>
                         <label for="nom">Nom</label>
                     </div>
 
-                    <div class="col">
+                    <div class="col-auto">
                         <input type="text" class="" id="prenom"><br/>
                         <label for="prenom">Prénom</label>
                     </div>
                 </div>
 
                 <div class="form-row">
+                    <div class="col-3">
+                        <label for="date"><b>Date de naissance</b></label> <span class="red">*</span>
+                    </div>
                     <div class="col-auto">
-                        <b>Date de naissance</b> <span class="red">*</span>
-                        <label for="date"></label>
                         <input type="date" id="date">
                     </div>
                 </div>
 
                 <div class="form-row">
+                    <div class="col-3">
+                        <label for="telephone"><b>Numéro de <br/>téléphone</b></label><span class="red">*</span>
+                    </div>
                     <div class="col-auto">
-                    <b>Numéro de téléphone</b><span class="red">*</span>
-                </div></div>
+                        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}">
+                    </div>
+                    -
+                    <div class="col-auto">
+                        <input type="tel" id="telephone2 name=telephone2" pattern="[0-9]{3}-[0-9]{4}">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3">
+                        <label for="adresse"><b>Adresse</b> <span class="red">*</span></label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" id="adresse">
+                    </div>
+
+                    <div class="col-auto">
+                        <input type="text" id="adresse2">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-auto">
+                        <input type="text" id="adresse3">
+                    </div>
+
+                    <div class="col-auto">
+                        <input type="text" id="adresse4">
+                    </div>
+
+                </div>
+
 
 
             </form>
