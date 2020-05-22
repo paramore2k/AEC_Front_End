@@ -12,18 +12,18 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-7 mt-5 formulaire">
-            <h3 class="py-3">Participez à l'avenir de la race humaine</h3>
-            Inscrivez-vous à la prochaine mission de colonisation sur Mars !
+        <div class="col-6 mt-5 p-3 formulaire">
+            <h4 class="pt-3 mb-1 ml-4"><b>Participez à l'avenir de la race humaine</b></h4>
+            <div class="ml-4">Inscrivez-vous à la prochaine mission de colonisation sur Mars !</div>
             <hr class="hr">
 
-            <form class="form">
+            <form class="form ml-4" name="participation" id="form-participation" onsubmit="return validerFormulaire()">
 
                 <div class="form-row">
-                    <label for="nom" class="col-3"><b>Identification</b> <span class="red">*</span></label>
+                    <label for="nom" class="col-3"><b>Identification</b> <span>*</span></label>
 
                     <div class="col-auto">
-                        <input type="text" id="nom"><br/>
+                        <input type="text" id="nom" size="13"><br/>
                         <label for="nom">Nom</label>
                     </div>
 
@@ -33,66 +33,140 @@
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-row pt-4">
                     <div class="col-3">
-                        <label for="date"><b>Date de naissance</b></label> <span class="red">*</span>
+                        <label for="date"><b>Date de naissance</b></label> <span>*</span>
                     </div>
-                    <div class="col-auto">
-                        <input type="date" id="date">
+                    <div class="col-9">
+                        <input type="text" id="date" size="50">
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="col-3">
-                        <label for="telephone"><b>Numéro de <br/>téléphone</b></label><span class="red">*</span>
-                    </div>
-                    <div class="col-auto">
-                        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}">
-                    </div>
-                    -
-                    <div class="col-auto">
-                        <input type="tel" id="telephone2 name=telephone2" pattern="[0-9]{3}-[0-9]{4}">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-3">
-                        <label for="adresse"><b>Adresse</b> <span class="red">*</span></label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="adresse">
-                    </div>
+            <!--       Section numéro de téléphone   -->
 
+
+                <div class="form-row pt-5">
+                    <div class="col-3">
+                        <b>Numéro de téléphone</b> <span>*</span>
+                    </div>
                     <div class="col-auto">
-                        <input type="text" id="adresse2">
+                        <input type="tel" id="telephone" pattern="[0-9]{3}" size="10" required><br/>
+                        Code Régional
+                    </div>-
+                    <div class="col-auto">
+                        <input type="tel" id="telephone2" name=telephone2" pattern="[0-9]{3}-[0-9]{4}" size="17" required><br/>
+                         Numéro de téléphone
                     </div>
                 </div>
 
+<!--           Section e-mail     -->
+
+                <div class="form-row pt-4">
+                    <div class="col-3">
+                        <b>E-mail</b> <span>*</span>
+                    </div>
+                    <div class="col-9">
+                        <input type="email" size="40" placeholder="ex: monnom@example.com" ><br/>
+                        exemple@exemple.com
+                    </div>
+                </div>
+
+        <!--   Section addresse             -->
+
+                <div class="form-row pt-3">
+                    <div class="col-3 pt-3">
+                        <label for="adresse"><b>Adresse</b> <span>*</span></label>
+                    </div>
+
+                        <div class="offset pt-3">
+                            <input type="text" id="adresse" size="50"><br/>
+                            Numéro de porte
+                        </div>
+
+                        <div class="offset-3 pt-3">
+                            <input type="text" id="adresse2" size="50"><br/>
+                            Numéro d'appartement
+                        </div>
+
+                        <div class="offset-3 pt-3">
+                            <input type="text" id="adresse3" size="20">
+                            <br/>Ville
+                        </div>
+                        <div class="offset ml-2 pt-3">
+                            <input type="text" id="adresse4" size="23">
+                            <br/>État/Province
+                        </div>
+                        <div class="offset-3 pt-3">
+                            <input type="text" id="adresse5"><br/>
+                            Code Postal
+                        </div>
+
+                    </div>
+
+
+<!--           Section Sexe      -->
+
+                <div class="form-row pt-5 pb-4">
+                    <div class="col-3">
+                        <label for="sexe"><b>Sexe</b> <span>*</span></label>
+                    </div>
+                    <div>
+                        <input list="sexe" name="sexe">
+                        <datalist id="sexe">
+                            <option value="Homme">Homme</option>
+                            <option value="Femme">Femme</option>
+                        </datalist>
+                    </div>
+                </div>
+
+<!--        Section métier         -->
+
+                <div class="form-row pt-3 pb-3">
+                    <div class="col-3">
+                        <label for="metier"><b>Métier</b> <span>*</span></label>
+                    </div>
+                    <div>
+                        <input type="text" id="metier" size="25">
+                    </div>
+                </div>
+
+<!--       Section présentation         -->
+
                 <div class="form-row">
-                    <div class="col-auto">
-                        <input type="text" id="adresse3">
+                    <div class="col-3 pt-3 pb-3">
+                        <label for="presentation"><b>Présentation</b></label>
                     </div>
-
-                    <div class="col-auto">
-                        <input type="text" id="adresse4">
+                    <div class="pt-3">
+                        <textarea id="presentation" cols="55" rows="5" size="60"></textarea>
                     </div>
+                </div>
 
+<!--         Section soumettre       -->
+
+                <div class="offset-3 pt-3">
+                    <input type="submit" value="Soumettre ma candidature" class="p-2 btn bg-light bouton">
                 </div>
 
             </form>
 
         </div>
 
-        <div class="col-4 mt-5">
-            <canvas id="mars" width="400" height="400"></canvas>
-        </div>
 
-        <div class="col-4 mt-5">
-            <img src="https://via.placeholder.com/300/09f/fff.png" alt="">
-        </div>
+<!--      Section Canvas Mars  -->
 
-        <div class="col-4 mt-5">
-            <img src="https://via.placeholder.com/300/09f/fff.png" alt="">
+        <div class="col-6 mt-5 pt-5">
+            <canvas id="mars" width="250" height="250" class="ml-4"></canvas>
+            <svg width="350" height="350" class="ml-1">
+                <path d="M150 0 L75 200 L225 200 Z" fill="white" stroke="black"/>
+<!--                <path d="M 150 10 L0 200 L300 200 Z" />-->
+                <rect x="112" y="198" width="75" height="150" fill="white"/>
+
+            </svg>
+            <div class="destination ml-5 pt-2">Destination</div>
+
+            <div id="paypal-button-container" class="text-center col-6"></div>
         </div>
+        
     </div>
 </div>
 
@@ -103,4 +177,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="js/mars.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+<script src="js/main.js"></script>
 </html>
