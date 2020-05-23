@@ -5,19 +5,26 @@
  */
 // Validation du formulaire
 
-var codeRegional = document.getElementById('telephone');
+var codeRegional = document.getElementById('indicatif');
+var telephone = document.getElementById('telephone');
 var form = document.querySelector('form');
-function validerFormulaire(){
+function validerFormulaire(event){
 
-    if (codeRegional === '450' || codeRegional === '514' || codeRegional === '819'){
-        return true;
+
+        if (codeRegional.value === '450' || codeRegional.value === '514' || codeRegional.value === '819') {
+            codeRegional.style.color = 'green';
+        }
+
+    else{
+            var erreurIndicatif = document.getElementById('erreurIndicatif');
+            codeRegional.style.color = 'red';
+            erreurIndicatif.style.color = 'red';
+            erreurIndicatif.innerHTML = 'Invalide. 450, 514 ou 819 seulement';
+        event.preventDefault();
     }
-}
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    console.log(event);
 
-})
+    console.log(codeRegional.value);
+}
 
 
 // Bouton Paypal
