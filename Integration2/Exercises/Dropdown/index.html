@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 justify-content-center pt-3 mx-auto">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Graphiques</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Rechercher" id="myInput" onkeyup="filterFunction()">
+                    <a href="#piechart" onclick="afficherPiechart(),myFunction()">Graphique de style pointe de tarte</a>
+                    <a href="#linearchart" onclick="afficherLinearChart(), myFunction()">Graphique linéaire (Courbe)</a>
+                    <a href="#blog">Diagramme de Gantt</a>
+                    <a href="#contact">Diagramme de Venn</a>
+                    <a href="#custom">Nuage de points</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+
+<div id="linearchart" style="width: 900px; height: 500px"></div>
+<script>
+    var linearchart = document.getElementById('linearchart');
+    var piechart = document.getElementById('piechart');
+    linearchart.style.display = 'none';
+    piechart.style.display = 'none';
+
+    function afficherPiechart(){
+        piechart.style.display = '';
+        linearchart.style.display = 'none';
+
+    }
+
+    function afficherLinearChart(){
+        linearchart.style.display = '';
+        piechart.style.display = 'none';
+
+    }
+
+</script>
+
+
+</body>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+var input, filter, ul, li, a, i;
+input = document.getElementById("myInput");
+filter = input.value.toUpperCase();
+div = document.getElementById("myDropdown");
+a = div.getElementsByTagName("a");
+for (i = 0; i < a.length; i++) {
+txtValue = a[i].textContent || a[i].innerText;
+if (txtValue.toUpperCase().indexOf(filter) > -1) {
+a[i].style.display = "";
+} else {
+a[i].style.display = "none";
+}
+}
+}
+</script>
+
+<!-- Section Piechart -->
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+            ['% de la population mondiale', 'catégorie financière ($US)'],
+            ['< 10 000$',     73.3],
+            ['110 000 à 100,000',      18.5],
+            ['100 000 à 1 millon',  7.5],
+            ['1 million', 0.7]
+        ]);
+
+        var options = {
+            title: 'Exercise 3'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+    }
+</script>
+
+<!-- Section Ligne courbe (Linear Chart) -->
+
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Year', 'Sales', 'Expenses'],
+            ['2004',  1000,      400],
+            ['2005',  1170,      460],
+            ['2006',  660,       1120],
+            ['2007',  1030,      540]
+        ]);
+
+        var options = {
+            title: 'Source de stress en fonction de votre âge',
+            curveType: 'function',
+            legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('linearchart'));
+
+        chart.draw(data, options);
+    }
+</script>
+
+</html>
