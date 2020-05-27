@@ -4,26 +4,30 @@
  *
  */
 import React from "react";
+
 import Button from "react-bootstrap/Button";
-import {Container} from "react-bootstrap";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 export class Deconnexion extends React.Component {
-    handleDeconnexion() {
+    constructor(props) {
+        super(props);
+        this.handleDeconexion = this.handleDeconexion.bind(this);
+    }
+
+    handleDeconexion() {
+
+        // Ceci retourne un erreur 'cannot read property' 
+        //Regarde le fichier Accueiil. ton erreur est la
         this.props.onClick(false);
     }
+
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col>
-                        <Button variant="primary" onClick={() => this.handleDeconnexion()}>
-                            Déconnexion
-                        </Button>
-                    </Col>
-                </Row>
-            </Container>
+            // <div className="d-flex justify-content-end">
+            <Button variant="danger" onClick={this.handleDeconexion}>
+                Déconnexion
+            </Button>
+            // </div>
+
 
         );
     }
