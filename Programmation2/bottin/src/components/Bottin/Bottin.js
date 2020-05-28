@@ -146,7 +146,7 @@ export class Bottin extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {  recherche: "", listeDesEmployes : tabEmployes };
+        this.state = {recherche: "", listeDesEmployes: tabEmployes};
         this.Recherche = this.Recherche.bind(this);
 
         this.listeEmployes = this.listeEmployes.bind(this);
@@ -154,36 +154,57 @@ export class Bottin extends React.Component {
 
     }
 
-    Recherche(){
+    Recherche() {
         let nom = document.getElementById('inputRechercher').value;
-        this.setState({rechercher:""});
-    }
-    Effacer(){
-        document.getElementById('inputRechercher').value = "";
-        this.setState({rechercher:""});
+        if (nom.value > 1) {
+            let boutonAnnuler = document.getElementById('btnAnnuler');
+            boutonAnnuler.style.display = '';
+        }
+        this.setState({rechercher: ""});
     }
 
-    Header(){
-        return(
-            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">Bottin des Employés</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto d-flex align-items-center">
-                        <Form inline>
-                            <FormControl type="text" placeholder="Rechercher" id="inputRechercher" className="mr-sm-2" onChange={this.Rechercher} />
-                            <Button variant="outline-success" onClick={this.Recherche}>Recherche</Button>
-                            <Button variant="outline-info" onClick={this.Effacer} className="ml-2">Annuler</Button>
-                        </Form>
-                    </Nav>
-                    <Form>
-                        <Button variant="dark" className="mr-2">Ajouter employé</Button>
-                    </Form>
-                    <Deconnexion onClick={this.verifierConnexion}/>
-                </Navbar.Collapse>
-            </Navbar>
-        )
+    Effacer() {
+        document.getElementById('inputRechercher').value = "";
+        this.setState({rechercher: ""});
     }
+
+    // btnEffacer(){
+    //     let motRecherche = document.getElementById('inputRechercher').value;
+    //     if (motRecherche.value > 1){
+    //         this.btnEffacer.append(`
+    //     <Button variant="outline-info" display="hide" id="btnAnnuler" onClick={this.Effacer} className="ml-2">Annuler</Button>`);
+    // }
+
+    // Section du Header
+
+      Header(filterResult) {
+            const filterResults = (input) => {
+                console.log(input);
+            }
+            return (
+                <Navbar bg="light" expand="lg">
+                    <Navbar.Brand href="#home">Bottin des Employés</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto d-flex align-items-center">
+                            <Form className="search form-inline my-2 my-lg-0">
+                                <input type="search" className="form-control mr-sm-2" placeholder="Rechercher"
+                                       aria-label={'Rechercher'} id="inputRechercher"
+                                       onChange={(e) => console.log(e.target.value)}/>
+                                <Button variant="success" onClick={this.Recherche}>Recherche</Button>
+                                <Button type="button" id="btnAnnuler" onClick={this.Effacer}
+                                        className="ml-2 display">Annuler</Button>
+                            </Form>
+                        </Nav>
+                        <Form>
+                            <Button variant="dark" className="mr-2">Ajouter employé</Button>
+                        </Form>
+                        <Deconnexion onClick={this.verifierConnexion}/>
+                    </Navbar.Collapse>
+                </Navbar>
+            )
+        }
+
 
     listeEmployes() {
 
@@ -201,7 +222,7 @@ export class Bottin extends React.Component {
                                 alt={element.alt}
                                 adresse={element.adresse}>
 
-                        </Employe>)}
+                        </Employe>)}    
 
             </Row>)
     }
