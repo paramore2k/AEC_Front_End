@@ -13,6 +13,8 @@ import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import {Deconnexion} from "../Deconnexion/Deconnexion";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 
 
 
@@ -146,52 +148,40 @@ export class Bottin extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {recherche: "", listeDesEmployes: tabEmployes};
-        this.Recherche = this.Recherche.bind(this);
+        this.state = {rechercher: "", listeDesEmployes: tabEmployes};
+        this.Rechercher = this.Rechercher.bind(this);
 
         this.listeEmployes = this.listeEmployes.bind(this);
         this.Effacer = this.Effacer.bind(this);
 
     }
 
-    Recherche() {
+    Rechercher() {
         let nom = document.getElementById('inputRechercher').value;
-        if (nom.value > 1) {
-            let boutonAnnuler = document.getElementById('btnAnnuler');
-            boutonAnnuler.style.display = '';
-        }
-        this.setState({rechercher: ""});
+        this.setState({rechercher:nom});
     }
 
-    Effacer() {
-        document.getElementById('inputRechercher').value = "";
-        this.setState({rechercher: ""});
-    }
 
-    // btnEffacer(){
-    //     let motRecherche = document.getElementById('inputRechercher').value;
-    //     if (motRecherche.value > 1){
-    //         this.btnEffacer.append(`
-    //     <Button variant="outline-info" display="hide" id="btnAnnuler" onClick={this.Effacer} className="ml-2">Annuler</Button>`);
-    // }
+    Effacer(){
+        document.getElementById('inputRechercher').value = ""
+        this.setState({rechercher:""});
+
+    }
 
     // Section du Header
 
-      Header(filterResult) {
-            const filterResults = (input) => {
-                console.log(input);
-            }
+      Header() {
             return (
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="light">
                     <Navbar.Brand href="#home">Bottin des Employés</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto d-flex align-items-center">
                             <Form className="search form-inline my-2 my-lg-0">
-                                <input type="search" className="form-control mr-sm-2" placeholder="Rechercher"
-                                       aria-label={'Rechercher'} id="inputRechercher"
-                                       onChange={(e) => console.log(e.target.value)}/>
-                                <Button variant="success" onClick={this.Recherche}>Recherche</Button>
+                                <input className="form-control mr-sm-2" placeholder="Rechercher"
+                                       aria-label='Rechercher' id='inputRechercher'
+                                       onChange={this.Rechercher}/>
+                                <Button variant="success" onClick={this.Rechercher}>Recherche</Button>
                                 <Button type="button" id="btnAnnuler" onClick={this.Effacer}
                                         className="ml-2 display">Annuler</Button>
                             </Form>
@@ -207,25 +197,43 @@ export class Bottin extends React.Component {
 
 
     listeEmployes() {
+        if (this.state.rechercher === "") {
 
-        return (
+            return  this.state.listeDesEmployes.map((element,i) =>
 
-            <Row>
-                {
-                    tabEmployes.map((element, i) =>
-                        <Employe key={"bottin" + i}
-                                src={element.src}
-                                nom={element.nom}
-                                metier={element.metier}
-                                courriel={element.courriel}
-                                tel={element.tel}
-                                alt={element.alt}
-                                adresse={element.adresse}>
+                <Employe
+                    key={"bottin" + i}
+                    src={element.src}
+                    nom={element.nom}
+                    metier={element.metier}
+                    courriel={element.courriel} 
+                    tel={element.tel}
+                    alt={element.alt}
+                    adresse={element.adresse}>
 
-                        </Employe>)}    
+                </Employe>
+                    )
 
-            </Row>)
-    }
+        }
+
+    else {
+            const searchResult = this.state.listeDesEmployes.filter(l => l.nom.toLowerCase().includes(this.state.rechercher.toLowerCase()));
+            return searchResult.map((element, i) => (
+
+                <Employe
+                    key={"bottin" + i}
+                    src={element.src}
+                    nom={element.nom}
+                    metier={element.metier}
+                    courriel={element.courriel}
+                    tel={element.tel}
+                    alt={element.alt}
+                    adresse={element.adresse}>
+
+                </Employe>
+                ))
+        }
+}
 
 
 
@@ -233,7 +241,9 @@ export class Bottin extends React.Component {
         return  (
             <>
                 {this.Header()}
+                <Row>
                 {this.listeEmployes()}
+                </Row>
             </>
         );
 

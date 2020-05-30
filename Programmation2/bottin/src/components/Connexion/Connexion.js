@@ -24,7 +24,7 @@ export class Connexion extends React.Component {
 
     render() {
         return (
-            <Container>
+
                 <Row className="justify-content-center mt-5">
                     <Col lg="6">
                         <h4 className="text-center my-5">Connection au bottin des employés</h4>
@@ -42,7 +42,7 @@ export class Connexion extends React.Component {
 
                     </Col>
                 </Row>
-            </Container>
+
         );
     }
 }
