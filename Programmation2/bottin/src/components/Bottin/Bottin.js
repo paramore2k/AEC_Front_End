@@ -10,16 +10,12 @@ import Row from "react-bootstrap/Row";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import {Deconnexion} from "../Deconnexion/Deconnexion";
-import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import {Ajouter} from "../Ajout/Ajouter";
 
-
-
-
-var tabEmployes = [
+const tabEmployes = [
     {
         id: 1,
         src: ("https://via.placeholder.com/150"),
@@ -148,23 +144,34 @@ export class Bottin extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {rechercher: "", listeDesEmployes: tabEmployes};
+        this.state = {rechercher: "", listeDesEmployes: tabEmployes, reset:false};
         this.Rechercher = this.Rechercher.bind(this);
-
         this.listeEmployes = this.listeEmployes.bind(this);
-        this.Effacer = this.Effacer.bind(this);
+        this.btnEffacer = this.btnEffacer.bind(this);
+        this.ResetSearch = this.ResetSearch.bind(this);
 
+    }
+
+
+    ResetSearch(){
+        document.getElementById('inputRechercher').value='';
+        this.setState({rechercher:""})
     }
 
     Rechercher() {
         let nom = document.getElementById('inputRechercher').value;
-        this.setState({rechercher:nom});
+        console.log(nom.length);
+        if (nom.length > 0) {
+            this.setState({rechercher: nom});
+        }
+
     }
 
 
-    Effacer(){
-        document.getElementById('inputRechercher').value = ""
-        this.setState({rechercher:""});
+    btnEffacer(){
+        return(
+            <Button variant="outline-success" className="ml-1" type="button" onClick={this.ResetSearch}>Effacer</Button>
+        )
 
     }
 
@@ -172,18 +179,18 @@ export class Bottin extends React.Component {
 
       Header() {
             return (
+                <Row>
+                    <Col>
                 <Navbar bg="light">
                     <Navbar.Brand href="#home">Bottin des Employés</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto d-flex align-items-center">
-                            <Form className="search form-inline my-2 my-lg-0">
+                        <Nav className="m-auto d-flex justify-content-center">
+                            <Form className="search form-inline my-2 my-lg-0" id="SearchForm" onSubmit={e => {e.preventDefault()}}>
                                 <input className="form-control mr-sm-2" placeholder="Rechercher"
                                        aria-label='Rechercher' id='inputRechercher'
-                                       onChange={this.Rechercher}/>
-                                <Button variant="success" onClick={this.Rechercher}>Recherche</Button>
-                                <Button type="button" id="btnAnnuler" onClick={this.Effacer}
-                                        className="ml-2 display">Annuler</Button>
+                                       />
+                                <Button variant="success" type="button" onClick={this.Rechercher}>Recherche</Button>
                             </Form>
                         </Nav>
                         <Form>
@@ -192,6 +199,8 @@ export class Bottin extends React.Component {
                         <Deconnexion onClick={this.verifierConnexion}/>
                     </Navbar.Collapse>
                 </Navbar>
+                    </Col>
+                </Row>
             )
         }
 
@@ -229,7 +238,6 @@ export class Bottin extends React.Component {
                     tel={element.tel}
                     alt={element.alt}
                     adresse={element.adresse}>
-
                 </Employe>
                 ))
         }

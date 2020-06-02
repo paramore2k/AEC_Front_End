@@ -8,8 +8,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import { Connexion } from "../Connexion/Connexion";
 import { Bottin } from "../Bottin/Bottin";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 
 
 
@@ -29,7 +28,7 @@ export class Accueil extends React.Component {
     gererConnection() {
         if (this.state.connected) {
             return (
-                    <Container>
+                <Container>
 
                         <Bottin />
 

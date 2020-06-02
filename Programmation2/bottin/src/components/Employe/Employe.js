@@ -18,7 +18,7 @@ export class Employe extends React.Component {
     render() {
         return (
 
-        <Col lg="3" xl={2} md={4} className="mt-3">
+        <Col lg="3" xl="2" md="3" className="mt-3">
             <Card className="h-100 bg-light">
                 <Card.Img variant="top" src={this.props.src} alt={this.props.alt}/>
                 <div className="card-body">
@@ -28,7 +28,6 @@ export class Employe extends React.Component {
                     <ListGroup className="list-group-flush small">
                         <ListGroupItem><b>Courriel:</b> <p className="small float-left">{this.props.courriel}</p></ListGroupItem>
                         <ListGroupItem><b>Tél:</b> <p className="small">{this.props.tel}</p></ListGroupItem>
-                        <ListGroupItem><b>Adresse:</b> <p className="small">{this.props.adresse}</p></ListGroupItem>
                     </ListGroup>
             </Card>
         </Col>
