@@ -1,0 +1,8 @@
+body,html{
+background-color: rgb(16,16,16);
+background-image: none;
+
+}
+.filtered{
+    filter: blur(5px);
+}

@@ -1,0 +1,11 @@
+body, html{
+    height: 100%;
+    background-image: url("../img/microphone-2130806_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg {
+    background: rgba(40, 40, 40, .7);
+}
