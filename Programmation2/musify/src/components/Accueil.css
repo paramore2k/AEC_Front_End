@@ -1,0 +1,11 @@
+body, html{
+    height: 100%;
+    /*background-color: rgba(46, 49, 49, 1) !important;*/
+    background-image: none !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg1{
+    background-color: rgba(236, 236, 236, 1) !important;
+}

@@ -3,6 +3,20 @@ background-color: rgb(16,16,16);
 background-image: none;
 
 }
-.filtered{
-    filter: blur(5px);
+
+ul, li{
+    list-style-type: none;
 }
+li {
+    display: inline;
+}
+.fallback-text{
+    opacity: .1;
+}
+.lyrics {
+    text-shadow: 5px 5px black;
+}
+
+
+
+

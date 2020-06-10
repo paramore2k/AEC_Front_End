@@ -3,8 +3,9 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import './Connexion.css';
+import Logo from '../img/logo_spotify_black_100.png';
 
-import { Col, Row, Container } from "react-bootstrap";
+import {Col, Row, Container, Image} from "react-bootstrap";
 
 export class Connexion extends React.Component {
     constructor(props) {
@@ -24,10 +25,11 @@ export class Connexion extends React.Component {
 
     render() {
         return (
-            <Container>
-                <Row className="pt-5 mx-5 mt-5">
-                    <Col lg="6" className="align-items-center py-5 mx-auto mt-5 justify-content-center mx-auto bg">
-                        <h4 className="text-center m-auto text-white">Connexion à Musify</h4>
+            <Container className={"justify-content-center h-100 mx-auto"}>
+                <Row className=" pt-5 mx-5 mt-5 h-100">
+                    <Col lg="6" className="py-5 mx-auto mt-5 bg">
+
+                        <h4 className="text-center m-auto text-white"><Image src={Logo}/> Musify</h4>
                         <Form>
                             <Form.Group>
                                 <Form.Label className={"text-white"}>Identifiant</Form.Label>
@@ -39,10 +41,12 @@ export class Connexion extends React.Component {
                                 <Form.Label className={"text-white"}>Mot de passe</Form.Label>
                                 <Form.Control type="password" placeholder="Entrez votre Mot de passe" id="password"/>
                             </Form.Group>
+                            <Col className={"text-center"}>
+                                <Button type="submit" variant="" onClick={this.handleConnection} className={"btn bg-btn text-white p-2 text-uppercase text-center mt-3 mx-auto"}>
+                                    Se connecter
+                                </Button>
+                            </Col>
 
-                            <Button type="submit" variant="primary" onClick={this.handleConnection}>
-                                Soumettre
-                            </Button>
                         </Form>
                     </Col>
                 </Row>

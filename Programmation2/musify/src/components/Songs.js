@@ -5,34 +5,43 @@
  */
 import React from "react";
 
-const tabChansons = [
-    {
-        id: 1,
-        chansons: "01.test"
-    },
-    {
-        id: 2,
-        chansons: "02.test"
-    },
-    {
-        id: 3,
-        chansons: "02.test"
-    },
-    {
-        id: 4,
-        chansons: "02.test"
-    },
-    {
-        id: 5,
-        chansons: "02.test"
-    }
 
-]
 
 
 export class Songs extends React.Component {
 
     constructor(props) {
         super(props);
+        this.state = {hovered: false }
+
+    }
+    render() {
+        return(
+            <>
+                <div onClick={()=> this.props.onClick(true)} className={"text-white"}
+                     onMouseOver={() => this.setState({hovered: true})}
+                     onMouseOut={() => this.setState({hovered: false})}
+                     style={this.state.hovered ? filtered : null}>
+                    <div>
+                    {this.props.chanson}
+                    </div>
+                </div>
+
+
+
+
+            </>
+        )
     }
 }
+
+const filtered = {
+
+    filter: 'drop-shadow(0 0 0.60rem green)',
+    border: 'darkblack',
+    borderWidth: '3em',
+    borderColor: 'black',
+
+}
+
+

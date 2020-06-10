@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Accueil.css';
 import {Container, Row} from "react-bootstrap";
 import {Accueil} from "./Accueil";
 

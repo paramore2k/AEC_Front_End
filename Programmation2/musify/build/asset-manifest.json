@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca418a70.chunk.css",
+    "main.js": "/static/js/main.71d54156.chunk.js",
+    "main.js.map": "/static/js/main.71d54156.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d08b86a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d08b86a.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.8a2e400e.chunk.js": "/static/js/2.8a2e400e.chunk.js",
+    "static/js/2.8a2e400e.chunk.js.map": "/static/js/2.8a2e400e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.64156739f2fdf97201b408688b596a1b.js": "/precache-manifest.64156739f2fdf97201b408688b596a1b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ca418a70.chunk.css.map": "/static/css/main.ca418a70.chunk.css.map",
+    "static/js/2.8a2e400e.chunk.js.LICENSE.txt": "/static/js/2.8a2e400e.chunk.js.LICENSE.txt",
+    "static/media/chvrches-love_is_dead.jpg": "/static/media/chvrches-love_is_dead.2284ae7c.jpg",
+    "static/media/david_jalbert.jpg": "/static/media/david_jalbert.3909fe16.jpg",
+    "static/media/godsmack-when_legends_rise.jpg": "/static/media/godsmack-when_legends_rise.a89620c0.jpg",
+    "static/media/Connexion.css": "/static/media/microphone-2130806_1920.49c7c1da.jpg",
+    "static/media/paramore-riot.jpg": "/static/media/paramore-riot.9ebb2c14.jpg",
+    "static/media/phantom.jpg": "/static/media/phantom.7643115b.jpg",
+    "static/media/roxane_bruneau.jpg": "/static/media/roxane_bruneau.147f4f3e.jpg",
+    "static/media/skillet.jpg": "/static/media/skillet.f3047a38.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d08b86a.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.8a2e400e.chunk.js",
+    "static/css/main.ca418a70.chunk.css",
+    "static/js/main.71d54156.chunk.js"
+  ]
+}
