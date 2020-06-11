@@ -9,6 +9,7 @@ import React from "react";
 import {Card, CardImg} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import './Catalogue.css';
+import playBtn from '../img/play-icon.png';
 
 
 export class Album extends React.Component {
@@ -35,6 +36,11 @@ export class Album extends React.Component {
                                   onClick={()=>this.handleOnClick()}>
 
                                 <CardImg className="card-img img-fluid top" src={this.props.src}/>
+                                <img src={playBtn} alt={"play-button"} className={"play-btn"}
+                                     onMouseOver={() => this.setState({hovered: true})}
+                                     onMouseOut={() => this.setState({hovered: false})}
+                                style={this.state.hovered ? playbtn : null}/>
+
 
 
                                 <div className="card-body text-center">
@@ -51,12 +57,22 @@ export class Album extends React.Component {
         }
 }
 const filtered = {
-    position: 'relative',
+    // paddingBottom: '1.5em',
+    // paddingTop: '1.5em',
+
+    zIndex: '1',
+    transform: 'translate(0,-1em)',
+    transition: '.4s',
     pointer: 'cursor',
     filter: 'drop-shadow(0 0 0.60rem green)',
     border: 'darkblack',
     borderWidth: '.3em',
     borderColor: 'black',
+}
+const playbtn = {
+    display: 'block',
 
+    transform: 'scale(1.2)',
+    transition: '5s ease !important',
 }
 

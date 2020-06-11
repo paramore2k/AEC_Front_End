@@ -16,7 +16,24 @@ li {
 .lyrics {
     text-shadow: 5px 5px black;
 }
+.play-btn{
+    display: none;
+    position: absolute;
+    top: 20%;
+    color: white;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    vertical-align: center;
+}
+.play-btn :hover{
+    display: block;
+    transform: scale(1.1);
+    transition-duration: 3s;
+    transition: ease;
 
+}
 
 
 
