@@ -1,0 +1,38 @@
+html,body{
+    margin:0;
+    height: 100%;
+}
+.bg
+{
+    background-image: url("../medias/sw.jpg");
+
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+hr{
+    max-width: 50px;
+    border-width: 6px;
+    border-color: #ffffff;
+}
+
+.bgOrange{
+    background-color: orangered;
+}
+.grosseMarge{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.hrOrange{
+    max-width: 50px;
+    border-width: 6px;
+    border-color: orangered;
+}
+
+
+h1,p{
+    color:white;
+}
+
