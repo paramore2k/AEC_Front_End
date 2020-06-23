@@ -1,7 +1,8 @@
 {
   "name": "musify",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "./",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
