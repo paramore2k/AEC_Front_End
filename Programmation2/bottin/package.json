@@ -2,7 +2,7 @@
   "name": "bottin",
   "version": "0.1.0",
   "private": false,
-  "homepage": ".",
+  "homepage": "https://paramore2k.github.io/AEC_Front_End/Programmation2/bottin",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
