@@ -2,7 +2,7 @@
   "name": "musify",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://paramore2k.github.io/AEC_Front_End/Programmation2/musify",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
