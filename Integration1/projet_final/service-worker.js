@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v4';
+const CACHE_NAME = 'static-cache-v5';
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
     'offline.html',
@@ -35,8 +35,6 @@ self.addEventListener('install', (evt) => {
     self.skipWaiting();
 });
 
-//Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v4';
 self.addEventListener('activate', (evt) => {
     console.log('[ServiceWorker] Activate');
     //Remove previous cached data from disk.
