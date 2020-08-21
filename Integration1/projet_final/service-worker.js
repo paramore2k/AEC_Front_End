@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v2';
+const CACHE_NAME = 'static-cache-v3';
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
 ];
@@ -35,7 +35,7 @@ self.addEventListener('install', (evt) => {
 });
 
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v2';
+const CACHE_NAME = 'static-cache-v3';
 self.addEventListener('activate', (evt) => {
     console.log('[ServiceWorker] Activate');
     //Remove previous cached data from disk.
@@ -66,7 +66,7 @@ self.addEventListener('fetch', (evt) => {
             .catch(() => {
                 return caches.open(CACHE_NAME)
                     .then((cache) => {
-                        return cache.match('/AEC_Front_End/Integration1/projet_final/offline.html' );
+                        return cache.match('/AEC_Front_End/Integration1/projet_final/index.html' );
                     });
             })
     );
