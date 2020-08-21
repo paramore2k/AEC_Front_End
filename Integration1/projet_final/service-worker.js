@@ -1,7 +1,12 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v3';
+const CACHE_NAME = 'static-cache-v4';
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
+    'offline.html',
+    'index.html',
+    'contact.html',
+    'discographie.html'
+
 ];
 self.addEventListener('install', (evt) => {
     console.log('[ServiceWorker] Install');
@@ -18,10 +23,6 @@ self.addEventListener('fetch', (evt) => {
     //Add fetch event handler here.
 });
 
-//Add list of files to cache here.
-const FILES_TO_CACHE = [
-    'offline.html',
-];
 self.addEventListener('install', (evt) => {
     console.log('[ServiceWorker] Install');
     // Precache static resources here.
@@ -35,7 +36,7 @@ self.addEventListener('install', (evt) => {
 });
 
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v3';
+const CACHE_NAME = 'static-cache-v4';
 self.addEventListener('activate', (evt) => {
     console.log('[ServiceWorker] Activate');
     //Remove previous cached data from disk.
@@ -66,7 +67,7 @@ self.addEventListener('fetch', (evt) => {
             .catch(() => {
                 return caches.open(CACHE_NAME)
                     .then((cache) => {
-                        return cache.match('/AEC_Front_End/Integration1/projet_final/index.html' );
+                        return cache.match('/paramore2k.github.io/AEC_Front_End/Integration1/projet_final/offline,html' );
                     });
             })
     );
