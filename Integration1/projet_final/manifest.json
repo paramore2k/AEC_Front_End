@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "favicon-16x16.png",
+      "src": "/AEC_Front_End/Integration1/projet_final/favicon-16x16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "favicon-96x96.png",
+      "src": "/AEC_Front_End/Integration1/projet_final/favicon-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     }
   ],
-  "start_url": ".",
+  "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
 }
