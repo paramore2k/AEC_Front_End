@@ -5,6 +5,10 @@
  */
 import React from "react";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+
+
 export class PersonnageV1 extends React.Component {
     constructor(props) {
         super(props);
@@ -12,19 +16,39 @@ export class PersonnageV1 extends React.Component {
     }
 
     // Monter le api pour aller chercher les données
-    componentDidMount(){
-        fetch('https://swapi.dev/api/people/5/')
+    async componentDidMount(){
+
+        await fetch('https://swapi.dev/api/people/1')
             .then(res => res.json())
             .then(json => this.setState({ data: json }));
+        let tabMP = [];
+        for (let i=0;i<json.length;i++){
+            console.log(data);
+        }
     }
+
     render() {
         console.log(this.state.data);
-        return(
-            <>
-                <h1>{this.state.data.name}</h1>
+            return (
+
+                <>
+                    <Container>
+                        <Row>
+                            <div>
+                                <ul>
+
+                                    {Object.keys(this.state.data).map((key, i) =>
+                                        <li key={key}>{this.state.data[key]}</li>
+                                    )}
+
+                                </ul>
+                            </div>
+
+                        </Row>
+                    </Container>
 
                 </>
-        )
-    }
+            )
+        }
 
 }
