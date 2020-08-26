@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0ccdecd-46a4-4af1-bf5b-0ed6f4f0b9ca" name="Default Changelist" comment="Static Cache V2">
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/media/Blog_title_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/media/Jevelin-logov1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/media/Logo_dark_2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/navigation.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/navigation.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/BlogSass/sass/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/medias/est.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/medias/nord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/medias/ouest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/medias/sud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/.idea/api_exemple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/banner_error_404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/Albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PageNotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageComplet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/backarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/Albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/Catalogue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/DetailsAlbum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/deezer/src/components/SingleAlbum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Accueil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Carte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/ExempleLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/components/Video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/banner_error_404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/AjouterFilm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/Albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/BoutonAjouterFilm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/Film.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/FilmComplet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/Films.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/ManageFilms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/MenuSansPostBack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/PageNotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/components/Pokemons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/tools/apiServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/tools/createMockDb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/tools/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation2/mockapi/tools/mockData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration2/Exercice1Sass/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/Perso.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/Perso.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/components/PersonnageV4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/api_exemple/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/Accueil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/Carte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/Photos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/components/Video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/helloroutersworld/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2/rebradly/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/rebradly/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gNo1E6LfMvfe8aFmaMl2nsiJSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Integration1\projet_final\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\Documents\GitHubProjects\AEC_Front_End\Integration1\projet_final" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0ccdecd-46a4-4af1-bf5b-0ed6f4f0b9ca" name="Default Changelist" comment="" />
+      <created>1597964193344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597964193344</updated>
+      <workItem from="1597964194827" duration="6974000" />
+      <workItem from="1598099416807" duration="606000" />
+    </task>
+    <task id="LOCAL-00001" summary="Manifest">
+      <created>1597965455066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597965455066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Manifest">
+      <created>1597965985071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597965985071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Manifest">
+      <created>1597966191073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597966191073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Manifest">
+      <created>1597966326321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597966326321</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Service Worker">
+      <created>1597967981425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597967981425</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Service Worker">
+      <created>1597968572271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597968572271</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Static Cache V2">
+      <created>1597968600226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597968600226</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Static Cache V2">
+      <created>1597968967819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597968967819</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Static Cache V2">
+      <created>1597969234706</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597969234706</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Static Cache V2">
+      <created>1597971318071</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597971318071</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Static Cache V2">
+      <created>1597971644128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597971644128</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Static Cache V2">
+      <created>1597971919554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597971919554</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Static Cache V2">
+      <created>1597972337512</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597972337512</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Manifest" />
+    <MESSAGE value="Service Worker" />
+    <MESSAGE value="Static Cache V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static Cache V2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2492" y="107" key="CommitChangelistDialog2" timestamp="1597972336600">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2492" y="107" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1597972336600" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597972338792">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1597972338792" />
+  </component>
+</project>
