@@ -1,21 +1,24 @@
 {
-  "short_name": "CHVRCHES",
-  "name": "CHVRCHES Projet Final",
+  "short_name": "Projet PWA",
+  "name": "Projet Final PWAs",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "96x96 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "/AEC_Front_End/Integration1/projet_final/favicon-16x16.png",
       "type": "image/png",
-      "sizes": "16x16"
+      "sizes": "16x16",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/AEC_Front_End/Integration1/projet_final/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "any maskable"
     },
     {
       "src": "/AEC_Front_End/Integration1/projet_final/favicon-96x96.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "96x96",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "index.html",

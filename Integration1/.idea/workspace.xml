@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/projet_final/js/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/js/install.js" afterDir="false" />
+    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="Corrections de install.js">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <workItem from="1584056051945" duration="6394000" />
       <workItem from="1584189250563" duration="66000" />
       <workItem from="1584796141144" duration="62957000" />
-      <workItem from="1598708279080" duration="38000" />
+      <workItem from="1598708279080" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -334,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585396156849</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Corrections de install.js">
+      <created>1598708373539</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598708373539</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +364,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Commit JeMePresenteV1 Complet" />
     <MESSAGE value="Commit des mes images" />
     <MESSAGE value="JeMePresente Upgrade avec balises media + lien vers version alternative" />
     <MESSAGE value="Corrections JeMePresente et ajustements JeMePresenteV1" />
@@ -379,46 +388,17 @@
     <MESSAGE value="proje_final - discographie v3 - accueil v2" />
     <MESSAGE value="proje_final - discographie v4 - accueil v3" />
     <MESSAGE value="Added examen final prog + corrige casse-tete et corrige-formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examen final prog + corrige casse-tete et corrige-formulaire" />
+    <MESSAGE value="Corrections de install.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections de install.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946082809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2427" y="88" key="CommitChangelistDialog2" timestamp="1598712402505">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576946082809" />
-    <state x="584" y="115" key="CommitChangelistDialog2" timestamp="1585411304481">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2427" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598712402505" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598708374961">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="438" y="49" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1585134355712" />
-    <state x="584" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585411304481" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576937667008">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576937667008" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585266417952">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585266417952" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584882484102">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584882484102" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585411306853">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="210" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1585134358481" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585411306853" />
-    <state x="713" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1585396238529">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="713" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585396238529" />
-    <state x="-5" y="75" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579957191847">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-5" y="75" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579957191847" />
-    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579921242878">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="607" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579921242878" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598708374961" />
   </component>
 </project>
