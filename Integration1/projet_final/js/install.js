@@ -1,32 +1,17 @@
 let deferredInstallPrompt = null;
 const installButton = document.getElementById('butInstall');
 installButton.addEventListener('click', installPWA);
-// CODELAB: Add event listener for beforeinstallprompt event
-// Add event listener for beforeinstallprompt event
-window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
 
-/**
- * Event handler for beforeinstallprompt event.
- * Saves the event & shows install button.
- *
- * @param {Event} evt
- */
-function saveBeforeInstallPromptEvent(evt) {
+// Add event listener for beforeinstallprompt event
+window.addEventListener('beforeinstallprompt', afficherLeBouton);
+
+
+function afficherLeBouton(evt) {
     // CODELAB: Add code to save event & show the install button.
     deferredInstallPrompt = evt;
     installButton.removeAttribute('hidden');
 }
 
-
-/**
- * Event handler for butInstall - Does the PWA installation.
- *
- * @param {Event} evt
- /**
- * Event handler for butInstall - Does the PWA installation.
- *
- * @param {Event} evt
- */
 function installPWA(evt) {
     // Add code show install prompt & hide the install button.
     deferredInstallPrompt.prompt();
@@ -44,7 +29,9 @@ function installPWA(evt) {
             deferredInstallPrompt = null;
         });
 }
-// CODELAB: Add event listener for appinstalled event
+// Add event listener for appinstalled event
+window.addEventListener('appinstalled', logAppInstalled);
+
 /**
  * Event handler for appinstalled event.
  * Log the installation to analytics or save the event somehow.
@@ -52,7 +39,7 @@ function installPWA(evt) {
  * @param {Event} evt
  */
 function logAppInstalled(evt) {
-    // CODELAB: Add code to log the event
-    console.log('App was installed');
+    //  Add code to log the event
+    console.log('PointNClick App was installed via...', evt);
 
 }
