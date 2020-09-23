@@ -28,9 +28,6 @@ function App() {
       <Route path="/ajouterFilm" component={AjouterFilm}/>
       <Route path="/About" component={About}/>
       <Route component={PageNotFound}/>
-
-
-      {/* TODO: Section à propos pour remercier les endroits de leurs images */}
     </Switch>
     </>
   );
