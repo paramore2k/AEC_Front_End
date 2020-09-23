@@ -12,9 +12,6 @@ import {About} from "./About";
 import VoirFilm from "./VoirFilm";
 import {PageNotFound} from "./PageNotFound";
 
-
-
-
 function App() {
   let location = useLocation();
   console.log(location);
@@ -24,13 +21,15 @@ function App() {
 
     <MenuSansPostBack/>
     <Switch>
-      <Route exact path="/" component={Portfolio}/>
+      <Route exact path="/Accueil" component={Portfolio}/>
       <Route exact path="/Films" component={ManageDBHooks}/>
       <Route path="/Films/:id" component={FormEditerFilmHooks}/>
       <Route path="/VoirFilm" component={VoirFilm}/>
       <Route path="/ajouterFilm" component={AjouterFilm}/>
-      <Route component={PageNotFound} />
       <Route path="/About" component={About}/>
+      <Route component={PageNotFound}/>
+
+
       {/* TODO: Section à propos pour remercier les endroits de leurs images */}
     </Switch>
     </>

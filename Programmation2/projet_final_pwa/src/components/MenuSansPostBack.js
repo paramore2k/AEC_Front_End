@@ -11,12 +11,12 @@ export class MenuSansPostBack extends React.Component {
             <>
                 <Container>
                     <Navbar expand="lg" bg="dark" variant="dark">
-                        <Navbar.Brand href="/">Projet Final PWA</Navbar.Brand>
+                        <Navbar.Brand href={"/Accueil"}>Projet Final PWA</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="Films">Films</Nav.Link>
-                            <Nav.Link href="/ajouterFilm" className="mr-auto">Ajouter Film</Nav.Link>
+                            <Nav.Link href="/Films">Films</Nav.Link>
+                            <Nav.Link href="/ajouterFilm" className="mr-auto">Ajouter un Film</Nav.Link>
                             <Nav.Link href="/About" className="mr-auto">À Propos</Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
