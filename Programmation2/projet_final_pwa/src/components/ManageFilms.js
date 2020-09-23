@@ -33,7 +33,6 @@ export class ManageFilms extends React.Component {
 
     // Affichage de la page d'accueuil, page principal de la liste des films
     render() {
-        console.log(this.state);
         return (
             <Container>
             <Row className={"d-flex"}>

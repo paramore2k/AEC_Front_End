@@ -48,7 +48,7 @@ function ManageDBHooks() {
                     <h3 className={"mt-2 text-center"}>Bienvenue sur Prime</h3>
                 </Col>
 
-                    <ToastContainer/>
+                    <ToastContainer hideProgressBar/>
 
                     <Col lg={"12"} xs={"12"} md={"12"} className={"text-right my-2"}>
                         <a href="/ajouterFilm"><button className={"btn btn-primary"}><i className="fa fa-plus-square-o"/> Ajout Film</button></a>
