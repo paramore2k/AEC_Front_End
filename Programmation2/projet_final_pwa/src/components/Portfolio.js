@@ -80,7 +80,7 @@ export class Portfolio extends React.Component {
                             <ReactImageAppear animation="blurIn" animationDuration="2s" src={fast_furious} alt={"Fast And Furious"} className={"img-fluid img-thumbnail"}/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={outpost} animation="zoomIn" animationDuration="2s" placeholder={"http://getuikit.com/docs/images/placeholder_600x400.svg"} alt={"Outpost"} className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={outpost} animation="zoomIn" animationDuration="2s" alt={"Outpost"} className="img-fluid img-thumbnail"/>
                         </Col>
                     </Row>
                     <Row>
