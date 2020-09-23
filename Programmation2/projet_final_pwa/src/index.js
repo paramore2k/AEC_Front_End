@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.css';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router>
+      <Router basename={"/AEC_Front_End/Programmation2/projet_final_pwa/build/"}>
     <App />
       </Router>
   </React.StrictMode>,
