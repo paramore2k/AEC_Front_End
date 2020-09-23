@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {API} from "./constantes";
 import Image from "react-bootstrap/Image";
+import {Link} from "react-router-dom";
 
 function VoirFilm(props) {
 
@@ -45,9 +46,9 @@ function VoirFilm(props) {
             <>
                 <Container>
                     <Row>
-                        <Col lg={"12"} sm={"12"} md={"12"} className={"my-3"}><a href={"/Films"}>
+                        <Col lg={"12"} sm={"12"} md={"12"} className={"my-3"}><Link to="/Films">
                             <button className={"btn btn-primary"}>Retourner aux films</button>
-                        </a>
+                        </Link>
                             <h5 className={"mt-4 text-center"}>Informations du film <i>{getData.titre}</i></h5></Col>
                     </Row>
 

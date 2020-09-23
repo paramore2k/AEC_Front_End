@@ -5,6 +5,7 @@
  */
 
 import React from "react";
+import {Link} from "react-router-dom";
 import {toast} from "react-toastify";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -125,8 +126,8 @@ export class AjouterFilm extends React.Component {
         return (
             <>
                 <Container>
-                    <Col className={"mt-1 p-0"}><a href={"/Films"}>
-                        <button className={"btn btn-primary"}>Retourner aux films</button></a>
+                    <Col className={"mt-1 p-0"}><Link to={"/Films"}>
+                        <button className={"btn btn-primary"}>Retourner aux films</button></Link>
                     </Col>
                     <Row>
                      <Col lg={"12"} className={"my-2"}>

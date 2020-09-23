@@ -13,6 +13,7 @@ import Button from "react-bootstrap/Button";
 import {API} from "./constantes";
 import Image from "react-bootstrap/Image";
 import Cleave from 'cleave.js/react';
+import {Link} from "react-router-dom";
 
 
 
@@ -148,7 +149,7 @@ function FormEditerFilmHooks(props) {
         <>
             <Container>
                 <Row>
-                    <Col lg={"12"} className={"mt-3"}><a href={"/Films"}><button className={"btn btn-primary"}>Retourner aux films</button></a>
+                    <Col lg={"12"} className={"mt-3"}><Link to={"/Films"}><button className={"btn btn-primary"}>Retourner aux films</button></Link>
                         <h5 className={"my-3 pb-3 text-center"}>Édition du film <i>{getData.titre}</i></h5></Col>
                 </Row>
                 <Row>
