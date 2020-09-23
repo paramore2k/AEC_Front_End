@@ -21,7 +21,7 @@ function App() {
 
     <MenuSansPostBack/>
     <Switch>
-      <Route exact path="/Accueil" component={Portfolio}/>
+      <Route exact path="/" component={Portfolio}/>
       <Route exact path="/Films" component={ManageDBHooks}/>
       <Route path="/Films/:id" component={FormEditerFilmHooks}/>
       <Route path="/VoirFilm" component={VoirFilm}/>
