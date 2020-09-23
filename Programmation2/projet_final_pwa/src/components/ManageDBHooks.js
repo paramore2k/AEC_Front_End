@@ -4,6 +4,7 @@ import {Films} from "./Films";
 import {API} from "./constantes";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -51,7 +52,7 @@ function ManageDBHooks() {
                     <ToastContainer hideProgressBar/>
 
                     <Col lg={"12"} xs={"12"} md={"12"} className={"text-right my-2"}>
-                        <a href="/ajouterFilm"><button className={"btn btn-primary"}><i className="fa fa-plus-square-o"/> Ajout Film</button></a>
+                        <Link to="/ajouterFilm"><button className={"btn btn-primary"}><i className="fa fa-plus-square-o"/> Ajout Film</button></Link>
                     </Col>
             </Row>
             <Row>
