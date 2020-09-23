@@ -20,7 +20,7 @@ export class Films extends React.Component {
 
     async removeFilm() {
         try{
-            const response = fetch('http://localhost:3001/films/'+ this.props.id, {
+            const response = fetch('https://api.npoint.io/f0d07f8b699e0233b373'+ this.props.id, {
                 method:'delete',
             });
             if(response.ok){

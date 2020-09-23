@@ -17,7 +17,7 @@ export class ManageFilms extends React.Component {
     //Ajout de la gestion des erreurs
     async componentDidMount() {
         try {
-            const response = await fetch("https://api.npoint.io/f0d07f8b699e0233b373/");
+            const response = await fetch("https://jsonserv.herokuapp.com/films");
             const reponseDeApi = await response.json();
             this.setState({ donneesRecues: reponseDeApi });
             if (!response.ok) {
@@ -33,6 +33,7 @@ export class ManageFilms extends React.Component {
 
     // Affichage de la page d'accueuil, page principal de la liste des films
     render() {
+        console.log(this.state);
         return (
             <Container>
             <Row className={"d-flex"}>

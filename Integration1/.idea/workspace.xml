@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="Corrections de install.js">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Programmation2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_final/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet_final/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1584056051945" duration="6394000" />
       <workItem from="1584189250563" duration="66000" />
       <workItem from="1584796141144" duration="62957000" />
-      <workItem from="1598708279080" duration="1438000" />
+      <workItem from="1598708279080" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>
@@ -344,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598708373539</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Modification de manifest et ajout id dans navbar pour install pws">
+      <created>1598712992133</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1598712992133</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +369,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Commit des mes images" />
     <MESSAGE value="JeMePresente Upgrade avec balises media + lien vers version alternative" />
     <MESSAGE value="Corrections JeMePresente et ajustements JeMePresenteV1" />
     <MESSAGE value="Ajustement du bouton Version Alternative pour Info" />
@@ -389,16 +393,17 @@
     <MESSAGE value="proje_final - discographie v4 - accueil v3" />
     <MESSAGE value="Added examen final prog + corrige casse-tete et corrige-formulaire" />
     <MESSAGE value="Corrections de install.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections de install.js" />
+    <MESSAGE value="Modification de manifest et ajout id dans navbar pour install pws" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification de manifest et ajout id dans navbar pour install pws" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2427" y="88" key="CommitChangelistDialog2" timestamp="1598712402505">
+    <state x="2427" y="88" key="CommitChangelistDialog2" timestamp="1598712991320">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2427" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598712402505" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598708374961">
+    <state x="2427" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598712991320" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598712993675">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598708374961" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598712993675" />
   </component>
 </project>

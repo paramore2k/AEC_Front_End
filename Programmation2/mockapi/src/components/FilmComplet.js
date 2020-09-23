@@ -24,8 +24,6 @@ export class FilmComplet extends React.Component {
         this.handlePhoto = this.handlePhoto.bind(this);
         this.editFilm = this.editFilm.bind(this);
 
-
-
     }
 
     async componentDidMount() {

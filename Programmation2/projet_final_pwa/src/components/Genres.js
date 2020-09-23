@@ -5,10 +5,10 @@
  */
 
 import React from "react";
-import { Films } from "./Films";
 import {Container, Col, Row} from "react-bootstrap";
+import Select from "react-select";
 
-export class ManageFilms extends React.Component {
+export class Genres extends React.Component {
     constructor(props) {
         super(props);
         this.state = { donneesRecues: [] };
@@ -17,7 +17,7 @@ export class ManageFilms extends React.Component {
     //Ajout de la gestion des erreurs
     async componentDidMount() {
         try {
-            const response = await fetch("https://api.npoint.io/f0d07f8b699e0233b373/");
+            const response = await fetch("https://jsonserv.herokuapp.com/genres");
             const reponseDeApi = await response.json();
             this.setState({ donneesRecues: reponseDeApi });
             if (!response.ok) {
@@ -33,18 +33,13 @@ export class ManageFilms extends React.Component {
 
     // Affichage de la page d'accueuil, page principal de la liste des films
     render() {
+        
         return (
-            <Container>
-            <Row className={"d-flex"}>
-                <Col lg={"12"}>
-                <h2 className={"mt-2 text-center"}>Bienvenue sur Prime</h2>
-                </Col>
-                {this.state.donneesRecues.map((key,i) => (
+            <>
 
-                    <Films nom={key.name} id={key.id} key={key.name+key.id} toutLobjet={key} genre={key.genre} photo={key.picture}/>
-                ))}
-            </Row>
-            </Container>
+            </>
+
         );
     }
 }
+export default Genres;

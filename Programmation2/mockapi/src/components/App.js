@@ -16,31 +16,28 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 function App() {
-  let location = useLocation();
-  return (
-      <>
+    let location = useLocation();
+    return (
+        <>
+            <MenuSansPostBack/>
+            <Container>
+                <Row className="d-flex justify-content-between">
+                    <Col className={"text-right mt-2"}>
+                        {location.pathname !== "/ajouterFilm" && <BoutonAjouterFilm/>}
+                    </Col>
+                    <ToastContainer autoClose={3000} hideProgressBar />
+                </Row>
+            </Container>
 
-          <MenuSansPostBack/>
-
-          <Container>
-              <Row className="d-flex justify-content-between">
-            <Col className={"text-right mt-2"}>
-                {location.pathname !== "/ajouterFilm" && <BoutonAjouterFilm/>}
-            </Col>
-                  <ToastContainer autoClose={3000} hideProgressBar />
-              </Row>
-
-          </Container>
-
-        <Switch>
-          <Route path="/" exact={true} component={ManageFilmsHooks} />
-          <Route path="/ajouterFilm" component={AjouterFilm}/>
-          <Route path="/Films/:id" component={FilmComplet}/>
-          <Route component={PageNotFound} />
-        </Switch>
+            <Switch>
+                <Route path="/" exact={true} component={ManageFilmsHooks} />
+                <Route path="/ajouterFilm" component={AjouterFilm}/>
+                <Route path="/Films/:id" component={FilmComplet}/>
+                <Route component={PageNotFound} />
+            </Switch>
 
         </>
-  )
+    )
 
 }
 
