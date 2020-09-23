@@ -2,7 +2,7 @@
   "name": "projet_final_pwa",
   "version": "0.1.0",
   "private": false,
-  "homepage": "/AEC_Front_End/Programmation2/projetfinalreact/build/",
+  "homepage": ".",
   "dependencies": {
     "@popperjs/core": "^2.4.4",
     "@testing-library/jest-dom": "^4.2.4",
