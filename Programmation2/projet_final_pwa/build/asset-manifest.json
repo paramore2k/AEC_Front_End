@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/css/main.eaecce4a.chunk.css",
-    "main.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/main.b10a7d5b.chunk.js",
-    "main.js.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/main.b10a7d5b.chunk.js.map",
+    "main.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/main.7d1f2f90.chunk.js",
+    "main.js.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/main.7d1f2f90.chunk.js.map",
     "runtime-main.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/runtime-main.83d7b081.js",
     "runtime-main.js.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/runtime-main.83d7b081.js.map",
     "static/css/2.c5d7c604.chunk.css": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/css/2.c5d7c604.chunk.css",
-    "static/js/2.719d224e.chunk.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.719d224e.chunk.js",
-    "static/js/2.719d224e.chunk.js.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.719d224e.chunk.js.map",
+    "static/js/2.0dea3139.chunk.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.0dea3139.chunk.js",
+    "static/js/2.0dea3139.chunk.js.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.0dea3139.chunk.js.map",
     "index.html": "/AEC_Front_End/Programmation2/projet_final_pwa/build/index.html",
-    "precache-manifest.bc2b741467940b4c57cee835fa0a3443.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/precache-manifest.bc2b741467940b4c57cee835fa0a3443.js",
+    "precache-manifest.fb83ce30d4d4e22b0caedf9aa9739dbf.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/precache-manifest.fb83ce30d4d4e22b0caedf9aa9739dbf.js",
     "service-worker.js": "/AEC_Front_End/Programmation2/projet_final_pwa/build/service-worker.js",
     "static/css/2.c5d7c604.chunk.css.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/css/2.c5d7c604.chunk.css.map",
     "static/css/main.eaecce4a.chunk.css.map": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/css/main.eaecce4a.chunk.css.map",
-    "static/js/2.719d224e.chunk.js.LICENSE.txt": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.719d224e.chunk.js.LICENSE.txt",
+    "static/js/2.0dea3139.chunk.js.LICENSE.txt": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/js/2.0dea3139.chunk.js.LICENSE.txt",
     "static/media/abominable.jpg": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/media/abominable.284faf97.jpg",
     "static/media/ava_br.jpg": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/media/ava_br.20fdda8f.jpg",
     "static/media/banner_error_404.jpg": "/AEC_Front_End/Programmation2/projet_final_pwa/build/static/media/banner_error_404.29ae1727.jpg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.83d7b081.js",
     "static/css/2.c5d7c604.chunk.css",
-    "static/js/2.719d224e.chunk.js",
+    "static/js/2.0dea3139.chunk.js",
     "static/css/main.eaecce4a.chunk.css",
-    "static/js/main.b10a7d5b.chunk.js"
+    "static/js/main.7d1f2f90.chunk.js"
   ]
 }

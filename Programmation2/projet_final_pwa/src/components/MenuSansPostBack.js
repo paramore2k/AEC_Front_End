@@ -15,9 +15,9 @@ export class MenuSansPostBack extends React.Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link as={NavLink} href="/Films">Films</Nav.Link>
+                            <Link to="/Films">Films</Link>
                             <Link to="/ajouterFilm" className="mr-auto">Ajouter un Film</Link>
-                            <Nav.Link href="/About" className="mr-auto">À Propos</Nav.Link>
+                            <Link to="/About" className="mr-auto">À Propos</Link>
                         </Nav>
                         </Navbar.Collapse>
                     </Navbar>
