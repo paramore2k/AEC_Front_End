@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 import 'font-awesome/css/font-awesome.css';
 
@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.css';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router basename={"/AEC_Front_End/Programmation2/projet_final_pwa/build/"}>
+      <Router>
     <App />
       </Router>
   </React.StrictMode>,
