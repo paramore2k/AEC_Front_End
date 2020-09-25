@@ -1,8 +1,16 @@
+/* Section import pour google font */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,500&display=swap')
+body
+  margin: 0
+  font-family: Montserrat sans-serif
+// Section pour l'affichage des films en cartes
+h4 p
+  font-family: Karla sans-serif
 .card
   height: 100%
   display: flex
   >.card-body
-
+    font-weight: normal
     text-align: center
     max-width: 20rem
     min-width: 10rem
@@ -21,6 +29,31 @@
     margin-left: 2rem
     margin-top: 1rem
     width: 75%
+
+// Section pour le menu de navigation navbar pour les link
+.navbar-a
+  >a
+    color: rgba(255,255,255,.5)
+    padding: .5rem
+    text-decoration: none
+    background: transparent
+    &:hover
+      text-decoration: none
+      color: #ffffff
+      background-color: transparent
+      text-decoration-style: solid
+#boutonInstall
+    background-color: transparent
+    text-decoration-style: solid
+    border: solid gray
+    color: rgba(255,255,255,.5)
+    &:hover
+      color: #ffffff
+
+
+
+
+
 
 
 

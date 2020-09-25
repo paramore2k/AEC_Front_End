@@ -1,5 +1,5 @@
 import React from "react";
-import {Nav, Navbar, NavLink} from "react-bootstrap";
+import {Nav, Navbar, Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import {Link} from "react-router-dom";
 
@@ -14,12 +14,13 @@ export class MenuSansPostBack extends React.Component {
                         <Link to="/"><Navbar.Brand>Projet Final PWA</Navbar.Brand></Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <NavLink to="/Films">Films</NavLink>
-                            <NavLink to="/ajouterFilm" className="mr-auto">Ajouter un Film</NavLink>
-                            <NavLink to="/About" className="mr-auto">À Propos</NavLink>
+                        <Nav className="mr-auto navbar-a">
+                            <Link to="/Films">Films</Link>
+                            <Link to="/ajouterFilm">Ajouter un Film</Link>
+                            <Link to="/About">À Propos</Link>
                         </Nav>
                         </Navbar.Collapse>
+                        <Button variant="dark" id="boutonInstall">Installer l'application</Button>
                     </Navbar>
                 </Container>
 

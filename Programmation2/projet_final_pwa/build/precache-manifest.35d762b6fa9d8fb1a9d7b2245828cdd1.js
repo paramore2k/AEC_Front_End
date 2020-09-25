@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ea7e0fdd800b07327aa34f9c2cda9ad",
+    "revision": "4f072920c359f97bbc302d7156eefbf4",
     "url": "./index.html"
   },
   {
-    "revision": "ae386d54a3ab249881da",
+    "revision": "6a52ab1126bc7374a5fa",
     "url": "./static/css/2.2f4d3e0f.chunk.css"
   },
   {
-    "revision": "761f910d28892371e16e",
-    "url": "./static/css/main.eaecce4a.chunk.css"
+    "revision": "33a1a661fe6616187a34",
+    "url": "./static/css/main.afc599da.chunk.css"
   },
   {
-    "revision": "ae386d54a3ab249881da",
-    "url": "./static/js/2.6904c482.chunk.js"
+    "revision": "6a52ab1126bc7374a5fa",
+    "url": "./static/js/2.53ca7058.chunk.js"
   },
   {
     "revision": "02319550b42b2562b0f0cbc36f2d31db",
-    "url": "./static/js/2.6904c482.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.53ca7058.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "761f910d28892371e16e",
-    "url": "./static/js/main.6649924a.chunk.js"
+    "revision": "33a1a661fe6616187a34",
+    "url": "./static/js/main.952124f0.chunk.js"
   },
   {
     "revision": "8f9f2715a4f6c60b4ba5",
@@ -40,16 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/banner_error_404.29ae1727.jpg"
   },
   {
-    "revision": "415a21d8c5172be8805e17fe3fe40a79",
-    "url": "./static/media/beetlejuice.415a21d8.jpg"
-  },
-  {
     "revision": "8799114a83b1a1d74a1fd1529a1a4847",
     "url": "./static/media/dbs3.8799114a.jpg"
-  },
-  {
-    "revision": "7e58a68aab328b786477bd9da004c798",
-    "url": "./static/media/el_camino.7e58a68a.jpg"
   },
   {
     "revision": "81bc23a2bc735de5966a1c024632d80b",
@@ -80,20 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/gb12.e4ed3fbd.jpg"
   },
   {
-    "revision": "8d185985441b498f023062e0ea2ca646",
-    "url": "./static/media/halloween.8d185985.jpg"
-  },
-  {
-    "revision": "9bd390fbacfca6968f37ca274911b3f2",
-    "url": "./static/media/irresistible.9bd390fb.jpg"
-  },
-  {
     "revision": "ec52ebe933fe179ce7f0b191dd270737",
     "url": "./static/media/jaws_movie_collection.ec52ebe9.jpg"
-  },
-  {
-    "revision": "e4b2ee68a15372014fae44f001595adf",
-    "url": "./static/media/movie_collection1.e4b2ee68.jpg"
   },
   {
     "revision": "1e58bf53c60929b70331e3ddc9d0cf7b",
@@ -124,19 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "f67fb9e27d54c5644d07f2717a3571f4",
-    "url": "./static/media/staten_island.f67fb9e2.jpg"
-  },
-  {
     "revision": "fdf0a00143f9ac7bb972ab6d286774a7",
     "url": "./static/media/stephen_king_br.fdf0a001.jpg"
-  },
-  {
-    "revision": "4a6ee1841d5ef180802ca41e9491d93a",
-    "url": "./static/media/two_jakes.4a6ee184.jpg"
-  },
-  {
-    "revision": "e6f90d0e7fecd70042c9456ebfeda448",
-    "url": "./static/media/whiplash.e6f90d0e.jpg"
   }
 ]);

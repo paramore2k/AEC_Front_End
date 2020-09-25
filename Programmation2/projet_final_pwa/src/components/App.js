@@ -1,8 +1,5 @@
 import React from 'react';
-import '../App.sass';
-
 import {MenuSansPostBack} from "./MenuSansPostBack";
-import { useLocation } from 'react-router-dom'
 import { Route, Switch } from "react-router-dom";
 import ManageDBHooks from "./ManageDBHooks";
 import FormEditerFilmHooks from "./FormEditerFilmHooks";
@@ -13,8 +10,6 @@ import VoirFilm from "./VoirFilm";
 import {PageNotFound} from "./PageNotFound";
 
 function App() {
-  let location = useLocation();
-  console.log(location);
   return (
     /* Emplacement du navbar */
      <>
