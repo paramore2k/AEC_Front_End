@@ -20,7 +20,7 @@ export class MenuSansPostBack extends React.Component {
                             <Link to="/About">À Propos</Link>
                         </Nav>
                         </Navbar.Collapse>
-                        <Button variant="dark" id="boutonInstall">Installer l'application</Button>
+                        <Button variant="info" id="boutonInstall">Installer l'application</Button>
                     </Navbar>
                 </Container>
 

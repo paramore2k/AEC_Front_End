@@ -104,16 +104,16 @@ export class Portfolio extends React.Component {
 
                     <Row className={"mt-5"}>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={abominable} animation="blurIn" animationDuration={"1s"} alt="Abominable" className="img-fluid mb-2 img-thumbnail"/>
+                            <ReactImageAppear src={abominable} alt="Abominable" animation="blurIn" animationDuration="1s"  className="img-fluid img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={jaws} animation="blurIn" animationDuration="1s" alt="Jaws" className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={jaws} alt="Jaws" animation="blurIn" animationDuration="1s"  className="img-fluid img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear animation="blurIn" animationDuration="1s" src={fast_furious} alt="Fast And Furious" className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={fast_furious} animation="blurIn" alt="Fast And Furious" animationDuration="1s"   className="img-fluid img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={outpost} animation="blurIn" animationDuration="1s" alt="Outpost" className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={outpost} alt="Outpost" animation="blurIn" animationDuration="1s"  className="img-fluid img-thumbnail"/>
                         </Col>
                     </Row>
 
