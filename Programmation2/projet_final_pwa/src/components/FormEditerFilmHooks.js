@@ -3,28 +3,51 @@
  * 2020/07/02
  *
  */
-import React, {useState, useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {Container} from "react-bootstrap";
-import { toast } from 'react-toastify';
+import {toast} from 'react-toastify';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import {API} from "./constantes";
 import Image from "react-bootstrap/Image";
-import Cleave from 'cleave.js/react';
 import {Link} from "react-router-dom";
-
-
 
 
 function FormEditerFilmHooks(props) {
 
     /*Afin d'éviter une erreur undefined lorsqu'on lit le tableau abilities, on l'initialise à un tableau vide pour débuter.*/
-    const [getData, setgetData] = useState({titre: "", genre:["",""], annee_parution:"", resume:"", acteurs:["", ""], name:"", picture: ""});
+    const [getData, setgetData] = useState({titre: "", genre:["",""], annee_parution:"", resume:"", acteurs:["", ""], name:"", picture:""});
     const [filmID, setFilmID] = useState(props.location.search.substring(4,props.location.search.length));
-    const [inputPhoto, setPhoto] = useState("");
-    const [setdateTime] = useState("");
+    const [getPhoto, setPhoto] = useState({picture: ""});
+    const [getErrors, setErrors] = useState("");
+    const [validated, setValidated] = useState(false);
+
+    const handleSubmit = (event) => {
+        const form = event.currentTarget;
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+            setValidated(true);
+            setErrors("Le champ ne peut être vide");
+        }
+        else {
+            setValidated(true);
+            const titre = document.getElementById('titre').value;
+            const genre1 = document.getElementById('genre1').value;
+            const genre2 = document.getElementById('genre2').value;
+            const resume = document.getElementById('resume').value;
+            const annee_parution = document.getElementById('annee_parution').value;
+            const acteur1 = document.getElementById('acteur1').value;
+            const acteur2 = document.getElementById('acteur2').value;
+            const photo = document.getElementById('photoFilm').value;
+            event.preventDefault();
+
+            editFilm(titre, genre1, genre2, resume, annee_parution, acteur1, acteur2, photo);
+
+        }
+    };
     /* Gestion des erreurs */
 
     useEffect(() => {
@@ -39,7 +62,6 @@ function FormEditerFilmHooks(props) {
         try {
             const response = await fetch(API + "films/" + filmID);
             setFilmID(filmID);
-            console.log(setFilmID);
             const reponseDeApi = await response.json();
             setgetData(reponseDeApi);
             //Ajout de la gestion des erreurs
@@ -50,7 +72,6 @@ function FormEditerFilmHooks(props) {
             console.log(error);
         }
     }
-
 
     /* Fonction principale d'édition du film  */
 
@@ -97,26 +118,6 @@ function FormEditerFilmHooks(props) {
         }
     }
 
-    function onDateChange(e){
-        const dateTime = setdateTime(e.target.rawValue);
-        setdateTime(dateTime);
-    }
-    /* Fonction pour obtenir les valeurs des éléments à partir du formulaire */
-
-        function handleEdit(event){
-
-        event.preventDefault()
-
-        const titre = document.getElementById('titre').value;
-        const genre1 = document.getElementById('genre1').value;
-        const genre2 = document.getElementById('genre2').value;
-        const resume = document.getElementById('resume').value;
-        const annee_parution = document.getElementById('annee_parution').value;
-        const acteur1 = document.getElementById('acteur1').value;
-        const acteur2 = document.getElementById('acteur2').value;
-        const photo = document.getElementById('photoFilm').value;
-        editFilm(titre,genre1,genre2,resume, annee_parution,acteur1,acteur2, photo);
-    }
 
     /* Fonction pour supprimer un film */
 
@@ -141,6 +142,7 @@ function FormEditerFilmHooks(props) {
     /* Fonction pour la gestion de la photo, pochette du film après le onBlur */
 
     function handlePhoto(e){
+        getData.picture = document.getElementById('photoFilm').value;
         setPhoto(e.target.value);
 
     }
@@ -155,25 +157,29 @@ function FormEditerFilmHooks(props) {
                 <Row>
 
                     <Col lg={"3"} className={"my-3"}>
-                        {getData.picture !=="" && <Image src={inputPhoto} rounded className={"img-fluid"}/>}
+                        {getData.picture !=="" && <Image src={getData.picture} rounded className={"img-fluid"}/>}
                         <Col className={"my-4 text-center"}><button className="btn btn-danger" onClick={deleteFilm}>Supprimer le film</button></Col>
                     </Col>
 
-                    <Form className={"col-lg-8"}>
+                    <Form className={"col-lg-8"} noValidate validated={validated} onSubmit={handleSubmit}>
 
                         <Form.Group controlId="photoFilm">
                             <Form.Label>URL de la pochette</Form.Label>
-                            <Form.Control type="text" placeholder="Entrer une URL valide" className={"col-lg-12"} onBlur={handlePhoto} defaultValue={getData.picture}/>
+                            <Form.Control type="text" placeholder="Entrer une URL valide" className={"col-lg-12"} onBlur={handlePhoto} required defaultValue={getData.picture}/>
+                            <Form.Control.Feedback type='invalid'>Vous devez entrer une url valide</Form.Control.Feedback>
                         </Form.Group>
 
                         <Form.Group controlId="titre">
                             <Form.Label>Titre</Form.Label>
-                            <Form.Control type="text" defaultValue={getData.titre}/>
+                            <Form.Control type="text" defaultValue={getData.titre} required minLength="1"/>
+                            <Form.Control.Feedback type='invalid'>Le titre est obligatoire</Form.Control.Feedback>
+
                         </Form.Group>
 
                         <Form.Group controlId="resume">
                             <Form.Label>Résumé</Form.Label>
-                            <Form.Control as="textarea" rows="3" type="text" defaultValue={getData.resume}/>
+                            <Form.Control as="textarea" rows="3" type="text" defaultValue={getData.resume} required minLength={"6"}/>
+                            <Form.Control.Feedback type='invalid'>Le résumé est obligatoire</Form.Control.Feedback>
                         </Form.Group>
 
 
@@ -182,12 +188,14 @@ function FormEditerFilmHooks(props) {
                         <Form.Row>
                         <Form.Group as={Col} controlId="genre1">
                             <Form.Label>Genre 1</Form.Label>
-                            <Form.Control type="text" defaultValue={getData.genre[0].nom_genre}/>
+                            <Form.Control required type="text" defaultValue={getData.genre[0].nom_genre} />
+                            <Form.Control.Feedback type='invalid'>Le nom du premier genre est obligatoire</Form.Control.Feedback>
                         </Form.Group>
 
                         <Form.Group as={Col} controlId="genre2">
                             <Form.Label>Genre 2:</Form.Label>
-                            <Form.Control type="text" defaultValue={getData.genre[1].nom_genre}/>
+                            <Form.Control required type="text" defaultValue={getData.genre[1].nom_genre}/>
+                            <Form.Control.Feedback type='invalid'>Le nom du second genre est obligatoire</Form.Control.Feedback>
                         </Form.Group>
                         </Form.Row>
 
@@ -196,26 +204,23 @@ function FormEditerFilmHooks(props) {
                         <Form.Group as={Col} controlId="acteur1">
                             <Form.Label>Acteur 1</Form.Label>
                             <Form.Control type="text" defaultValue={getData.acteurs[0].name}/>
+                            <Form.Control.Feedback type='invalid'>Le nom du premier acteur(trice) est obligatoire</Form.Control.Feedback>
                         </Form.Group>
 
                         <Form.Group as={Col} controlId="acteur2">
                             <Form.Label>Acteur 2</Form.Label>
-                            <Form.Control type="text" defaultValue={getData.acteurs[1].name}/>
+                            <Form.Control type="text" defaultValue={getData.acteurs[1].name} required isInvalid={!getData.acteurs[1].name}/>
+                            <Form.Control.Feedback type='invalid'>Le nom du second acteur(trice) est obligatoire</Form.Control.Feedback>
                         </Form.Group>
                         </Form.Row>
 
                         <Form.Group controlId="annee_parution">
                             <Form.Label>Année parution</Form.Label>
-                            <Cleave
-                                value={getData.annee_parution}
-                                id="annee_parution"
-                                options={{ date: true, datePattern: ["Y"] }}
-                                onChange={onDateChange}
-                                className="form-control"
-                            />
+                            <Form.Control type="text" defaultValue={getData.annee_parution} required minLength="4" maxLength={"4"}/>
+                            <Form.Control.Feedback type='invalid'>L'année est obligatoire et doit être de 4 chiffres</Form.Control.Feedback>
                         </Form.Group>
 
-                        <Button variant="primary" type="submit" className={"mb-2"} onClick={handleEdit}>
+                        <Button variant="primary" type="submit" className={"mb-2"}>
                             Enregistrer
                         </Button>
                     </Form>

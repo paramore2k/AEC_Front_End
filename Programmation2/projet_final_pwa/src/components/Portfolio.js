@@ -28,16 +28,19 @@ export class Portfolio extends React.Component {
             const photos = [
                 {
                   src: 'https://i.imgur.com/RVQB2Cd.jpg',
+                  alt: 'King of staten island',
                   width: 3,
                   height: 4
                 },
                 {
                     src: 'https://i.imgur.com/2zufAty.jpg',
+                    alt: 'Breaking Bad',
                     width: 3,
                     height: 2
                 },
                 {
                     src: 'https://i.imgur.com/fQRLFw1.jpg',
+                    alt: '1917',
                     width: 3,
                     height: 4
                 }
@@ -46,12 +49,14 @@ export class Portfolio extends React.Component {
 
             const photos2 = [
             {
-                src: 'https://www.disneyphile.fr/wp-content/uploads/2019/09/mal%C3%A9fique-2-d23-expo.jpg',
+                src: 'https://i.imgur.com/xtl29V5.jpg',
+                alt: 'Maléfique',
                 width: 4,
                 height: 2
             },
             {
                 src: 'https://i.imgur.com/FEt1iQS.jpg',
+                alt: 'Alita battle angel',
                 width: 4,
                 height: 2
             }
@@ -78,37 +83,37 @@ export class Portfolio extends React.Component {
                     <Slider {...settings}>
 
                         <Col>
-                            <img src={dbs3} alt={"Deep BLue Sea 3"} className="img-fluid"/>
+                            <img src={dbs3} alt="Deep BLue Sea 3" className="img-fluid"/>
                         </Col>
                         <Col>
-                            <img src={ava} alt={"Ava"} className="img-fluid"/>
+                            <img src={ava} alt="Ava" className="img-fluid"/>
                         </Col>
                         <Col>
-                            <img src={gb12} alt={"Ghostbusters 1-2"} className="img-fluid"/>
+                            <img src={gb12} alt="Ghostbusters 1-2" className="img-fluid"/>
                         </Col>
                         <Col>
-                            <img src={primal} alt={"Primal"} className="img-fluid"/>
+                            <img src={primal} alt="Primal" className="img-fluid"/>
                         </Col>
                         <Col>
-                            <img src={sk} alt={"Stephen King"} className="img-fluid"/>
+                            <img src={sk} alt="Stephen King" className="img-fluid"/>
                         </Col>
                         <Col>
-                            <img src={shutter} alt={"Shuuter Island"} className="img-fluid"/>
+                            <img src={shutter} alt="Shutter Island" className="img-fluid"/>
                         </Col>
                     </Slider>
 
                     <Row className={"mt-5"}>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={abominable} animation={"blurIn"} animationDuration={"1s"} alt={"Abominable"} className="img-fluid mb-2 img-thumbnail"/>
+                            <ReactImageAppear src={abominable} animation="blurIn" animationDuration={"1s"} alt="Abominable" className="img-fluid mb-2 img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={jaws} animation="blurIn" animationDuration="1s" alt={"Jaws"} className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={jaws} animation="blurIn" animationDuration="1s" alt="Jaws" className="img-fluid img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear animation="blurIn" animationDuration="1s" src={fast_furious} alt={"Fast And Furious"} className={"img-fluid img-thumbnail"}/>
+                            <ReactImageAppear animation="blurIn" animationDuration="1s" src={fast_furious} alt="Fast And Furious" className="img-fluid img-thumbnail"/>
                         </Col>
                         <Col lg={"3"} xs={"6"}>
-                            <ReactImageAppear src={outpost} animation="blurIn" animationDuration="1s" alt={"Outpost"} className="img-fluid img-thumbnail"/>
+                            <ReactImageAppear src={outpost} animation="blurIn" animationDuration="1s" alt="Outpost" className="img-fluid img-thumbnail"/>
                         </Col>
                     </Row>
 
