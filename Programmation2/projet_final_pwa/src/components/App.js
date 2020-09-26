@@ -11,9 +11,8 @@ import {PageNotFound} from "./PageNotFound";
 
 function App() {
   return (
-    /* Emplacement du navbar */
+      /* Emplacement du navbar */
      <>
-
     <MenuSansPostBack/>
     <Switch>
       <Route exact path="/" component={Portfolio}/>

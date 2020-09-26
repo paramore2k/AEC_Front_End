@@ -21,7 +21,6 @@ function FormEditerFilmHooks(props) {
     const [getData, setgetData] = useState({titre: "", genre:["",""], annee_parution:"", resume:"", acteurs:["", ""], name:"", picture:""});
     const [filmID, setFilmID] = useState(props.location.search.substring(4,props.location.search.length));
     const [getPhoto, setPhoto] = useState({picture: ""});
-    const [getErrors, setErrors] = useState("");
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -30,7 +29,6 @@ function FormEditerFilmHooks(props) {
             event.preventDefault();
             event.stopPropagation();
             setValidated(true);
-            setErrors("Le champ ne peut être vide");
         }
         else {
             setValidated(true);
@@ -143,8 +141,9 @@ function FormEditerFilmHooks(props) {
 
     function handlePhoto(e){
         getData.picture = document.getElementById('photoFilm').value;
+        const getPhoto = getData.picture;
+        setPhoto(getPhoto);
         setPhoto(e.target.value);
-
     }
 
     return(

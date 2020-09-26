@@ -19,8 +19,9 @@ export class MenuSansPostBack extends React.Component {
                             <Link to="/ajouterFilm">Ajouter un Film</Link>
                             <Link to="/About">À Propos</Link>
                         </Nav>
+                            <Button variant="info" id="boutonInstall">Installer l'application</Button>
                         </Navbar.Collapse>
-                        <Button variant="info" id="boutonInstall">Installer l'application</Button>
+
                     </Navbar>
                 </Container>
 

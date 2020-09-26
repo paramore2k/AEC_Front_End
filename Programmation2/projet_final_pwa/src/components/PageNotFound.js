@@ -12,9 +12,8 @@ export class PageNotFound extends React.Component {
     render() {
         return (
             <>
-                {/* TODO: Faire une belle page not found responsive */}
-                <Col className={"text-center"}>
-                <img src={require("../images/banner_error_404.jpg")} alt={"Page not found"} className={"py-3"}/>
+                <Col lg={"12"} md={"12"} xs={"12"} className={"text-center"}>
+                <img src={require("../images/banner_error_404.jpg")} alt={"Page not found"} className={"py-3 img-fluid"}/>
                 </Col>
             </>
         );

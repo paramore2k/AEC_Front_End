@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a848fdbe425f7e01af23766d3b2ff591",
+    "revision": "b5ee577580e365521f2bd7dc04ea2bf0",
     "url": "./index.html"
   },
   {
-    "revision": "fd8f9654183ec0196a08",
+    "revision": "6fa2b10ecc7f5f9822f6",
     "url": "./static/css/2.2f4d3e0f.chunk.css"
   },
   {
-    "revision": "671c6336843c8263de9f",
-    "url": "./static/css/main.d2286ffc.chunk.css"
+    "revision": "a2dabe8566dd657e6673",
+    "url": "./static/css/main.60a0aae0.chunk.css"
   },
   {
-    "revision": "fd8f9654183ec0196a08",
-    "url": "./static/js/2.b0e21237.chunk.js"
+    "revision": "6fa2b10ecc7f5f9822f6",
+    "url": "./static/js/2.517310c5.chunk.js"
   },
   {
     "revision": "02319550b42b2562b0f0cbc36f2d31db",
-    "url": "./static/js/2.b0e21237.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.517310c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "671c6336843c8263de9f",
-    "url": "./static/js/main.325fb0b6.chunk.js"
+    "revision": "a2dabe8566dd657e6673",
+    "url": "./static/js/main.f73ff33c.chunk.js"
   },
   {
     "revision": "8f9f2715a4f6c60b4ba5",
@@ -32,16 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/abominable.284faf97.jpg"
   },
   {
-    "revision": "20fdda8f575328f84543fa201be4ca05",
-    "url": "./static/media/ava_br.20fdda8f.jpg"
-  },
-  {
     "revision": "29ae1727a3de6ddc2157bbc6933de404",
     "url": "./static/media/banner_error_404.29ae1727.jpg"
   },
   {
-    "revision": "8799114a83b1a1d74a1fd1529a1a4847",
-    "url": "./static/media/dbs3.8799114a.jpg"
+    "revision": "de65f8c5d8aeb86455d230abd07bef90",
+    "url": "./static/media/captainamericawp.de65f8c5.jpg"
   },
   {
     "revision": "81bc23a2bc735de5966a1c024632d80b",
@@ -68,24 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "e4ed3fbd8098fd31638bbfe0551be8c9",
-    "url": "./static/media/gb12.e4ed3fbd.jpg"
+    "revision": "94620ff93f24412a9e7a4cce5079a37b",
+    "url": "./static/media/inception-wp1.94620ff9.jpg"
+  },
+  {
+    "revision": "9bd390fbacfca6968f37ca274911b3f2",
+    "url": "./static/media/irresistible.9bd390fb.jpg"
   },
   {
     "revision": "ec52ebe933fe179ce7f0b191dd270737",
     "url": "./static/media/jaws_movie_collection.ec52ebe9.jpg"
   },
   {
+    "revision": "88c48fa8853a12a9378fa8b443480e08",
+    "url": "./static/media/joker-wp1.88c48fa8.jpg"
+  },
+  {
     "revision": "1e58bf53c60929b70331e3ddc9d0cf7b",
     "url": "./static/media/outpost.1e58bf53.jpg"
-  },
-  {
-    "revision": "c628fdd6a90becf23e668f57f36f9597",
-    "url": "./static/media/primal.c628fdd6.jpg"
-  },
-  {
-    "revision": "221ddf0df1e3e047d625db6b5bc08b2a",
-    "url": "./static/media/shutter_island_br.221ddf0d.jpg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -102,9 +98,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "./static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "fdf0a00143f9ac7bb972ab6d286774a7",
-    "url": "./static/media/stephen_king_br.fdf0a001.jpg"
   }
 ]);
