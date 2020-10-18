@@ -1,0 +1,8 @@
+#produit{
+  display: flex;
+  justify-content: space-evenly;
+}
+img{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

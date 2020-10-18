@@ -1,0 +1,10 @@
+body{
+  margin: 0 auto;
+}
+h1{
+  padding-top: 0;
+  margin: 0;
+  background-color: darkgoldenrod;
+  text-align: center;
+  align-content: center;
+}

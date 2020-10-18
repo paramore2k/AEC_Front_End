@@ -1,4 +1,9 @@
 import React from "react";
+/**
+ * Créé par David Champagne
+ *
+ */
+
 
 import {Col, Container, Row} from "react-bootstrap";
 

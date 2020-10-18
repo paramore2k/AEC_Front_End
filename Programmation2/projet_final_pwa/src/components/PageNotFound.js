@@ -1,8 +1,8 @@
 /**
  * Créé par David Champagne
- * 2020/07/02
  *
  */
+
 import React from "react";
 import Col from "react-bootstrap/Col";
 

@@ -1,3 +1,9 @@
+/**
+ * Créé par David Champagne
+ *
+ */
+
+
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import ReactImageAppear from 'react-image-appear';

@@ -1,8 +1,8 @@
 /**
  * Créé par David Champagne
- * 2020/06/16
  *
  */
+
 import React from "react";
 import {Row, Col} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -17,8 +17,6 @@ export class Films extends React.Component {
     render(){
         return (
             <>
-
-
                         <Col lg={"3"} md={"4"} xs={"12"} className={"my-2"}>
                             <Card>
                                 <div className="card-grid-view">

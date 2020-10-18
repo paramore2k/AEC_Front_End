@@ -1,3 +1,8 @@
+/**
+ * Créé par David Champagne
+ *
+ */
+
 import React from "react";
 import {Nav, Navbar, Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
@@ -15,7 +20,7 @@ export class MenuSansPostBack extends React.Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto navbar-a">
-                            <Link to="/Films">Films</Link>
+                            <Link to="/">Films</Link>
                             <Link to="/ajouterFilm">Ajouter un Film</Link>
                             <Link to="/About">À Propos</Link>
                         </Nav>

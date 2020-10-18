@@ -1,3 +1,10 @@
+/**
+ * Créé par David Champagne
+ *
+ */
+
+
+
 import React, {useState, useEffect} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {API} from "./constantes";

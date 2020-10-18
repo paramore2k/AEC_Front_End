@@ -22,6 +22,12 @@ function FormEditerFilmHooks(props) {
     const [filmID, setFilmID] = useState(props.location.search.substring(4,props.location.search.length));
     const [getPhoto, setPhoto] = useState({picture: ""});
     const [validated, setValidated] = useState(false);
+    const options = [
+        { value: 'Action', label :'Action'},
+        { value: 'Suspense', label: 'Suspense'},
+        { value: 'Drame', label: 'Drame'}
+    ];
+
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
@@ -104,7 +110,7 @@ function FormEditerFilmHooks(props) {
                 })
             });
             if(response.ok){
-                props.history.push("/Films");
+                props.history.push("/");
                 toast.success("Modification du film " + titre + " effectué avec succès");
 
                 return response;
@@ -125,7 +131,7 @@ function FormEditerFilmHooks(props) {
                 method: 'delete',
             });
             if(response.ok){
-                props.history.push("/Films");
+                props.history.push("/");
                 toast.warn("Suppression du film effectué avec succès");
                 return response;
             }
@@ -145,12 +151,13 @@ function FormEditerFilmHooks(props) {
         setPhoto(getPhoto);
         setPhoto(e.target.value);
     }
+    const { selectedOption } = this.state;
 
     return(
         <>
             <Container>
                 <Row>
-                    <Col lg={"12"} className={"mt-3"}><Link to={"/Films"}><button className={"btn btn-primary"}>Retourner aux films</button></Link>
+                    <Col lg={"12"} className={"mt-3"}><Link to={"/"}><button className={"btn btn-primary"}>Retourner aux films</button></Link>
                         <h5 className={"my-3 pb-3 text-center"}>Édition du film <i>{getData.titre}</i></h5></Col>
                 </Row>
                 <Row>

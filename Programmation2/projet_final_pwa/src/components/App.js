@@ -1,3 +1,8 @@
+/**
+ * Créé par David Champagne
+ *
+ */
+
 import React from 'react';
 import {MenuSansPostBack} from "./MenuSansPostBack";
 import { Route, Switch } from "react-router-dom";
@@ -15,8 +20,7 @@ function App() {
      <>
     <MenuSansPostBack/>
     <Switch>
-      <Route exact path="/" component={Portfolio}/>
-      <Route exact path="/Films" component={ManageDBHooks}/>
+      <Route exact path="/" component={ManageDBHooks}/>
       <Route path="/Films/:id" component={FormEditerFilmHooks}/>
       <Route path="/VoirFilm" component={VoirFilm}/>
       <Route path="/ajouterFilm" component={AjouterFilm}/>

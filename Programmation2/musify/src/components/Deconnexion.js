@@ -8,7 +8,7 @@ export class Deconnexion extends React.Component {
         this.handleDeconexion = this.handleDeconexion.bind(this);
     }
 
-    // TODO: Régler la déconnection
+
     handleDeconexion() {
 
         this.props.onClick(false);

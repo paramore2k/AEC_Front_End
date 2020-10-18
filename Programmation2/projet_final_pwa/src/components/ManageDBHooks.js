@@ -1,3 +1,7 @@
+/**
+ * Créé par David Champagne
+ *
+ */
 import React, {useState, useEffect} from "react";
 import { Container,Row,Col} from "react-bootstrap";
 import {Films} from "./Films";
@@ -5,9 +9,6 @@ import {API} from "./constantes";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from "react-router-dom";
-
-
-
 
 function ManageDBHooks() {
 

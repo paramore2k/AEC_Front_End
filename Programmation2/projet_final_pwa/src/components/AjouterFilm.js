@@ -14,19 +14,26 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Cleave from "cleave.js/react";
+import Select from 'react-select';
 
 
 export class AjouterFilm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { photo: "https://via.placeholder.com/400", setErrors: {}, titre: "", genre1:"", genre2:"", resume:"", acteurs: ["",""], genre: ["",""],annee_parution:""  };
+        this.state = { photo: "https://via.placeholder.com/400", setErrors: {}, titre: "", genre1:"", genre2:"", resume:"", acteurs: ["",""], genre: ["",""],annee_parution:"", selectedOption: null };
         this.handleSave = this.handleSave.bind(this);
         this.onDateChange = this.onDateChange.bind(this);
         this.handlePhoto= this.handlePhoto.bind(this);
+
     }
 
     // Pour ajouter un film
 
+
+    handleChange = selectedOption => {
+        this.setState({ selectedOption });
+        console.log(`Option selected:`, selectedOption);
+    }
     async saveFilm(titre, genre1, genre2,annee_parution, resume, acteur1, acteur2, photo) {
 
         try {
@@ -128,13 +135,21 @@ export class AjouterFilm extends React.Component {
         this.setState({ annee_parution: dateTime})
     }
 
+
+
     // Affichage du formulaire pour ajouter un nouveau film
 
     render() {
+        const options = [
+            { value: 'chocolate', label: 'Chocolate' },
+            { value: 'strawberry', label: 'Strawberry' },
+            { value: 'vanilla', label: 'Vanilla' },
+        ];
+        const { selectedOption } = this.state;
         return (
             <>
                 <Container>
-                    <Col className={"mt-1 p-0"}><Link to={"/Films"}>
+                    <Col className={"mt-1 p-0"}><Link to={"/"}>
                         <button className={"btn btn-primary"}>Retourner aux films</button></Link>
                     </Col>
                     <Row>
@@ -175,7 +190,14 @@ export class AjouterFilm extends React.Component {
                             <Form.Row>
                                 <Form.Group as={Col} controlId="genre1">
                                     <Form.Label>Genre 1</Form.Label>
-                                    <Form.Control type="text" required isInvalid={!!this.state.setErrors.genre1} placeholder={"Entrez le premier genre du film"}/>
+
+                                    <Form.Control required isInvalid={!!this.state.setErrors.genre1} placeholder={"Entrez le premier genre du film"}/>
+                                    <Select
+                                        value={selectedOption}
+                                        onChange={this.handleChange}
+                                        options={options}
+                                    />
+
                                     <Form.Control.Feedback type='invalid'>{this.state.setErrors.genre1}</Form.Control.Feedback>
                                 </Form.Group>
 
@@ -206,7 +228,7 @@ export class AjouterFilm extends React.Component {
                             {/* Section année parution */}
                             <Form.Group controlId="annee_parution">
                                 <Form.Label>Année parution</Form.Label>
-                                {/* TODO: Mettre le plugin Clever à la place de input type number */}
+
                                 <Cleave
                                     id="annee_parution"
                                     options={{ date: true, datePattern: ["Y"] }}

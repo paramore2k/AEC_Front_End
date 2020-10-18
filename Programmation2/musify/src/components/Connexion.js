@@ -1,3 +1,4 @@
+/* Fichier principal pour la gestion de la connexion  */
 
 import React from "react";
 import Form from "react-bootstrap/Form";
@@ -14,7 +15,7 @@ export class Connexion extends React.Component {
     }
 
     handleConnection() {
-        var connected = false;
+        var connected = true; /* Pour le moment, on mets à true pour éviter une déconnection lors d'un refresh de page */
         const username = document.getElementById('username').value;
         const pass = document.getElementById('password').value;
         if (username.toLowerCase() === "david" && pass.toLowerCase() === "david")
