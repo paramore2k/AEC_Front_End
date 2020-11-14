@@ -2,39 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7c788b-986d-42cb-ad74-f98ea2fcca34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/porte-folio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dual-screen-1745705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/halacious-tZc3vjPCk-Q-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/johnson-wang-iI4sR_nkkbc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kari-shea-1SAnrIxw5OY-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kon-karampelas-HUBofEFQ6CA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kon-karampelas-peLs78VbU50-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/PHP-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/PWA_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/React-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/clipart688026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/html5-with-wordmark-black-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/programming-3173456.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sigmund-uo8Jfqdzs18-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/the-witcher-3-wallpaper_2556499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/the-witcher3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/the_witcher.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/porte-folio.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -55,7 +22,6 @@
       <change afterPath="$PROJECT_DIR$/../portefolio/public/robots.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/src/App.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/src/components/Accueil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/components/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/src/components/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/src/components/Header.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../portefolio/src/img/dual-screen-1745705.png" afterDir="false" />
@@ -88,8 +54,8 @@
       <change afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/mock-heros.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.ts" afterDir="false" />
@@ -116,6 +82,8 @@
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/moon-palace-punta-cana.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/punta-cana.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/thumb_56269_1200_1_0_0_auto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/Examen1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/modules.xml" beforeDir="false" />
@@ -210,19 +178,19 @@
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portefolio/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/environments/environment.prod.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tsconfig.app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tsconfig.json" afterDir="false" />
@@ -291,14 +259,31 @@
       <workItem from="1604244041032" duration="26303000" />
       <workItem from="1604584947555" duration="24499000" />
       <workItem from="1605114143035" duration="2118000" />
-      <workItem from="1605192367790" duration="24159000" />
+      <workItem from="1605192367790" duration="30625000" />
     </task>
+    <task id="LOCAL-00001" summary="Portfolio">
+      <created>1605317577727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605317577727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Portfolio" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2346" y="88" key="CommitChangelistDialog2" timestamp="1605317576090">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2346" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317576090" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605279666468">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -324,6 +309,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1604251217469" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605317579267">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317579267" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604762323288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

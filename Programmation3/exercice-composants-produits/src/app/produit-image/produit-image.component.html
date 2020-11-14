@@ -1,8 +1,15 @@
-<section id="produit"><img src="https://via.placeholder.com/150" alt="placeholder"/>
-<app-info-produit></app-info-produit>
-  <app-prix-produit></app-prix-produit>
-
-</section>
+<div class="container">
+  <div class="row">
+    <div class="col produits">
+      <img src="https://via.placeholder.com/250" alt="" class="img-fluid">
+  <mat-list>
+    <mat-list-item><app-info-produit [description]="produit.description" [nom]="produit.nom"></app-info-produit></mat-list-item>
+    <mat-list-item><p>{{prix}} $</p></mat-list-item>
+    <mat-list-item><app-liens-details-produit></app-liens-details-produit></mat-list-item>
+  </mat-list>
+    </div>
+  </div>
+</div>
 
 
 

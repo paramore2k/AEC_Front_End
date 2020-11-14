@@ -6,11 +6,13 @@
       <app-recherche></app-recherche>
     </div>
     <div class="col-8 hero">
-      <app-hero></app-hero>
-      <app-hero></app-hero>
-      <app-hero></app-hero>
-      <app-hero></app-hero>
-      <app-hero></app-hero>
+      <mat-list>
+        <mat-list-item
+         *ngFor="let tiles of tabObjets; last as last">
+          {{tiles.name}}
+          <mat-divider [inset]="true" *ngIf="!last"></mat-divider>
+        </mat-list-item>
+      </mat-list>
     </div>
   </div>
 </div>

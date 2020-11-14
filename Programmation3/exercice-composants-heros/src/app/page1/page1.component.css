@@ -1,9 +1,15 @@
 .hero{
   display: flex;
   justify-content: center;
-  margin-top: -3em;
-  margin-left: .2em;
-  margin-bottom: 3em;
-  text-align: left;
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+  /*margin-top: -3em;*/
+
+  /*text-align: left;*/
+}
+.carousel {
+  padding: 0;
+  border: 2px solid #24292e;
 }
 

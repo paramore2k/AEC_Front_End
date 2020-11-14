@@ -7,11 +7,12 @@ let nombreUsager;
 let nombreTrouver = false;
 let tabChance = [];
 nombreUsager = Number(prompt("Entrez un nombre entre 1 et 200"));
-for (i=0;i<100;i++) {
-    tabChance[i] = Math.floor(Math.random() * 200);
+for (i=0;i<200;i++) {
+    tabChance[i] = Math.floor(Math.random() * 200)+ 1;
     if (nombreUsager === tabChance[i]){
         nombreTrouver = true;
     }
+    console.log(tabChance[i]);
 }
 if (nombreTrouver === true){
     document.write(`Le nombre se retrouve dans le tableau !`);

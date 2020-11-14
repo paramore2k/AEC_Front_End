@@ -1,0 +1,25 @@
+<div class="container">
+  <mat-grid-list cols="3" rowHeight="350px">
+<mat-grid-tile *ngFor="let forfait1 of tableauforfait">
+<div *ngIf="forfait1.forfaitEnVedette">
+        <!-- Section des cartes pour les forfaits voyage -->
+        <mat-card style="background-color: rebeccapurple;">
+          <mat-card-header>
+            <div mat-card-avatar class="header-image"></div>
+            <mat-card-title>{{forfait1.destination}}</mat-card-title>
+            <mat-card-subtitle>{{forfait1.villeDepart}}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>{{forfait1.nomHotel}}
+            <ngb-rating [rate]="forfait1.hotel.nbEtoiles"></ngb-rating>
+          </mat-card-content>
+
+          <mat-card-content>
+            <p>{{forfait1.dateDepart}} / {{forfait1.duree}} / <b>{{forfait1.prix}}$</b>  CAD</p>
+          </mat-card-content>
+        </mat-card>
+</div>
+
+</mat-grid-tile>
+</mat-grid-list>
+</div>
+

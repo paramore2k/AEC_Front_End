@@ -1,4 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Hero} from '../hero';
+import {TABHEROS} from '../mock-heros';
 
 @Component({
   selector: 'app-page1',
@@ -6,9 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./page1.component.css']
 })
 export class Page1Component implements OnInit {
-  hero1 = 'hero1';
-  hero2 = 'hero2';
-  hero3 = 'hero3';
+  tabObjets: Hero[] = TABHEROS;
   constructor() { }
 
   ngOnInit(): void {
