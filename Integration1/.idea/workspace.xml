@@ -2,8 +2,455 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db088e-88bd-4841-9a5b-1d0d5544eabe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Programmation2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/logo/html5_css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/.idea/Examen1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/Q1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/Q2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/Q3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/Q4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation1/Examen1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/carousel/carousel.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/carousel/carousel.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/carousel/carousel.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/carousel/carousel.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/grislist/grislist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/grislist/grislist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/grislist/grislist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/grislist/grislist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/hero/hero.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/hero/hero.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/hero/hero.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/hero/hero.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/recherche/recherche.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/recherche/recherche.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/recherche/recherche.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/recherche/recherche.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/sidenav/sidenav.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/sidenav/sidenav.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/sidenav/sidenav.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/sidenav/sidenav.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/toolbar/toolbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/toolbar/toolbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/toolbar/toolbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-heros/src/app/toolbar/toolbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-produits/src/app/liens-details-produit/liens-details-produit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-produits/src/app/liens-details-produit/liens-details-produit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-produits/src/app/liens-details-produit/liens-details-produit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/exercice-composants-produits/src/app/liens-details-produit/liens-details-produit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/voyages/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/voyages/src/app/toolbar/toolbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/voyages/src/app/toolbar/toolbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/voyages/src/app/toolbar/toolbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmation3/voyages/src/app/toolbar/toolbar.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/.idea/Examen2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/font/Thewitcher-jnOj.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/piedPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcher1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcher2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcher3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherBanniere.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/img/witcherLivre8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/siteWebLargeEtPlus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/siteWebMediumSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen2/siteWebXSmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise 1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise 2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/Han Solo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/Laboratoire Han Solo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/font/Starjedi.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/img/Han Solo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/img/chewbacca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/img/etoileMort.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Han Solo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/.idea/JeMePresente.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/etudes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/img/cegeptr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/img/diplome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/img/loisirs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/img/moi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/img/sports.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/loisirs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/reves.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV1/sports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/css/styleClasses.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/img/moi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeMePresenteV2/indexClasses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/css/creative.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/bg-masthead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/cod_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/cod_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/img/witcher_header_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/bog-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/bop1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/bop2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/bop3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/joker-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/joker1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/joker2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/joker3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/outlander-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/outlander1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/outlander2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/img/outlander3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstap-navbar/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap exercise facebook/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-form/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-form/formulaireEnvoye.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-form/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-form/recherche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/js/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-modal/video/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/exercise7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/font/CharlemagneStd-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/4k-wallpaper-background-blur-blurred-background-1242348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/abstract-art-artistic-background-1103970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/beautiful-calm-clouds-dark-206359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/brown-hummingbird-selective-focus-photography-1133957.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander-black-left.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander-book1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander-book2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander-kitchen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/outlander8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/img/s-l1600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-parallax/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/.idea/projet_final.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/discographie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/fonts/Roboto.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/album-every_open_Eye.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/album-love_is_dead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/album-the_bones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chrches-tour-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chrches-twitter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-albums.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-contact-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-ep-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-ep-gun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-ep-hansa_session.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-ep-recover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-ep-the_mother_we_share.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-logo-noir-sur-blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-md-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mobile-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mobile-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mobile-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mobile-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mobile-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mq-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-mtelus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tour-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tour-02.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tour-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches-tournee-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/chvrches_ft_marshmellow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/logo_nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/img/marshmellow_lyrics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/js/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/offline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_final/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/dual-screen-1745705.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/johnson-wang-iI4sR_nkkbc-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/kon-karampelas-HUBofEFQ6CA-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/kon-karampelas-peLs78VbU50-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/sigmund-uo8Jfqdzs18-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarcheProfession2/porte-folio/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/ExamenJS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/Examen Final JS-jQuery 2019 Casse-tête.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/JS/casseTete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/JS/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/casse-tete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/Favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/images/victoire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Casse-Tete_Corriger/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Examen2_JavaScript_Photociti_2 - David Champagne.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/.idea/Flash Version 2019.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/img/Flash1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/img/Flash2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/img/centralCity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/img/centralCity2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/flash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Flash Version 2020/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/ExamenJS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/Examen Final JS-jQuery 2019 Casse-tête.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/JS/casseTete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/JS/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/casse-tete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/Favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/images/victoire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation1/Phaser/Casse-Tete/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/helloreactworld/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/helloreactworld/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/thelastdance/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/thelastdance/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation3/TechniquesProgrammation3-exercice-composants-heros" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +536,8 @@
       <workItem from="1584189250563" duration="66000" />
       <workItem from="1584796141144" duration="62957000" />
       <workItem from="1598708279080" duration="4524000" />
+      <workItem from="1605361773719" duration="10000" />
+      <workItem from="1605361902191" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Commit JeMePresente Version 2 + JeMePresenteV1 Incomplet">
       <created>1573311226616</created>

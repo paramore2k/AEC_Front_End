@@ -1,0 +1,9 @@
+.recherche{
+  border: 2px solid green;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 3em;
+
+}

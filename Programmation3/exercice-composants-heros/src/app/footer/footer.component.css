@@ -1,0 +1,8 @@
+p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 5rem;
+  background-color: #1976d2;
+  margin-bottom: 0;
+}
