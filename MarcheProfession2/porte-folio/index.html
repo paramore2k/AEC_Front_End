@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Section css -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Title</title>
+</head>
+<body>
+
+<!-- Emplacement de la navbar -->
+
+<div class="hero">
+<div class="navbar navbar-dark navbar-expand-lg sticky-top">
+    <div class="container">
+    <a class="navbar-brand" href="index.html"> < David Champagne /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html"><span class="sr-only">(current)</span> Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#contact">Me joindre</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<!-- Hero image couvrant toute la place -->
+        <div class="bg-text">
+            <div class="col-12"><h2>Développeur Web</h2></div>
+            <div class="col-12"><h6>Intégration / Programmation</h6></div>
+        </div>
+    </div>
+
+<!-- Bouton -->
+
+<div onclick="topFunction()" id="myBtn" title="Retour vers le haut"><i class="fa fa-arrow-up fa-3x"></i></div>
+
+<!-- Section React, PHP & HTML / CSS avec bouton menant au bas de la page selon la catégorie -->
+
+
+<section id="logos">
+    <div class="container my-5">
+        <div class="row">
+            <!-- Section Logo PHP -->
+            <div class="col-4">
+                <a href="#PHP"><img src="img/logo/PHP-logo.svg" class="img-fluid" alt="Logo PHP"></a>
+            </div>
+            <!-- Section Logo REACT -->
+            <div class="col-4">
+                <a href="#React"><img src="img/logo/React-icon.svg" class="img-fluid" alt="Logo React"></a>
+            </div>
+            <!--   Section Logo HTML / CSS   -->
+            <div class="col-4">
+                <a href="#HTML"><img src="img/logo/html5-with-wordmark-black-white.svg" class="img-fluid" alt="Logo HTML 5"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="portfolio" class="portfolio">
+    <div class="container portfolio p-5 text-center">
+        <div class="row">
+            <div class="col-12">
+            <h3>Quelques réalisations</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section des réalisations avec lien vers github -->
+<section id="projets">
+
+    <!-- Section projet React PWA  -->
+
+    <div class="container projet_pwa" id="React">
+        <div class="row">
+            <div class="col-lg-6 col-md-6" id="">
+
+                <h3 class="text-center">Projet en React</h3>
+
+                <p class="mt-3">Application que j'ai conçue dans le cadre de mon cours de programmation qui consiste à gérer une base de données de type json
+                    sous formes de requêtes api. Les requêtes permises sont de types <b>C</b>réation, <b>L</b>ecture, <b>É</b>dition et
+                    <b>S</b>uppression, plus communément appelé "<b>CRUD</b>".
+                </p>
+                <p>Polyvalente, elle contient actuellement des films mais pourrait également contenir d'autres types de média.</p>
+                <p class="text-center">
+                    <a href="https://paramore2k.github.io/AEC_Front_End/Programmation2/projet_final_pwa/build">Voir le projet</a>
+                </p>
+            </div>
+            <div class="col-lg-6 col-xs-6 mt-3 mb-5">
+                <img src="https://i.imgur.com/lv2pca3.jpg" class="img-fluid img-thumbnail" alt="Aperçue PWA"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section projet PHP -->
+
+    <div class="container my-5 projet_php" id="PHP">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <img src="https://i.imgur.com/7pFtr0j.png" alt="Logo PHP" class="img-fluid img-thumbnail"/>
+            </div>
+
+            <div class="col-lg-6">
+                <h3 class="text-center">Projet en PHP</h3>
+                <p>Dans le cadre de mon cours infrastructure web, nous avions à élaborer un programme permmettant la gestion de nouvelles à partir d'une base de données mysql.</p>
+                <p>Nous avions également un module personnelle à intégrer dans l'application. Le sujet étant à notre guise, j'ai décidé d'intégrer l'affichage d'albums de musique.</p>
+                <p>Pour effectuer la gestion des nouvelles, vous devez vous connecter avec les identifiants: david / david</p>
+                <p class="text-center"><a href="https://projetfinalphp.gestiondc.com/" target="_blank">Voir le projet</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section HTML5 -->
+
+
+    <div class="container my-1 projet_php" id="HTML">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <h3 class="text-center mb-5">Projets HTML5/CSS3</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container my-1 projet_php">
+        <div class="row">
+            <div class="col-lg-6 col-xs-6">
+                <h3 class="text-center">Jeux vidéo: The Witcher</h3>
+                <p>Dans le cadre du cours Intégration I, Examen final portant sur le thème du jeu vidéo The Witcher.</p>
+                <p class="text-center"><a href="https://paramore2k.github.io/AEC_Front_End/Integration1/Examen2/index.html" target="_blank">Voir le projet</a></p>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-xs-6">
+                <img src="https://i.imgur.com/JYUjs8y.jpg" class="img-fluid img-thumbnail mt-2" alt="Prévisualiation de l'examen The Witcher"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container-2 mt-1">
+        <div class="col-6">
+
+        </div>
+    </div>
+
+
+
+    <div class="container projet_php my-3">
+        <div class="row">
+            <div class="col-lg-6 col-xs-6">
+                <h5 class="text-center">Groupe de musique: CHVRCHES</h5>
+                <p>Dans le cadre du cours Intégration II, second projet final réalisé sur le groupe CHVRCHES.</p>
+                <p class="text-center"><a href="https://paramore2k.github.io/AEC_Front_End/Integration1/projet_final/index.html" target="_blank">Voir le projet</a></p>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <img src="https://i.imgur.com/rQV87O2.png" class="img-fluid img-thumbnail" alt="Prévisualiation projet html chvrches"/>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="expertise">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- Section contact -->
+
+<section id="contact">
+    <div class="container projet_php my-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Me joindre</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6">
+                <img src="img/logo/github.svg" class="img-fluid" alt="Logo Github">
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-xs-6">
+                <img src="img/logo/github.svg" class="img-fluid" alt="Logo Github">
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+</section>
+
+
+<!-- Section Footer -->
+<section id="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 footer"> © David Champagne - 2020</div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+<!-- Section javascript & bootstrap bundle  -->
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>

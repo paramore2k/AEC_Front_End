@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Programmation2/.idea/Programmation2.iml" filepath="$PROJECT_DIR$/../../Programmation2/.idea/Programmation2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../../../Program Files/Ampps/www/wordpress/wp-content/themes/astrid/.idea/astrid.iml" filepath="$PROJECT_DIR$/../../../../../../../Program Files/Ampps/www/wordpress/wp-content/themes/astrid/.idea/astrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/porte-folio.iml" filepath="$PROJECT_DIR$/.idea/porte-folio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../portefolio/.idea/portefolio.iml" filepath="$PROJECT_DIR$/../portefolio/.idea/portefolio.iml" />
+    </modules>
+  </component>
+</project>

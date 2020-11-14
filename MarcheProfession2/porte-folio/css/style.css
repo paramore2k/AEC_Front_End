@@ -1,0 +1,234 @@
+/* Section général body, h1-h6 */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3f2f2;
+}
+
+/* Bouton retour vers le haut */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    transition: 0.3s all;
+}
+
+body,html {
+    height: 100%;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Header */
+
+/* Section navbar */
+
+.nav-item{
+    margin: .5em;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(37, 46, 53, 0.9);
+    padding: 0.9375rem 0;
+    z-index: 999;
+}
+
+.navbar li a, .navbar-brand, .navbar-toggler button, .navbar-toggler-icon{
+    color: #ffffff;
+}
+.navbar li a:hover{
+    color: #fcd088;
+    transition: color 0.3s;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Section hero image et text de la page d'accueil */
+
+.hero{
+    background-image: url("../img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    z-index: 999;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(37, 46, 53, 0.9);
+}
+
+.bg-text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .2em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding:  2rem 0 2rem;
+    text-align: center;
+}
+.bg-text h6{
+    padding-top: 1rem;
+}
+.bg-text h2{
+    padding-bottom: .5rem;
+}
+.bg-text h2:after{
+    content: "";
+    display: block;
+    margin: 0 auto; /* Pour center la bordure */
+    width: 50%; /* Largeur de la bordure */
+    padding-top: 2rem;
+    border-bottom: .1rem solid #f3f2f2;
+}
+
+/* Section porte-folio */
+
+.portfolio{
+
+    background-color: #ffffff !important;
+}
+.projet_pwa{
+    padding: 3rem;
+    background-color: #f3f2f2;
+}
+.projet_php{
+    padding: 3rem;
+    background-color: #F2F2F3;
+}
+
+/* Section des parallax */
+
+
+/* Paralllax de Churches */
+
+.parallax-container {
+
+
+
+    /* L'image utilisée */
+
+    background-image: url("https://i.imgur.com/f2B4Rw2.jpg");
+
+    /* Hauteur spécifique */
+    height: 40vh;
+
+    /* L'effet parallax sur le scroll */
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    content: '';
+
+}
+
+/* Parallax du Witcher */
+
+.parallax-container-2 {
+
+    /* L'image utilisée */
+    background-image: url("../img/the-witcher-3-wallpaper_2556499.jpg");
+
+    /* Hauteur spécifique */
+    height: 30vh;
+
+    /* L'effet parallax sur le scroll */
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    content: '';
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(0px);
+}
+
+/* Section footer */
+footer{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    height: auto;
+    background-color: #202529;
+    padding: 2em;
+    margin-top: 4rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Section cellulaire */
+
+@media only screen and (max-width: 500px) {
+
+    .navbar {
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: rgba(37, 46, 53, 0.9);
+        padding: 15px 0;
+        z-index: 999;
+    }
+
+    .bg-text h2:after{
+        content: "";
+        display: block;
+        margin: 0 auto; /* Pour center la bordure */
+        width: 70%; /* Largeur de la bordure sur cellulaire */
+        padding-top: 2rem;
+        border-bottom: .1rem solid #f3f2f2;
+    }
+
+    .bg-text h6{
+        padding-top: 1rem;
+    }
+    .bg-text h2{
+        padding-bottom: 1rem;
+    }
+    #mes_realisations, #me_joindre{
+        margin-top: 1rem;
+        border: none;
+    }
+
+}
+
