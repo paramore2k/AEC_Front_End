@@ -2,200 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a7c788b-986d-42cb-ad74-f98ea2fcca34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../portefolio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/portefolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/components/Accueil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/dual-screen-1745705.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/halacious-tZc3vjPCk-Q-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/johnson-wang-iI4sR_nkkbc-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/js.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/kari-shea-1SAnrIxw5OY-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/kon-karampelas-HUBofEFQ6CA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/kon-karampelas-peLs78VbU50-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/logo/PHP-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/logo/PWA_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/logo/React-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/logo/clipart688026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/logo/react-seeklogo.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/programming-3173456.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/sigmund-uo8Jfqdzs18-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../portefolio/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/TechniquesProgrammation3-exercice-composants-heros" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/hero.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/mock-heros.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complets.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/hotel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mini-forfait.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mini-forfait/mini-forfait.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mini-forfait/mini-forfait.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mini-forfait/mini-forfait.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mini-forfait/mini-forfait.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/mock-forfaits.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/sidenav/sidenav.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/sidenav/sidenav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/sidenav/sidenav.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/sidenav/sidenav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/DES_PUJ_007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/Excellence-el-carmen-hotel-punta-cana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/PUJ-Occidental-Punta-Cana-Aerial-004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/Sejour_Punta_Cana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/capcana-marina-puntacana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/femme_punta_cana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/moon-palace-punta-cana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/punta-cana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/assets/img/thumb_56269_1200_1_0_0_auto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/Examen1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/Q1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/Q2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/Q3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/Q4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/Examen2 le witcher.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Examen2/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen/Pratique/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen/Pratique/js/question6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen2_JavaScript_Photociti_2/Javascript.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen2_JavaScript_Photociti_2/Projet Final.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen2_JavaScript_Photociti_2/Projet Final.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/Examen2_JavaScript_Photociti_2/~$amen 25.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/ExamenFormatif2/js/q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/ExamenFormatif2/js/q3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/.idea/Programmation2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/.idea/Programmation2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/deezer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/deezer/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/deezer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/deezer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/demos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/demos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/demos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/demos/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/demos/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2/hello_routers_world/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page1/page1.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page2/page2.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page2/page2.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page2/page2.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/app/page2/page2.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-heros/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/footer/footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/info-produit/info-produit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/info-produit/info-produit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/info-produit/info-produit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/info-produit/info-produit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/prix-produit/prix-produit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/prix-produit/prix-produit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/prix-produit/prix-produit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/prix-produit/prix-produit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produit-image/produit-image.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/app/produits/produits.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/exercice-composants-produits/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/.browserslistrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/e2e/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portefolio/src/components/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/app/forfait-complet/forfait-complet.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation3/mon-premier-exercice/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/voyages/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/TechniquesProgrammation3-exercice-composants-heros" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/TechniquesProgrammation3-exercice-composants-heros" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1jKFUFmRVzqsPsjVnJOfojIws5z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -259,7 +68,7 @@
       <workItem from="1604244041032" duration="26303000" />
       <workItem from="1604584947555" duration="24499000" />
       <workItem from="1605114143035" duration="2118000" />
-      <workItem from="1605192367790" duration="30625000" />
+      <workItem from="1605192367790" duration="30822000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1605317577727</created>
@@ -268,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605317577727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Portfolio">
+      <created>1605324113489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605324113489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Portfolio">
+      <created>1605324168682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605324168682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,9 +103,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Portfolio" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2346" y="88" key="CommitChangelistDialog2" timestamp="1605317576090">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1605324166281">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605324166281" />
     <state x="2346" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317576090" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605279666468">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -309,9 +133,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1604251217469" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605317579267">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1605324175205">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605324175205" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317579267" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604762323288">
       <screen x="1920" y="0" width="1920" height="1040" />
