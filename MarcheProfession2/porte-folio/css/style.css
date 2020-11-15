@@ -57,8 +57,7 @@ h1,h2,h3,h4,h5{
 }
 
 #logos{
-    display: flex;
-    justify-content: space-between;
+
 }
 
 
@@ -126,51 +125,6 @@ h1,h2,h3,h4,h5{
     background-color: #F2F2F3;
 }
 
-/* Section des parallax */
-
-
-/* Paralllax de Churches */
-
-.parallax-container {
-
-
-
-    /* L'image utilisée */
-
-    background-image: url("https://i.imgur.com/f2B4Rw2.jpg");
-
-    /* Hauteur spécifique */
-    height: 40vh;
-
-    /* L'effet parallax sur le scroll */
-    background-attachment: fixed;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    content: '';
-
-}
-
-/* Parallax du Witcher */
-
-.parallax-container-2 {
-
-    /* L'image utilisée */
-    background-image: url("../img/the-witcher-3-wallpaper_2556499.jpg");
-
-    /* Hauteur spécifique */
-    height: 30vh;
-
-    /* L'effet parallax sur le scroll */
-    background-attachment: fixed;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    content: '';
-
-}
 
 .background {
     position: absolute;
@@ -194,9 +148,62 @@ footer{
     color: #ffffff;
 }
 
+
+
 /* Section cellulaire */
 
+@media (min-width: 992px) {
+
+    /* Section des parallax (Désactivation des parallax sur mobile et tablette) */
+
+
+    /* Paralllax de Churches */
+
+    .parallax-container {
+
+        /* L'image utilisée */
+
+        background-image: url("https://i.imgur.com/f2B4Rw2.jpg");
+
+        /* Hauteur spécifique */
+        height: 40vh;
+
+        /* L'effet parallax sur le scroll */
+        background-attachment: fixed;
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        content: '';
+    }
+
+    /* Parallax du Witcher */
+
+    .parallax-container-2 {
+
+        /* L'image utilisée */
+        background-image: url("../img/the-witcher-3-wallpaper_2556499.jpg");
+
+        /* Hauteur spécifique */
+        height: 30vh;
+
+        /* L'effet parallax sur le scroll */
+        background-attachment: fixed;
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        content: '';
+
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
+
+    .parallax-container-2, .parallax-container{
+        display: none;
+    }
 
     .navbar {
         overflow: hidden;
