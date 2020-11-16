@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7c788b-986d-42cb-ad74-f98ea2fcca34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/porte-folio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/portefolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../portefolio/.idea/portefolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/components/Accueil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/components/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/dual-screen-1745705.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/halacious-tZc3vjPCk-Q-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/johnson-wang-iI4sR_nkkbc-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/js.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/kari-shea-1SAnrIxw5OY-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/kon-karampelas-HUBofEFQ6CA-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/kon-karampelas-peLs78VbU50-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/logo/PHP-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/logo/PWA_Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/logo/React-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/logo/clipart688026.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/logo/react-seeklogo.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/programming-3173456.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/sigmund-uo8Jfqdzs18-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portefolio/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="7a7c788b-986d-42cb-ad74-f98ea2fcca34" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +67,7 @@
       <workItem from="1605114143035" duration="2118000" />
       <workItem from="1605192367790" duration="30822000" />
       <workItem from="1605366388419" duration="9313000" />
-      <workItem from="1605406339160" duration="2755000" />
+      <workItem from="1605406339160" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1605317577727</created>
@@ -145,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605324168682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Portfolio version final">
+      <created>1605417652282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605417652282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,14 +106,15 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio" />
+    <MESSAGE value="Portfolio version final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Portfolio version final" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1605324166281">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2346" y="88" key="CommitChangelistDialog2" timestamp="1605417651396">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605324166281" />
-    <state x="2346" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317576090" />
+    <state x="2346" y="88" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605417651396" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1605279666468">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -187,11 +140,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1604251217469" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1605324175205">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605417653829">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605324175205" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605317579267" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605417653829" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604762323288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
